@@ -27,3 +27,20 @@ $html = pd_rewrite_html('<a href="https://pianodepot.com/contact-us/">x</a><img 
 expect(str_contains($html, 'href="/contact-us/"'), 'rewrite https host to root');
 expect(str_contains($html, 'src="/wp-content/uploads/a.jpg"'), 'rewrite http host to root');
 expect(!str_contains($html, 'pianodepot.com'), 'no pianodepot.com left in this snippet');
+
+$found = pd_extract_local_urls(
+    '<link href="https://pianodepot.com/wp-content/themes/oceanwp/assets/css/style.min.css?ver=1.0"><img src="/wp-content/uploads/2021/03/piano_depot.png">',
+    'https://pianodepot.com/'
+);
+sort($found);
+expect(in_array('https://pianodepot.com/wp-content/themes/oceanwp/assets/css/style.min.css', $found, true), 'css from link');
+expect(in_array('https://pianodepot.com/wp-content/uploads/2021/03/piano_depot.png', $found, true), 'img src');
+
+$cssFound = pd_extract_local_urls(
+    'body{background:url("../uploads/2021/03/piano_depot.png")}',
+    'https://pianodepot.com/wp-content/themes/oceanwp/assets/css/style.min.css'
+);
+expect(
+    in_array('https://pianodepot.com/wp-content/themes/oceanwp/assets/uploads/2021/03/piano_depot.png', $cssFound, true),
+    'css url() resolved against stylesheet directory'
+);
