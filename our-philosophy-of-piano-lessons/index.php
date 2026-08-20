@@ -1,0 +1,262 @@
+<?php
+require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/config.php';
+$page = [
+    'title' => 'Our Piano Lessons Philosophy | Piano Depot in Olyphant, PA',
+    'description' => 'Discover our philosophy of piano lessons at Piano Depot in Olyphant, PA. We focus on technique, passion, and lifelong musical growth for all skill levels.',
+    'extra_css' => [
+        '/wp-content/uploads/elementor/css/post-349.css',
+        '/wp-content/uploads/elementor/css/post-11.css',
+        '/wp-content/uploads/elementor/css/post-14.css',
+    ],
+];
+require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
+?>
+<main id="main" class="site-main clr" role="main">
+
+				
+	
+	<div id="content-wrap" class="container clr">
+
+		
+		<div id="primary" class="content-area clr">
+
+			
+			<div id="content" class="site-content clr">
+
+				
+				
+<article class="single-page-article clr">
+
+	
+<div class="entry clr" itemprop="text">
+
+	
+	<div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1623618930050"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+			<!-- START Our Philosophy Of Piano Lessons REVOLUTION SLIDER 6.4.6 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_17_1_wrapper" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+				<rs-module id="rev_slider_17_1" style="" data-version="6.4.6">
+					<rs-slides>
+						<rs-slide data-key="rs-21" data-title="Slide" data-in="o:0;" data-out="a:false;">
+							<img src="/wp-content/uploads/revslider/video-media/Yamaha-Banner-Background-short-No-Text-2_2-300x169.jpeg" title="Yamaha-Banner-Background-short-No-Text-2_2.jpeg" width="300" height="169" class="rev-slidebg tp-rs-img" data-no-retina>
+							<rs-bgvideo data-video="vc:none;w:100%;h:100%;nse:false;l:true;ptimer:false;do:1;doca:rgba(0, 0, 0, 0);" data-ytid="tAY0uCNma08" data-vatr="version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;rel=0&amp;origin=;"></rs-bgvideo>
+<!--
+							--><rs-layer id="slider-17-slide-21-layer-0" data-type="text" data-xy="x:c;y:m;yo:-64px,-39px,-39px,-24px;" data-text="w:normal;s:45,27,27,16;l:25,15,15,9;fw:200;a:center;" data-dim="w:1240px,768px,778px,480px;" data-rsp_o="off" data-rsp_bd="off" data-frame_1="st:990;sR:990;" data-frame_999="o:0;st:w;sR:7710;" style="z-index:9;font-family:Raleway;"> 
+							</rs-layer><!--
+
+							--><rs-layer id="slider-17-slide-21-layer-1" data-type="text" data-xy="x:c;xo:1px,0,0,0;y:m;" data-text="w:normal;s:60,37,37,22;l:25,15,15,9;fw:700;a:center;" data-dim="w:1236px,765px,774px,477px;" data-rsp_o="off" data-rsp_bd="off" data-frame_1="st:990;sR:990;" data-frame_999="o:0;st:w;sR:7710;" style="z-index:10;font-family:Raleway;">Our Philosophy Of Piano Lessons 
+							</rs-layer><!--
+-->						</rs-slide>
+					</rs-slides>
+				</rs-module>
+				<script type="text/javascript">
+					setREVStartSize({c: 'rev_slider_17_1',rl:[1240,1024,778,480],el:[600,768,960,720],gw:[1240,768,778,480],gh:[600,600,600,600],type:'standard',justify:'',layout:'fullwidth',mh:"0"});
+					var	revapi17,
+						tpj;
+					function revinit_revslider171() {
+					jQuery(function() {
+						tpj = jQuery;
+						revapi17 = tpj("#rev_slider_17_1");
+						if(revapi17==undefined || revapi17.revolution == undefined){
+							revslider_showDoubleJqueryError("rev_slider_17_1");
+						}else{
+							revapi17.revolution({
+								DPR:"dpr",
+								sliderLayout:"fullwidth",
+								visibilityLevels:"1240,1024,778,480",
+								gridwidth:"1240,768,778,480",
+								gridheight:"600,600,600,600",
+								perspective:600,
+								perspectiveType:"global",
+								keepBPHeight:true,
+								editorheight:"600,768,960,720",
+								responsiveLevels:"1240,1024,778,480",
+								progressBar:{disableProgressBar:true},
+								navigation: {
+									onHoverStop:false
+								},
+								fallbacks: {
+									allowHTML5AutoPlayOnAndroid:true
+								},
+							});
+						}
+						
+					});
+					} // End of RevInitScript
+				var once_revslider171 = false;
+				if (document.readyState === "loading") {document.addEventListener('readystatechange',function() { if((document.readyState === "interactive" || document.readyState === "complete") && !once_revslider171 ) { once_revslider171 = true; revinit_revslider171();}});} else {once_revslider171 = true; revinit_revslider171();}
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1623619419039"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  vc_custom_1636849865968 piano_series-links">
+		<div class="wpb_wrapper">
+			<ul>
+<li style="text-align: center;">
+</ul>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1624482874641 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1624482923151"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  piano_internal-links">
+		<div class="wpb_wrapper">
+			<ul>
+<li class="current-product-item"><a href="/disklavier-pianos/">Disklavier Pianos</a></li>
+<li><a href="/acoustic-grand-pianos/">Acoustic Grand Pianos</a></li>
+<li><a href="/acoustic-silent-trans-acoustic-pianos/">Acoustic Silent/Trans</a></li>
+<li><a href="/acoustic-upright-pianos/">Acoustic Upright Pianos</a></li>
+<li><a href="/clavinova-and-hybrid-pianos/">Clavinova And Hybrid Pianos</a></li>
+<li><a href="/portable-digital-pianos/">Portable Digital Pianos</a></li>
+<li><a href="/workstation-keyboards/">Workstation Keyboards</a></li>
+<li><a href="/used-and-refurbished/">Used &amp; Refurbished</a></li>
+</ul>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h1 style="text-align: center;">Our Piano Lesson Philosophy</h1>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<table border="0" width="1219" cellspacing="0" cellpadding="30">
+<tbody>
+<tr>
+<td valign="TOP">
+<h2 align="JUSTIFY">I started in on lessons when I was young. It was the tradition in our family to teach the children to play an instrument. Back then, the accordion was a small instrument that was affordable for my parents to buy and have in a home of a family of 6 children. When I was just 7 years old my parents bought my brother and I accordions. I remember struggling with just holding the instrument.</h2>
+<p> </p>
+<h2 align="CENTER"><img decoding="async" src="https://www.pianoorgandepot.com/JPG/FirstAccordion.jpg" alt="" width="350" height="283" border="1"></h2>
+<p> </p>
+<h2 align="JUSTIFY">Then there were those dreaded lessons. I remember threat after threat that if I didn’t practice I was going to be beaten and tortured and hung upside down by my toes! I have to confess I had a love hate relationship with the whole deal. I never was a very good reader and just couldn’t figure out why you had to play all those dots just the way they were put down on the page. I always thought I could figure out a better way of playing songs and what made what I played wrong, it in fact sounded better to me? Often I would rather play baseball in the backyard with my buddies rather than practice.</h2>
+<h2 align="CENTER"><img decoding="async" loading="lazy" src="https://www.pianoorgandepot.com/JPG/Baseball-Boy.jpg" alt="" width="165" height="350" border="1"></h2>
+<h2 align="JUSTIFY">Years passed and there were always threats of discontinuing lessons if I didn’t practice. When my older sisters got one of those little reel to reel tape decks in the 60’s, I discovered I could record myself playing the accordion and let it play in my room and sneak out and play baseball with my friends. For some reason I continued lessons, maybe just because I didn’t like the idea of quitting anything. To quit, I equated with losing and I hated losing! I remember begging my parents to let me get involved in sports, but I had a cousin that died on the football field from an aneurysm in the brain. Every time I mentioned playing some sport my mother yelled things in Italian that I knew were not good. Then once again I had to hear the story about the cousin who died playing football!</h2>
+<h2 align="CENTER"><img decoding="async" loading="lazy" src="https://www.pianoorgandepot.com/JPG/Practice.jpg" alt="" width="350" height="275" border="1"></h2>
+<h2 align="JUSTIFY">When I was eleven, a cousin of mine invited me to join in on a rehearsal session with his little combo band. At the rehearsal, I joined in with the others playing by ear and they thought that was the greatest thing. Finally, I felt free of those little dots on the paper and was praised for it instead of condemned. My cousin took me to a music store and there I heard a salesman demonstrate an electronic organ. In the early 60’s these were the latest craze in the music industry. Over 80% of the music industry revolved around the home organ.</h2>
+<h2 align="CENTER"><img decoding="async" loading="lazy" src="https://www.pianoorgandepot.com/JPG/Band.jpg" alt="" width="350" height="273" border="1"></h2>
+<h2 align="JUSTIFY">Between being introduced to a group of people where music became fun rather than a chore and being introduced to an instrument that inspired and challenged me to want to play music, this changed the course of my life. I gave up on the sports idea (good thing because everyone else kept growing in high school except me. I was the tallest in my class in grade school and on the short side in high school), after this I started to excel in music. I even joined the school band and stopped hanging with the tough guys in school who were the ones that were always getting suspended and getting in endless trouble.</h2>
+<h2 align="JUSTIFY">I went to my parents and told them that I wanted to quit the accordion and take up the organ. They laughed. They said, “You do better with your accordion lessons and we will buy you an organ.” This is what I needed to succeed. I needed a challenge. I took up their challenge and within six months my accordion teacher was lauding my progress to my parents. The start of the next school year my parents took me to a music store and purchased a new Theater organ for me. I really wish we knew more about what to buy in those days. Looking back in retrospect I remember that the salesman was tying to steer us right but my mother liked a certain organ with a fancy cabinet and that is the instrument we got. Nevertheless, it was good enough to inspire me to learn.  <a href="https://www.pianoorgandepot.com/My-Story%20Of-My-Love-ForHammonds.html"><i>If you want to learn more about this purchase click here</i></a></h2>
+<h2 align="CENTER"><i><img decoding="async" loading="lazy" src="https://www.pianoorgandepot.com/JPG/organ.jpg" alt="" width="304" height="350" border="1"></i></h2>
+<h2 align="JUSTIFY">I will never forget that last accordion lesson. I went into my teacher and announced that I was switching instruments.  He actually seemed happy for me. He said, “You have been doing so well in your lessons; I think I could teach you everything you will ever need to know about the accordion in this last lesson.” He said, “Let me explain the accordion and the theory behind playing the accordion and you can learn everything else you need on your own if you ever decide to come back to the instrument.”</h2>
+<h2 align="JUSTIFY">Let me tell you that I learned more in that last lesson than I learned in all the lessons I took from ages 7 –11. What an eye opener it was. I thought to myself, if I had been taught this from the beginning I probably would have liked playing the accordion a whole lot better. From organ lessons I graduated to piano lessons and then to college as a piano major.  In college, I was introduced to some great instructors, who taught me more and more elements of music and what makes music work.</h2>
+<h2 align="JUSTIFY">So from this experience comes our companies philosophy of music education. Here are the three elements that came together in my life that made me want to excel in the learning process of making music:</h2>
+<ul>
+<li>
+<h2>Involvement with a group of people that will give encouragement and positive comradery in playing music as a group</h2>
+</li>
+<li>
+<h2>An instrument that will inspire the student to want to learn</h2>
+</li>
+<li>
+<h2>A teacher that can give the students the necessary understanding and tools to learn the instrument on their own because ultimately a student only learns if they practice their instrument.</h2>
+</li>
+</ul>
+<h2 align="JUSTIFY">Starting students in-group lessons can utilize all these key elements to make for successful learning. Group lessons may not be what every student needs. However, they certainly will not hurt as a starting point of learning.  If a student gets excited about learning an instrument, they will progress and learn! When a student plays on an instrument that inspires them and excites them to learn and play music, they will go on and learn what they want to learn.</h2>
+<h2 align="JUSTIFY">So in conclusion, this is why our store provides group beginner lessons where we can give some tools to students to help them to be inspired to learn, while giving them the tools to learn on their own. You can have the best instrument in the world and the best teacher in the world but is a student is not inspired to learn and does not want to learn they are not going to progress in their lessons.</h2>
+<h2 align="JUSTIFY">The truth is, one salesman demonstrating an instrument that inspired me did more to ignite a desire for me to learn more than 5 years of lessons.  A small peer group of friends did more to motivate me to play my instrument than hours of sitting in a room alone practicing an instrument by myself. Also one teacher that knew he only had one last lesson to teach me something valuable did more for me in one lesson than all the teachers that were trying to keep me as a student for years and years.</h2>
+<h2 align="JUSTIFY">Here is the conclusion of what we do at our store. We offer group lessons for:</h2>
+<ul>
+<li>
+<h2>The purpose of inspiring people to want to learn music</h2>
+</li>
+<li>
+<h2>The purpose of matching students up with the right instrument for their budget</h2>
+</li>
+<li>
+<h2>The purpose of giving students tools to help them learn the music they want to play on their own, and then encourage them to find a private teacher who can teach them what they can’t learn on their own.</h2>
+</li>
+</ul>
+<h2 align="JUSTIFY">This is our philosophy of lessons. There are many fine teachers out there that can provide you or your child with private lessons, we want to get you started, inspire you, give you tools and resources for learning, and head you in the right direction.  Our group lessons have a set starting time and ending time, which provides motivation to get a lot done in a limited amount of time.  We have group lessons that are included in our rentals so that not only can you start the learning process of learning to play an instrument but also we spend time exposing students to a range of instruments that they can buy and try to match them up with an instrument that is right for them taking into consideration all the variables of their future goals, budget and home decor.</h2>
+<h2 align="JUSTIFY">From what I experienced I believe our program can help you make a proper purchasing decision and set you on the right path in your musical learning experience. If we can be of service to you or your family, feel free to call us and see what group lesson packages we have available for your musical needs.</h2>
+<h2 align="CENTER">Call 1-800 A-1-MUSIC or 1-800 216-8742</h2>
+<h2 align="JUSTIFY"></h2>
+<h2 align="JUSTIFY">Sincerely Yours,</h2>
+<h2 align="JUSTIFY">Frank Bissol Owner of Piano Organ Depot</h2>
+<h2 align="JUSTIFY">P.S. By the way, as for the Accordion, I love it now more than ever before, and play it on a regular basis. For certain kinds of music it can’t be beat. I play it for my Grandchildren and they get a kick out of it!</h2>
+<h2 align="CENTER"><img decoding="async" loading="lazy" src="https://www.pianoorgandepot.com/JPG/Practicing-Accordion.jpg" alt="" width="208" height="350" border="1"></h2>
+</td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_widgetised_column wpb_content_element">
+		<div class="wpb_wrapper">
+			
+			<div id="block-4" class="sidebar-box widget_block clr"><div data-block-name="woocommerce/product-search" data-form-id="wc-block-product-search-3" class="wc-block-product-search wp-block-woocommerce-product-search"><form role="search" method="get" action="/"><label for="wc-block-search__input-1" class="wc-block-product-search__label">Search</label>
+			<div class="wc-block-product-search__fields">
+				<input type="search" id="wc-block-search__input-1" class="wc-block-product-search__field" placeholder="Search products…" name="s"><button type="submit" class="wc-block-product-search__button" aria-label="Search">
+				<svg aria-hidden="true" role="img" focusable="false" class="dashicon dashicons-arrow-right-alt2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20">
+					<path d="M6 15l5-5-5-5 1-2 7 7-7 7z"></path>
+				</svg>
+			</button>
+				<input type="hidden" name="post_type" value="product">
+			</div>
+		</form></div></div><div id="block-6" class="sidebar-box widget_block clr"><div class="wp-widget-group__inner-blocks"><div class="wp-widget-group__inner-blocks">
+<h3>
+	Let Us Know If You're Interested in a Piano<br>
+</h3>
+<p>
+	Contact us to schedule an appointment to see these amazing instruments:
+</p>
+<p><script type="text/javascript"></script>
+                </p><div class="gf_browser_unknown gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework" data-form-theme="legacy" data-form-index="0" id="gform_wrapper_1"><form method="post" enctype="multipart/form-data" id="gform_1" action="/our-philosophy-of-piano-lessons/" data-formid="1">
+                        <div class="gform-body gform_body"><ul id="gform_fields_1" class="gform_fields top_label form_sublabel_below description_below"><li id="field_1_1" class="gfield gfield--type-name field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_1_1"><label class="gfield_label gform-field-label gfield_label_before_complex">Name</label><div class="ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name gform-grid-row" id="input_1_1">
+                            
+                            <span id="input_1_1_3_container" class="name_first gform-grid-col gform-grid-col--size-auto">
+                                                    <input type="text" name="input_1.3" id="input_1_1_3" value="" aria-required="false">
+                                                    <label for="input_1_1_3" class="gform-field-label gform-field-label--type-sub ">First</label>
+                                                </span>
+                            
+                            <span id="input_1_1_6_container" class="name_last gform-grid-col gform-grid-col--size-auto">
+                                                    <input type="text" name="input_1.6" id="input_1_1_6" value="" aria-required="false">
+                                                    <label for="input_1_1_6" class="gform-field-label gform-field-label--type-sub ">Last</label>
+                                                </span>
+                            
+                        </div></li><li id="field_1_2" class="gfield gfield--type-email field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_1_2"><label class="gfield_label gform-field-label" for="input_1_2">Email</label><div class="ginput_container ginput_container_email">
+                            <input name="input_2" id="input_1_2" type="text" value="" class="large" aria-invalid="false">
+                        </div></li><li id="field_1_4" class="gfield gfield--type-select field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_1_4"><label class="gfield_label gform-field-label" for="input_1_4">I'd like to...</label><div class="ginput_container ginput_container_select"><select name="input_4" id="input_1_4" class="large gfield_select" aria-invalid="false"><option value="Make In-Store Appointment">Make In-Store Appointment</option><option value="Check on Availability">Check on Availability</option><option value="Learn More About This Product">Learn More About This Product</option></select></div></li><li id="field_1_3" class="gfield gfield--type-textarea field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_1_3"><label class="gfield_label gform-field-label" for="input_1_3">Details</label><div class="ginput_container ginput_container_textarea"><textarea name="input_3" id="input_1_3" class="textarea medium" aria-invalid="false" rows="10" cols="50"></textarea></div></li><li id="field_1_5" class="gfield gfield--type-hidden gfield--width-full gform_hidden field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_1_5"><div class="ginput_container ginput_container_text"><input name="input_5" id="input_1_5" type="hidden" class="gform_hidden" aria-invalid="false" value="Our Philosophy Of Piano Lessons/our-philosophy-of-piano-lessons/"></div></li><li id="field_1_6" class="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below gfield_visibility_visible" data-js-reload="field_1_6"><label class="gfield_label gform-field-label" for="input_1_6">Email</label><div class="ginput_container"><input name="input_6" id="input_1_6" type="text" value=""></div><div class="gfield_description" id="gfield_description_1_6">This field is for validation purposes and should be left unchanged.</div></li></ul></div>
+        <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Submit" onclick='if(window["gf_submitting_1"]){return false;}  window["gf_submitting_1"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} window["gf_submitting_1"]=true;  jQuery("#gform_1").trigger("submit",[true]); }'> 
+            <input type="hidden" class="gform_hidden" name="is_submit_1" value="1">
+            <input type="hidden" class="gform_hidden" name="gform_submit" value="1">
+            
+            <input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
+            <input type="hidden" class="gform_hidden" name="state_1" value="WyJbXSIsIjJiZTUzNTUyYmNlOWVjNzA0NTFiZGZmMTMyYTljZDA2Il0=">
+            <input type="hidden" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0">
+            <input type="hidden" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1">
+            <input type="hidden" name="gform_field_values" value="">
+            
+        </div>
+                        </form>
+                        </div><script>
+gform.initializeOnLoaded( function() {gformInitSpinner( 1, '/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, '/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}, 50);}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [1, current_page]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 1, currentPage: current_page } });} );} );
+</script>
+
+<p><b>Please note:</b> because we are out tuning or moving pianos or in our shop refurbish-ing pianos, it is best to call ahead for an appointment to see the pianos we have in our showroom or in our warehouse locations.</p>
+<p>PLEASE CALL OR TEXT AHEAD OF TIME @ 570-352-5501. Ask for Frank Bissol.</p>
+</div></div></div>
+		</div>
+	</div>
+</div></div></div></div>
+
+	
+</div>
+
+</article>
+
+				
+			</div><!-- #content -->
+
+			
+		</div><!-- #primary -->
+
+		
+	</div><!-- #content-wrap -->
+
+	
+
+	</main>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/footer.php'; ?>
