@@ -433,6 +433,19 @@ function pd_split_oceanwp(string $html): array
     ];
 }
 
+function pd_replace_add_to_cart(string $html, array $cfg): string
+{
+    $phone = htmlspecialchars($cfg['phone'] ?? '570-352-5501', ENT_QUOTES);
+    $tel = htmlspecialchars($cfg['phone_tel'] ?? '+15703525501', ENT_QUOTES);
+    $cta = '<p class="pd-call-to-buy">Call or text <a href="tel:' . $tel . '">' . $phone . '</a> or <a href="/contact-us/">contact us</a> about this piano.</p>';
+    $replaced = preg_replace('#<form\b[^>]*\bcart\b[^>]*>.*?</form>#si', $cta, $html);
+    if (is_string($replaced)) {
+        $html = $replaced;
+    }
+    $html = preg_replace('#<button\b[^>]*>\s*Add to cart\s*</button>#i', '', $html) ?? $html;
+    return $html;
+}
+
 function pd_page_php(array $parts): string
 {
     $title = str_replace(["\\", "'"], ['\\\\', "\\'"], $parts['title'] ?? '');

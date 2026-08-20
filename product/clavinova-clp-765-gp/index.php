@@ -89,36 +89,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 </div>
 <p class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>5,999.99</bdi></span> – <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>6,799.99</bdi></span></p>
 
-<form class="variations_form cart" action="/product/clavinova-clp-765-gp/" method="post" enctype="multipart/form-data" data-product_id="1050" data-product_variations='[{"attributes":{"attribute_piano-color":"White"},"availability_html":"&lt;p class=\"stock available-on-backorder\"&gt;Available on backorder&lt;\/p&gt;\n","backorders_allowed":false,"dimensions":{"length":"","width":"","height":""},"dimensions_html":"N\/A","display_price":6799.99,"display_regular_price":7399,"image":{"title":"CLP-765gp-White","caption":"CLP-765GP-White","url":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-White.jpg","alt":"CLP-765GP-White","src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-White-600x600.jpg","srcset":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-White-600x600.jpg 600w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-White-300x300.jpg 300w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-White-150x150.jpg 150w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-White-100x100.jpg 100w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-White.jpg 735w","sizes":"(max-width: 600px) 100vw, 600px","full_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-White.jpg","full_src_w":735,"full_src_h":735,"gallery_thumbnail_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-White-100x100.jpg","gallery_thumbnail_src_w":100,"gallery_thumbnail_src_h":100,"thumb_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-White-300x300.jpg","thumb_src_w":300,"thumb_src_h":300,"src_w":600,"src_h":600},"image_id":1062,"is_downloadable":false,"is_in_stock":true,"is_purchasable":true,"is_sold_individually":"no","is_virtual":false,"max_qty":"","min_qty":1,"price_html":"&lt;span class=\"price\"&gt;&lt;del aria-hidden=\"true\"&gt;&lt;span class=\"woocommerce-Price-amount amount\"&gt;&lt;bdi&gt;&lt;span class=\"woocommerce-Price-currencySymbol\"&gt;&amp;#36;&lt;\/span&gt;7,399.00&lt;\/bdi&gt;&lt;\/span&gt;&lt;\/del&gt; &lt;ins&gt;&lt;span class=\"woocommerce-Price-amount amount\"&gt;&lt;bdi&gt;&lt;span class=\"woocommerce-Price-currencySymbol\"&gt;&amp;#36;&lt;\/span&gt;6,799.99&lt;\/bdi&gt;&lt;\/span&gt;&lt;\/ins&gt;&lt;\/span&gt;","sku":"","variation_description":"&lt;p&gt;CLP 765GP  Polished White Cabinet &lt;\/p&gt;\n","variation_id":1053,"variation_is_active":true,"variation_is_visible":true,"weight":"","weight_html":"N\/A"},{"attributes":{"attribute_piano-color":"Polished Ebony"},"availability_html":"","backorders_allowed":false,"dimensions":{"length":"","width":"","height":""},"dimensions_html":"N\/A","display_price":5999.99,"display_regular_price":6499,"image":{"title":"CLP-765gp-PE","caption":"CLP-765GP-PE","url":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-PE.jpg","alt":"CLP-765GP-PE","src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-PE-600x600.jpg","srcset":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-PE-600x600.jpg 600w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-PE-300x300.jpg 300w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-PE-150x150.jpg 150w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-PE-100x100.jpg 100w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-PE.jpg 735w","sizes":"(max-width: 600px) 100vw, 600px","full_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-PE.jpg","full_src_w":735,"full_src_h":735,"gallery_thumbnail_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-PE-100x100.jpg","gallery_thumbnail_src_w":100,"gallery_thumbnail_src_h":100,"thumb_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CLP-765gp-PE-300x300.jpg","thumb_src_w":300,"thumb_src_h":300,"src_w":600,"src_h":600},"image_id":1060,"is_downloadable":false,"is_in_stock":true,"is_purchasable":true,"is_sold_individually":"no","is_virtual":false,"max_qty":"","min_qty":1,"price_html":"&lt;span class=\"price\"&gt;&lt;del aria-hidden=\"true\"&gt;&lt;span class=\"woocommerce-Price-amount amount\"&gt;&lt;bdi&gt;&lt;span class=\"woocommerce-Price-currencySymbol\"&gt;&amp;#36;&lt;\/span&gt;6,499.00&lt;\/bdi&gt;&lt;\/span&gt;&lt;\/del&gt; &lt;ins&gt;&lt;span class=\"woocommerce-Price-amount amount\"&gt;&lt;bdi&gt;&lt;span class=\"woocommerce-Price-currencySymbol\"&gt;&amp;#36;&lt;\/span&gt;5,999.99&lt;\/bdi&gt;&lt;\/span&gt;&lt;\/ins&gt;&lt;\/span&gt;","sku":"","variation_description":"&lt;p&gt;Clavinova CLP-765 GP Polished Ebony Cabinet&lt;\/p&gt;\n","variation_id":1055,"variation_is_active":true,"variation_is_visible":true,"weight":"","weight_html":"N\/A"}]'>
-	
-			<table class="variations" cellspacing="0" role="presentation">
-			<tbody>
-									<tr>
-						<th class="label"><label for="piano-color">Piano Color</label></th>
-						<td class="value">
-							<select id="piano-color" class="" name="attribute_piano-color" data-attribute_name="attribute_piano-color" data-show_option_none="yes"><option value="">Choose an option</option><option value="White">White</option><option value="Polished Ebony" selected>Polished Ebony</option></select><a class="reset_variations" href="#">Clear</a>						</td>
-					</tr>
-							</tbody>
-		</table>
-		
-		<div class="single_variation_wrap">
-			<div class="woocommerce-variation single_variation"></div><div class="woocommerce-variation-add-to-cart variations_button">
-	
-	<div class="quantity">
-		<label class="screen-reader-text" for="quantity_6a87424f796e4">Clavinova CLP 765 GP quantity</label>
-	<input type="number" id="quantity_6a87424f796e4" class="input-text qty text" name="quantity" value="1" aria-label="Product quantity" size="4" min="1" max="" step="1" placeholder="" inputmode="numeric" autocomplete="off">
-	</div>
-
-	<button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
-
-	
-	<input type="hidden" name="add-to-cart" value="1050">
-	<input type="hidden" name="product_id" value="1050">
-	<input type="hidden" name="variation_id" class="variation_id" value="0">
-</div>
-		</div>
-	
-	</form>
+<p class="pd-call-to-buy">Call or text <a href="tel:+15703525501">570-352-5501</a> or <a href="/contact-us/">contact us</a> about this piano.</p>
 
 		</div>
 

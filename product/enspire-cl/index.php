@@ -88,36 +88,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 </div>
 <p class="price"></p>
 
-<form class="variations_form cart" action="/product/enspire-cl/" method="post" enctype="multipart/form-data" data-product_id="1859" data-product_variations='[{"attributes":{"attribute_enspire-cl-series":"DGB1K Encl Polished Ebony"},"availability_html":"","backorders_allowed":false,"dimensions":{"length":"","width":"","height":""},"dimensions_html":"N\/A","display_price":0,"display_regular_price":0,"image":{"title":"DGB1K_Encl-1-PolishedEbony-piano","caption":"","url":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/11\/DGB1K_Encl-1-PolishedEbony-piano.jpg","alt":"DGB1K_Encl-1-PolishedEbony-piano","src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/11\/DGB1K_Encl-1-PolishedEbony-piano.jpg","srcset":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/11\/DGB1K_Encl-1-PolishedEbony-piano.jpg 950w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/11\/DGB1K_Encl-1-PolishedEbony-piano-250x300.jpg 250w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/11\/DGB1K_Encl-1-PolishedEbony-piano-853x1024.jpg 853w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/11\/DGB1K_Encl-1-PolishedEbony-piano-768x922.jpg 768w","sizes":"(max-width: 600px) 100vw, 600px","full_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/11\/DGB1K_Encl-1-PolishedEbony-piano.jpg","full_src_w":950,"full_src_h":1141,"gallery_thumbnail_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/11\/DGB1K_Encl-1-PolishedEbony-piano-150x150.jpg","gallery_thumbnail_src_w":100,"gallery_thumbnail_src_h":100,"thumb_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/11\/DGB1K_Encl-1-PolishedEbony-piano-300x300.jpg","thumb_src_w":300,"thumb_src_h":300,"src_w":600,"src_h":721},"image_id":1837,"is_downloadable":false,"is_in_stock":true,"is_purchasable":false,"is_sold_individually":"no","is_virtual":false,"max_qty":"","min_qty":1,"price_html":"","sku":"","variation_description":"&lt;p&gt;The ENSPIRE CL is the perfect experiential centerpiece for any environment. Add a sophisticated, fun or soulful musical ambiance to entertain and enjoy. DGB1K ENCL consists of a grand piano GB1K.&lt;\/p&gt;\n","variation_id":1860,"variation_is_active":true,"variation_is_visible":true,"weight":"","weight_html":"N\/A"}]'>
-	
-			<table class="variations" cellspacing="0" role="presentation">
-			<tbody>
-									<tr>
-						<th class="label"><label for="enspire-cl-series">Enspire CL Series</label></th>
-						<td class="value">
-							<select id="enspire-cl-series" class="" name="attribute_enspire-cl-series" data-attribute_name="attribute_enspire-cl-series" data-show_option_none="yes"><option value="">Choose an option</option><option value="DGB1K Encl Polished Ebony">DGB1K Encl Polished Ebony</option></select><a class="reset_variations" href="#">Clear</a>						</td>
-					</tr>
-							</tbody>
-		</table>
-		
-		<div class="single_variation_wrap">
-			<div class="woocommerce-variation single_variation"></div><div class="woocommerce-variation-add-to-cart variations_button">
-	
-	<div class="quantity">
-		<label class="screen-reader-text" for="quantity_6a8742e4b5d9c">Enspire CL quantity</label>
-	<input type="number" id="quantity_6a8742e4b5d9c" class="input-text qty text" name="quantity" value="1" aria-label="Product quantity" size="4" min="1" max="" step="1" placeholder="" inputmode="numeric" autocomplete="off">
-	</div>
-
-	<button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
-
-	
-	<input type="hidden" name="add-to-cart" value="1859">
-	<input type="hidden" name="product_id" value="1859">
-	<input type="hidden" name="variation_id" class="variation_id" value="0">
-</div>
-		</div>
-	
-	</form>
+<p class="pd-call-to-buy">Call or text <a href="tel:+15703525501">570-352-5501</a> or <a href="/contact-us/">contact us</a> about this piano.</p>
 
 <div class="woocommerce npwpMessage"><div class="woocommerce-info" style="margin-bottom: 0px;">This item cannot be purchased online.. in store purchase only...  Call to make an appointment for details.</div></div><style>form.variations_form .woocommerce-variation-add-to-cart { display:none!important; }</style>		</div>
 

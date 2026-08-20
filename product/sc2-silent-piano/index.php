@@ -88,36 +88,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 </div>
 <p class="price"></p>
 
-<form class="variations_form cart" action="/product/sc2-silent-piano/" method="post" enctype="multipart/form-data" data-product_id="1311" data-product_variations='[{"attributes":{"attribute_sc2-series":"b2 SC Polished Ebony"},"availability_html":"","backorders_allowed":false,"dimensions":{"length":"","width":"","height":""},"dimensions_html":"N\/A","display_price":0,"display_regular_price":0,"image":{"title":"b2-SC2-pe","caption":"","url":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/b2-SC2-pe.jpg","alt":"b2-SC2-pe","src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/b2-SC2-pe.jpg","srcset":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/b2-SC2-pe.jpg 1200w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/b2-SC2-pe-300x269.jpg 300w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/b2-SC2-pe-1024x916.jpg 1024w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/b2-SC2-pe-768x687.jpg 768w","sizes":"(max-width: 600px) 100vw, 600px","full_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/b2-SC2-pe.jpg","full_src_w":1200,"full_src_h":1074,"gallery_thumbnail_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/b2-SC2-pe-100x100.jpg","gallery_thumbnail_src_w":100,"gallery_thumbnail_src_h":100,"thumb_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/b2-SC2-pe-300x300.jpg","thumb_src_w":300,"thumb_src_h":300,"src_w":600,"src_h":537},"image_id":1334,"is_downloadable":false,"is_in_stock":true,"is_purchasable":true,"is_sold_individually":"no","is_virtual":false,"max_qty":"","min_qty":1,"price_html":"","sku":"","variation_description":"&lt;p&gt;With its larger dimensions and heavier construction, the new b2 delivers a superior sound through added depth and volume. For the ambitious performer on a budget, there is no better instrument. Silencing system has been added to this b2. This is an SC2 type SILENT Piano\u2122 .&lt;\/p&gt;\n","variation_id":1335,"variation_is_active":true,"variation_is_visible":true,"weight":"","weight_html":"N\/A"}]'>
-	
-			<table class="variations" cellspacing="0" role="presentation">
-			<tbody>
-									<tr>
-						<th class="label"><label for="sc2-series">SC2 Series</label></th>
-						<td class="value">
-							<select id="sc2-series" class="" name="attribute_sc2-series" data-attribute_name="attribute_sc2-series" data-show_option_none="yes"><option value="">Choose an option</option><option value="b2 SC Polished Ebony">b2 SC Polished Ebony</option></select><a class="reset_variations" href="#">Clear</a>						</td>
-					</tr>
-							</tbody>
-		</table>
-		
-		<div class="single_variation_wrap">
-			<div class="woocommerce-variation single_variation"></div><div class="woocommerce-variation-add-to-cart variations_button">
-	
-	<div class="quantity">
-		<label class="screen-reader-text" for="quantity_6a8743c18858c">SC2 - Silent Piano quantity</label>
-	<input type="number" id="quantity_6a8743c18858c" class="input-text qty text" name="quantity" value="1" aria-label="Product quantity" size="4" min="1" max="" step="1" placeholder="" inputmode="numeric" autocomplete="off">
-	</div>
-
-	<button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
-
-	
-	<input type="hidden" name="add-to-cart" value="1311">
-	<input type="hidden" name="product_id" value="1311">
-	<input type="hidden" name="variation_id" class="variation_id" value="0">
-</div>
-		</div>
-	
-	</form>
+<p class="pd-call-to-buy">Call or text <a href="tel:+15703525501">570-352-5501</a> or <a href="/contact-us/">contact us</a> about this piano.</p>
 
 		</div>
 

@@ -78,36 +78,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 </div>
 <p class="price"></p>
 
-<form class="variations_form cart" action="/product/ta2-transacoustic/" method="post" enctype="multipart/form-data" data-product_id="1264" data-product_variations='[{"attributes":{"attribute_ta2-series":"U1TA2 Polished Ebony"},"availability_html":"","backorders_allowed":false,"dimensions":{"length":"","width":"","height":""},"dimensions_html":"N\/A","display_price":0,"display_regular_price":0,"image":{"title":"u1-TA2","caption":"","url":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/u1-TA2.jpg","alt":"u1-TA2","src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/u1-TA2.jpg","srcset":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/u1-TA2.jpg 1200w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/u1-TA2-300x267.jpg 300w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/u1-TA2-1024x912.jpg 1024w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/u1-TA2-768x684.jpg 768w","sizes":"(max-width: 600px) 100vw, 600px","full_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/u1-TA2.jpg","full_src_w":1200,"full_src_h":1069,"gallery_thumbnail_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/u1-TA2-150x150.jpg","gallery_thumbnail_src_w":100,"gallery_thumbnail_src_h":100,"thumb_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/u1-TA2-300x300.jpg","thumb_src_w":300,"thumb_src_h":300,"src_w":600,"src_h":535},"image_id":1267,"is_downloadable":false,"is_in_stock":true,"is_purchasable":false,"is_sold_individually":"no","is_virtual":false,"max_qty":"","min_qty":1,"price_html":"","sku":"","variation_description":"","variation_id":1268,"variation_is_active":true,"variation_is_visible":true,"weight":"","weight_html":"N\/A"}]'>
-	
-			<table class="variations" cellspacing="0" role="presentation">
-			<tbody>
-									<tr>
-						<th class="label"><label for="ta2-series">TA2 Series</label></th>
-						<td class="value">
-							<select id="ta2-series" class="" name="attribute_ta2-series" data-attribute_name="attribute_ta2-series" data-show_option_none="yes"><option value="">Choose an option</option><option value="U1TA2 Polished Ebony">U1TA2 Polished Ebony</option></select><a class="reset_variations" href="#">Clear</a>						</td>
-					</tr>
-							</tbody>
-		</table>
-		
-		<div class="single_variation_wrap">
-			<div class="woocommerce-variation single_variation"></div><div class="woocommerce-variation-add-to-cart variations_button">
-	
-	<div class="quantity">
-		<label class="screen-reader-text" for="quantity_6a87446b8921e">TA2-TransAcoustic quantity</label>
-	<input type="number" id="quantity_6a87446b8921e" class="input-text qty text" name="quantity" value="1" aria-label="Product quantity" size="4" min="1" max="" step="1" placeholder="" inputmode="numeric" autocomplete="off">
-	</div>
-
-	<button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
-
-	
-	<input type="hidden" name="add-to-cart" value="1264">
-	<input type="hidden" name="product_id" value="1264">
-	<input type="hidden" name="variation_id" class="variation_id" value="0">
-</div>
-		</div>
-	
-	</form>
+<p class="pd-call-to-buy">Call or text <a href="tel:+15703525501">570-352-5501</a> or <a href="/contact-us/">contact us</a> about this piano.</p>
 
 <div class="woocommerce npwpMessage"><div class="woocommerce-info" style="margin-bottom: 0px;">This item cannot be purchased online.. in store purchase only...  Call to make an appointment for details.</div></div><style>form.variations_form .woocommerce-variation-add-to-cart { display:none!important; }</style>		</div>
 

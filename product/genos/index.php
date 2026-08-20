@@ -81,16 +81,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 <p class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>6,799.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>5,999.99</bdi></span></ins></p>
 
 	
-	<form class="cart" action="/product/genos/" method="post" enctype="multipart/form-data">
-		
-		<div class="quantity">
-		<label class="screen-reader-text" for="quantity_6a87430320070">Genos quantity</label>
-	<input type="number" id="quantity_6a87430320070" class="input-text qty text" name="quantity" value="1" aria-label="Product quantity" size="4" min="1" max="" step="1" placeholder="" inputmode="numeric" autocomplete="off">
-	</div>
-
-		<button type="submit" name="add-to-cart" value="1248" class="single_add_to_cart_button button alt">Add to cart</button>
-
-			</form>
+	<p class="pd-call-to-buy">Call or text <a href="tel:+15703525501">570-352-5501</a> or <a href="/contact-us/">contact us</a> about this piano.</p>
 
 	
 		</div>

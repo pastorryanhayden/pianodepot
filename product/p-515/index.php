@@ -89,36 +89,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 </div>
 <p class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>1,999.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>1,599.99</bdi></span></ins></p>
 
-<form class="variations_form cart" action="/product/p-515/" method="post" enctype="multipart/form-data" data-product_id="1157" data-product_variations='[{"attributes":{"attribute_color":"Black"},"availability_html":"","backorders_allowed":false,"dimensions":{"length":"","width":"","height":""},"dimensions_html":"N\/A","display_price":1599.99,"display_regular_price":1999,"image":{"title":"P-515b","caption":"","url":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P-515b.jpg","alt":"P-515b","src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P-515b.jpg","srcset":false,"sizes":"(max-width: 600px) 100vw, 600px","full_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P-515b.jpg","full_src_w":1200,"full_src_h":1200,"gallery_thumbnail_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P-515b.jpg","gallery_thumbnail_src_w":100,"gallery_thumbnail_src_h":100,"thumb_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P-515b.jpg","thumb_src_w":300,"thumb_src_h":300,"src_w":600,"src_h":600},"image_id":1163,"is_downloadable":false,"is_in_stock":true,"is_purchasable":true,"is_sold_individually":"no","is_virtual":false,"max_qty":"","min_qty":1,"price_html":"","sku":"","variation_description":"","variation_id":1158,"variation_is_active":true,"variation_is_visible":true,"weight":"","weight_html":"N\/A"},{"attributes":{"attribute_color":"Spotlight White"},"availability_html":"","backorders_allowed":false,"dimensions":{"length":"","width":"","height":""},"dimensions_html":"N\/A","display_price":1599.99,"display_regular_price":1999,"image":{"title":"P-515wh","caption":"","url":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P-515wh.jpg","alt":"P-515wh","src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P-515wh.jpg","srcset":false,"sizes":"(max-width: 600px) 100vw, 600px","full_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P-515wh.jpg","full_src_w":1200,"full_src_h":1200,"gallery_thumbnail_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P-515wh.jpg","gallery_thumbnail_src_w":100,"gallery_thumbnail_src_h":100,"thumb_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P-515wh.jpg","thumb_src_w":300,"thumb_src_h":300,"src_w":600,"src_h":600},"image_id":1166,"is_downloadable":false,"is_in_stock":true,"is_purchasable":true,"is_sold_individually":"no","is_virtual":false,"max_qty":"","min_qty":1,"price_html":"","sku":"","variation_description":"","variation_id":1159,"variation_is_active":true,"variation_is_visible":true,"weight":"","weight_html":"N\/A"}]'>
-	
-			<table class="variations" cellspacing="0" role="presentation">
-			<tbody>
-									<tr>
-						<th class="label"><label for="color">Color</label></th>
-						<td class="value">
-							<select id="color" class="" name="attribute_color" data-attribute_name="attribute_color" data-show_option_none="yes"><option value="">Choose an option</option><option value="Black">Black</option><option value="Spotlight White">Spotlight White</option></select><a class="reset_variations" href="#">Clear</a>						</td>
-					</tr>
-							</tbody>
-		</table>
-		
-		<div class="single_variation_wrap">
-			<div class="woocommerce-variation single_variation"></div><div class="woocommerce-variation-add-to-cart variations_button">
-	
-	<div class="quantity">
-		<label class="screen-reader-text" for="quantity_6a874392c7655">P-515 quantity</label>
-	<input type="number" id="quantity_6a874392c7655" class="input-text qty text" name="quantity" value="1" aria-label="Product quantity" size="4" min="1" max="" step="1" placeholder="" inputmode="numeric" autocomplete="off">
-	</div>
-
-	<button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
-
-	
-	<input type="hidden" name="add-to-cart" value="1157">
-	<input type="hidden" name="product_id" value="1157">
-	<input type="hidden" name="variation_id" class="variation_id" value="0">
-</div>
-		</div>
-	
-	</form>
+<p class="pd-call-to-buy">Call or text <a href="tel:+15703525501">570-352-5501</a> or <a href="/contact-us/">contact us</a> about this piano.</p>
 
 		</div>
 

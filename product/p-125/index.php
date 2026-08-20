@@ -89,36 +89,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 </div>
 <p class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>999.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>699.99</bdi></span></ins></p>
 
-<form class="variations_form cart" action="/product/p-125/" method="post" enctype="multipart/form-data" data-product_id="1092" data-product_variations='[{"attributes":{"attribute_color":"Black"},"availability_html":"","backorders_allowed":false,"dimensions":{"length":"","width":"","height":""},"dimensions_html":"N\/A","display_price":699.99,"display_regular_price":999,"image":{"title":"P125B","caption":"","url":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125B.jpg","alt":"P125B","src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125B.jpg","srcset":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125B.jpg 1200w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125B-300x258.jpg 300w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125B-1024x881.jpg 1024w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125B-768x660.jpg 768w","sizes":"(max-width: 600px) 100vw, 600px","full_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125B.jpg","full_src_w":1200,"full_src_h":1032,"gallery_thumbnail_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125B-150x150.jpg","gallery_thumbnail_src_w":100,"gallery_thumbnail_src_h":100,"thumb_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125B-300x300.jpg","thumb_src_w":300,"thumb_src_h":300,"src_w":600,"src_h":516},"image_id":1150,"is_downloadable":false,"is_in_stock":true,"is_purchasable":true,"is_sold_individually":"no","is_virtual":false,"max_qty":"","min_qty":1,"price_html":"","sku":"","variation_description":"&lt;p&gt;Stand and Pedal Unit sold Separately. &lt;\/p&gt;\n","variation_id":1093,"variation_is_active":true,"variation_is_visible":true,"weight":"","weight_html":"N\/A"},{"attributes":{"attribute_color":"Spotlight White"},"availability_html":"","backorders_allowed":false,"dimensions":{"length":"","width":"","height":""},"dimensions_html":"N\/A","display_price":699.99,"display_regular_price":999,"image":{"title":"P125WH","caption":"","url":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125WH.jpg","alt":"P125WH","src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125WH.jpg","srcset":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125WH.jpg 1200w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125WH-300x258.jpg 300w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125WH-1024x881.jpg 1024w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125WH-768x660.jpg 768w","sizes":"(max-width: 600px) 100vw, 600px","full_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125WH.jpg","full_src_w":1200,"full_src_h":1032,"gallery_thumbnail_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125WH-150x150.jpg","gallery_thumbnail_src_w":100,"gallery_thumbnail_src_h":100,"thumb_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/P125WH-300x300.jpg","thumb_src_w":300,"thumb_src_h":300,"src_w":600,"src_h":516},"image_id":1151,"is_downloadable":false,"is_in_stock":true,"is_purchasable":true,"is_sold_individually":"no","is_virtual":false,"max_qty":"","min_qty":1,"price_html":"","sku":"","variation_description":"&lt;p&gt;Stand and Pedal Unit sold Separately. &lt;\/p&gt;\n","variation_id":1094,"variation_is_active":true,"variation_is_visible":true,"weight":"","weight_html":"N\/A"}]'>
-	
-			<table class="variations" cellspacing="0" role="presentation">
-			<tbody>
-									<tr>
-						<th class="label"><label for="color">Color</label></th>
-						<td class="value">
-							<select id="color" class="" name="attribute_color" data-attribute_name="attribute_color" data-show_option_none="yes"><option value="">Choose an option</option><option value="Black">Black</option><option value="Spotlight White">Spotlight White</option></select><a class="reset_variations" href="#">Clear</a>						</td>
-					</tr>
-							</tbody>
-		</table>
-		
-		<div class="single_variation_wrap">
-			<div class="woocommerce-variation single_variation"></div><div class="woocommerce-variation-add-to-cart variations_button">
-	
-	<div class="quantity">
-		<label class="screen-reader-text" for="quantity_6a874385991bf">P-125 quantity</label>
-	<input type="number" id="quantity_6a874385991bf" class="input-text qty text" name="quantity" value="1" aria-label="Product quantity" size="4" min="1" max="" step="1" placeholder="" inputmode="numeric" autocomplete="off">
-	</div>
-
-	<button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
-
-	
-	<input type="hidden" name="add-to-cart" value="1092">
-	<input type="hidden" name="product_id" value="1092">
-	<input type="hidden" name="variation_id" class="variation_id" value="0">
-</div>
-		</div>
-	
-	</form>
+<p class="pd-call-to-buy">Call or text <a href="tel:+15703525501">570-352-5501</a> or <a href="/contact-us/">contact us</a> about this piano.</p>
 
 		</div>
 

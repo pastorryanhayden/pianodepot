@@ -81,36 +81,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 </div>
 <p class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>7,399.99</bdi></span> – <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>7,599.99</bdi></span></p>
 
-<form class="variations_form cart" action="/product/nu1x/" method="post" enctype="multipart/form-data" data-product_id="1287" data-product_variations='[{"attributes":{"attribute_nu1x":"Polished Ebony"},"availability_html":"","backorders_allowed":false,"dimensions":{"length":"","width":"","height":""},"dimensions_html":"N\/A","display_price":7399.99,"display_regular_price":8499,"image":{"title":"NU1X-black","caption":"","url":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-black.jpg","alt":"NU1X-black","src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-black.jpg","srcset":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-black.jpg 1200w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-black-300x234.jpg 300w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-black-1024x800.jpg 1024w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-black-768x600.jpg 768w","sizes":"(max-width: 600px) 100vw, 600px","full_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-black.jpg","full_src_w":1200,"full_src_h":937,"gallery_thumbnail_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-black-150x150.jpg","gallery_thumbnail_src_w":100,"gallery_thumbnail_src_h":100,"thumb_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-black-300x300.jpg","thumb_src_w":300,"thumb_src_h":300,"src_w":600,"src_h":469},"image_id":1302,"is_downloadable":false,"is_in_stock":true,"is_purchasable":true,"is_sold_individually":"no","is_virtual":false,"max_qty":"","min_qty":1,"price_html":"&lt;span class=\"price\"&gt;&lt;del aria-hidden=\"true\"&gt;&lt;span class=\"woocommerce-Price-amount amount\"&gt;&lt;bdi&gt;&lt;span class=\"woocommerce-Price-currencySymbol\"&gt;&amp;#36;&lt;\/span&gt;8,499.00&lt;\/bdi&gt;&lt;\/span&gt;&lt;\/del&gt; &lt;ins&gt;&lt;span class=\"woocommerce-Price-amount amount\"&gt;&lt;bdi&gt;&lt;span class=\"woocommerce-Price-currencySymbol\"&gt;&amp;#36;&lt;\/span&gt;7,399.99&lt;\/bdi&gt;&lt;\/span&gt;&lt;\/ins&gt;&lt;\/span&gt;","sku":"","variation_description":"&lt;p&gt;Traditional sensibility meets modern practicality &amp;#8211; A sleek and compact AvantGrand that transcends convention and blurs the lines between acoustic and digital.&lt;\/p&gt;\n","variation_id":1289,"variation_is_active":true,"variation_is_visible":true,"weight":"","weight_html":"N\/A"},{"attributes":{"attribute_nu1x":"Polished White"},"availability_html":"&lt;p class=\"stock available-on-backorder\"&gt;Available on backorder&lt;\/p&gt;\n","backorders_allowed":false,"dimensions":{"length":"","width":"","height":""},"dimensions_html":"N\/A","display_price":7599.99,"display_regular_price":8599,"image":{"title":"NU1X-white","caption":"","url":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-white.jpg","alt":"NU1X-white","src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-white.jpg","srcset":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-white.jpg 1200w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-white-300x236.jpg 300w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-white-1024x804.jpg 1024w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-white-768x603.jpg 768w","sizes":"(max-width: 600px) 100vw, 600px","full_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-white.jpg","full_src_w":1200,"full_src_h":942,"gallery_thumbnail_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-white-150x150.jpg","gallery_thumbnail_src_w":100,"gallery_thumbnail_src_h":100,"thumb_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/09\/NU1X-white-300x300.jpg","thumb_src_w":300,"thumb_src_h":300,"src_w":600,"src_h":471},"image_id":1306,"is_downloadable":false,"is_in_stock":true,"is_purchasable":true,"is_sold_individually":"no","is_virtual":false,"max_qty":"","min_qty":1,"price_html":"&lt;span class=\"price\"&gt;&lt;del aria-hidden=\"true\"&gt;&lt;span class=\"woocommerce-Price-amount amount\"&gt;&lt;bdi&gt;&lt;span class=\"woocommerce-Price-currencySymbol\"&gt;&amp;#36;&lt;\/span&gt;8,599.00&lt;\/bdi&gt;&lt;\/span&gt;&lt;\/del&gt; &lt;ins&gt;&lt;span class=\"woocommerce-Price-amount amount\"&gt;&lt;bdi&gt;&lt;span class=\"woocommerce-Price-currencySymbol\"&gt;&amp;#36;&lt;\/span&gt;7,599.99&lt;\/bdi&gt;&lt;\/span&gt;&lt;\/ins&gt;&lt;\/span&gt;","sku":"","variation_description":"&lt;p&gt;Traditional sensibility meets modern practicality &amp;#8211; A sleek and compact AvantGrand that transcends convention and blurs the lines between acoustic and digital.&lt;\/p&gt;\n","variation_id":1290,"variation_is_active":true,"variation_is_visible":true,"weight":"","weight_html":"N\/A"}]'>
-	
-			<table class="variations" cellspacing="0" role="presentation">
-			<tbody>
-									<tr>
-						<th class="label"><label for="nu1x">NU1X</label></th>
-						<td class="value">
-							<select id="nu1x" class="" name="attribute_nu1x" data-attribute_name="attribute_nu1x" data-show_option_none="yes"><option value="">Choose an option</option><option value="Polished Ebony">Polished Ebony</option><option value="Polished White">Polished White</option></select><a class="reset_variations" href="#">Clear</a>						</td>
-					</tr>
-							</tbody>
-		</table>
-		
-		<div class="single_variation_wrap">
-			<div class="woocommerce-variation single_variation"></div><div class="woocommerce-variation-add-to-cart variations_button">
-	
-	<div class="quantity">
-		<label class="screen-reader-text" for="quantity_6a8743746da56">NU1X quantity</label>
-	<input type="number" id="quantity_6a8743746da56" class="input-text qty text" name="quantity" value="1" aria-label="Product quantity" size="4" min="1" max="" step="1" placeholder="" inputmode="numeric" autocomplete="off">
-	</div>
-
-	<button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
-
-	
-	<input type="hidden" name="add-to-cart" value="1287">
-	<input type="hidden" name="product_id" value="1287">
-	<input type="hidden" name="variation_id" class="variation_id" value="0">
-</div>
-		</div>
-	
-	</form>
+<p class="pd-call-to-buy">Call or text <a href="tel:+15703525501">570-352-5501</a> or <a href="/contact-us/">contact us</a> about this piano.</p>
 
 		</div>
 

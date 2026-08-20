@@ -79,16 +79,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 <p class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>8,995.00</bdi></span></p>
 
 	
-	<form class="cart" action="/product/yamaha-g2/" method="post" enctype="multipart/form-data">
-		
-		<div class="quantity">
-		<label class="screen-reader-text" for="quantity_6a87448ecbc07">Yamaha G2 quantity</label>
-	<input type="number" id="quantity_6a87448ecbc07" class="input-text qty text" name="quantity" value="1" aria-label="Product quantity" size="4" min="1" max="" step="1" placeholder="" inputmode="numeric" autocomplete="off">
-	</div>
-
-		<button type="submit" name="add-to-cart" value="2059" class="single_add_to_cart_button button alt">Add to cart</button>
-
-			</form>
+	<p class="pd-call-to-buy">Call or text <a href="tel:+15703525501">570-352-5501</a> or <a href="/contact-us/">contact us</a> about this piano.</p>
 
 	
 		</div>

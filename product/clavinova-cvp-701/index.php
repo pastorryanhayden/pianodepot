@@ -89,36 +89,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 </div>
 <p class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>4,299.99</bdi></span> – <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>5,149.99</bdi></span></p>
 
-<form class="variations_form cart" action="/product/clavinova-cvp-701/" method="post" enctype="multipart/form-data" data-product_id="966" data-product_variations='[{"attributes":{"attribute_piano-color":"Matte Black"},"availability_html":"","backorders_allowed":false,"dimensions":{"length":"","width":"","height":""},"dimensions_html":"N\/A","display_price":4299.99,"display_regular_price":5299,"image":{"title":"CVP701B","caption":"","url":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701B.bmp","alt":"CVP701B","src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701B.bmp","srcset":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701B.bmp 396w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701B-300x300.jpg 300w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701B-150x150.jpg 150w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701B-100x100.jpg 100w","sizes":"(max-width: 396px) 100vw, 396px","full_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701B.bmp","full_src_w":396,"full_src_h":396,"gallery_thumbnail_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701B-100x100.jpg","gallery_thumbnail_src_w":100,"gallery_thumbnail_src_h":100,"thumb_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701B-300x300.jpg","thumb_src_w":300,"thumb_src_h":300,"src_w":396,"src_h":396},"image_id":972,"is_downloadable":false,"is_in_stock":true,"is_purchasable":true,"is_sold_individually":"no","is_virtual":false,"max_qty":"","min_qty":1,"price_html":"&lt;span class=\"price\"&gt;&lt;del aria-hidden=\"true\"&gt;&lt;span class=\"woocommerce-Price-amount amount\"&gt;&lt;bdi&gt;&lt;span class=\"woocommerce-Price-currencySymbol\"&gt;&amp;#36;&lt;\/span&gt;5,299.00&lt;\/bdi&gt;&lt;\/span&gt;&lt;\/del&gt; &lt;ins&gt;&lt;span class=\"woocommerce-Price-amount amount\"&gt;&lt;bdi&gt;&lt;span class=\"woocommerce-Price-currencySymbol\"&gt;&amp;#36;&lt;\/span&gt;4,299.99&lt;\/bdi&gt;&lt;\/span&gt;&lt;\/ins&gt;&lt;\/span&gt;","sku":"","variation_description":"&lt;p&gt;CVP 701 Matte Black&lt;\/p&gt;\n","variation_id":967,"variation_is_active":true,"variation_is_visible":true,"weight":"","weight_html":"N\/A"},{"attributes":{"attribute_piano-color":"Polished Ebony"},"availability_html":"","backorders_allowed":false,"dimensions":{"length":"","width":"","height":""},"dimensions_html":"N\/A","display_price":5149.99,"display_regular_price":6199,"image":{"title":"CLP-701 PE","caption":"","url":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701PE.bmp","alt":"CLP-701 PE","src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701PE.bmp","srcset":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701PE.bmp 396w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701PE-300x300.jpg 300w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701PE-150x150.jpg 150w, https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701PE-100x100.jpg 100w","sizes":"(max-width: 396px) 100vw, 396px","full_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701PE.bmp","full_src_w":396,"full_src_h":396,"gallery_thumbnail_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701PE-100x100.jpg","gallery_thumbnail_src_w":100,"gallery_thumbnail_src_h":100,"thumb_src":"https:\/\/pianodepot.com\/wp-content\/uploads\/2021\/07\/CVP701PE-300x300.jpg","thumb_src_w":300,"thumb_src_h":300,"src_w":396,"src_h":396},"image_id":973,"is_downloadable":false,"is_in_stock":true,"is_purchasable":true,"is_sold_individually":"no","is_virtual":false,"max_qty":"","min_qty":1,"price_html":"&lt;span class=\"price\"&gt;&lt;del aria-hidden=\"true\"&gt;&lt;span class=\"woocommerce-Price-amount amount\"&gt;&lt;bdi&gt;&lt;span class=\"woocommerce-Price-currencySymbol\"&gt;&amp;#36;&lt;\/span&gt;6,199.00&lt;\/bdi&gt;&lt;\/span&gt;&lt;\/del&gt; &lt;ins&gt;&lt;span class=\"woocommerce-Price-amount amount\"&gt;&lt;bdi&gt;&lt;span class=\"woocommerce-Price-currencySymbol\"&gt;&amp;#36;&lt;\/span&gt;5,149.99&lt;\/bdi&gt;&lt;\/span&gt;&lt;\/ins&gt;&lt;\/span&gt;","sku":"","variation_description":"&lt;p&gt;CVP 701 Polished Ebony&lt;\/p&gt;\n","variation_id":968,"variation_is_active":true,"variation_is_visible":true,"weight":"","weight_html":"N\/A"}]'>
-	
-			<table class="variations" cellspacing="0" role="presentation">
-			<tbody>
-									<tr>
-						<th class="label"><label for="piano-color">Piano Color</label></th>
-						<td class="value">
-							<select id="piano-color" class="" name="attribute_piano-color" data-attribute_name="attribute_piano-color" data-show_option_none="yes"><option value="">Choose an option</option><option value="Matte Black" selected>Matte Black</option><option value="Polished Ebony">Polished Ebony</option></select><a class="reset_variations" href="#">Clear</a>						</td>
-					</tr>
-							</tbody>
-		</table>
-		
-		<div class="single_variation_wrap">
-			<div class="woocommerce-variation single_variation"></div><div class="woocommerce-variation-add-to-cart variations_button">
-	
-	<div class="quantity">
-		<label class="screen-reader-text" for="quantity_6a874297f1410">Clavinova CVP-701 quantity</label>
-	<input type="number" id="quantity_6a874297f1410" class="input-text qty text" name="quantity" value="1" aria-label="Product quantity" size="4" min="1" max="" step="1" placeholder="" inputmode="numeric" autocomplete="off">
-	</div>
-
-	<button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
-
-	
-	<input type="hidden" name="add-to-cart" value="966">
-	<input type="hidden" name="product_id" value="966">
-	<input type="hidden" name="variation_id" class="variation_id" value="0">
-</div>
-		</div>
-	
-	</form>
+<p class="pd-call-to-buy">Call or text <a href="tel:+15703525501">570-352-5501</a> or <a href="/contact-us/">contact us</a> about this piano.</p>
 
 		</div>
 

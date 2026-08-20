@@ -44,6 +44,9 @@ function pd_convert_one(string $urlPath, bool $writeChrome): void
         return;
     }
     $parts = pd_split_oceanwp($html);
+    if (str_starts_with($urlPath, '/product/')) {
+        $parts['main'] = pd_replace_add_to_cart($parts['main'], pd_config());
+    }
     if ($writeChrome) {
         file_put_contents(PD_ROOT . '/partials/header.php', pd_build_header_php($parts));
         file_put_contents(PD_ROOT . '/partials/footer.php', pd_build_footer_php($parts));
