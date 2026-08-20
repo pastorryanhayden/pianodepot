@@ -181,7 +181,7 @@ function pd_extract_local_urls(string $htmlOrCss, string $baseUrl): array
 {
     $candidates = [];
 
-    if (preg_match_all('/\b(?:href|src|poster)\s*=\s*(["\'])(.*?)\1/i', $htmlOrCss, $m)) {
+    if (preg_match_all('/\b(?:href|src|poster|data-mp4|data-webm|data-ogv)\s*=\s*(["\'])(.*?)\1/i', $htmlOrCss, $m)) {
         foreach ($m[2] as $raw) {
             $candidates[] = $raw;
         }

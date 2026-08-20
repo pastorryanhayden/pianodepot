@@ -36,6 +36,15 @@ sort($found);
 expect(in_array('https://pianodepot.com/wp-content/themes/oceanwp/assets/css/style.min.css', $found, true), 'css from link');
 expect(in_array('https://pianodepot.com/wp-content/uploads/2021/03/piano_depot.png', $found, true), 'img src');
 
+$videoFound = pd_extract_local_urls(
+    '<rs-bgvideo data-mp4="/wp-content/uploads/2021/06/Yamaha-Banner-Background-short-No-Text-2.mp4"></rs-bgvideo>',
+    'https://pianodepot.com/'
+);
+expect(
+    in_array('https://pianodepot.com/wp-content/uploads/2021/06/Yamaha-Banner-Background-short-No-Text-2.mp4', $videoFound, true),
+    'data-mp4 background video'
+);
+
 $cssFound = pd_extract_local_urls(
     'body{background:url("../uploads/2021/03/piano_depot.png")}',
     'https://pianodepot.com/wp-content/themes/oceanwp/assets/css/style.min.css'
