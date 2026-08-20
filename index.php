@@ -112,14 +112,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-43630a70" data-id="43630a70" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-875736e elementor-widget elementor-widget-image" data-id="875736e" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="768" height="432" src="/wp-content/uploads/2025/10/PNO1304698_HOL25_KBD_DlrBan_1920x1080_Disclaimer_Hands-768x432.jpg" class="attachment-medium_large size-medium_large wp-image-3304" alt="Fall 2025 Yamaha Promotion" loading="lazy" srcset="/wp-content/uploads/2025/10/PNO1304698_HOL25_KBD_DlrBan_1920x1080_Disclaimer_Hands-768x432.jpg 768w, /wp-content/uploads/2025/10/PNO1304698_HOL25_KBD_DlrBan_1920x1080_Disclaimer_Hands-300x169.jpg 300w, /wp-content/uploads/2025/10/PNO1304698_HOL25_KBD_DlrBan_1920x1080_Disclaimer_Hands-1024x576.jpg 1024w, /wp-content/uploads/2025/10/PNO1304698_HOL25_KBD_DlrBan_1920x1080_Disclaimer_Hands-800x450.jpg 800w, /wp-content/uploads/2025/10/PNO1304698_HOL25_KBD_DlrBan_1920x1080_Disclaimer_Hands-600x338.jpg 600w, /wp-content/uploads/2025/10/PNO1304698_HOL25_KBD_DlrBan_1920x1080_Disclaimer_Hands.jpg 1200w" sizes="(max-width: 768px) 100vw, 768px">															</div>
-				</div>
-				<div class="elementor-element elementor-element-e9274c5 elementor-widget elementor-widget-heading" data-id="e9274c5" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-small"><b><span style='color: rgb(27, 39, 51); font-family: -apple-system, BlinkMacSystemFont, Aptos, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 19.8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-align: start; white-space-collapse: collapse; transition-duration: 0s !important;'>* Subject to credit approval. 24 monthly payments of $41.67 per $1,000 financed at 0.00% APR. On purchases of new and in-stock qualifying Yamaha pianos from October 30, 2025 to January 5, 2026.</span></b></p>		</div>
-				</div>
 				<div class="elementor-element elementor-element-1bc968ec elementor-widget elementor-widget-heading" data-id="1bc968ec" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 			<h1 class="elementor-heading-title elementor-size-default">Piano Sales in Olyphant, PA – Quality Pianos for Every Player</h1>		</div>
