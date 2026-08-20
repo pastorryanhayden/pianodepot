@@ -37,3 +37,17 @@ expect(in_array('/wp-content/uploads/elementor/css/post-3068.css', $parts['extra
 expect(!in_array('/wp-content/themes/oceanwp/assets/css/style.min.css', $parts['extra_css'], true), 'shared css is not extra');
 expect(pd_is_shared_stylesheet('/wp-content/themes/oceanwp/assets/css/style.min.css') === true, 'theme css is shared');
 expect(pd_is_shared_stylesheet('/wp-content/uploads/elementor/css/post-3068.css') === false, 'post css is not shared');
+
+$written = pd_page_php(
+    [
+        'title' => 'Contact Piano Depot | Piano Store in Olyphant, PA',
+        'description' => 'Call us',
+        'extra_css' => ['/wp-content/uploads/elementor/css/post-11.css'],
+        'main' => '<main id="main">contact body</main>',
+    ]
+);
+expect(str_contains($written, "require \$_SERVER['DOCUMENT_ROOT'] . '/partials/config.php';") || str_contains($written, "require_once \$_SERVER['DOCUMENT_ROOT'] . '/partials/config.php';"), 'config include');
+expect(str_contains($written, "require \$_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';") || str_contains($written, "require_once \$_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';"), 'header include');
+expect(str_contains($written, "require \$_SERVER['DOCUMENT_ROOT'] . '/partials/footer.php';") || str_contains($written, "require_once \$_SERVER['DOCUMENT_ROOT'] . '/partials/footer.php';"), 'footer include');
+expect(str_contains($written, 'contact body'), 'body');
+expect(str_contains($written, "post-11.css"), 'extra css');

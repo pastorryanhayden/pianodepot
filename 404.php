@@ -1,16 +1,12 @@
 <?php
 http_response_code(404);
-$cfg = function_exists('pd_config') ? pd_config() : ['site_name' => 'Piano Depot'];
+require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/config.php';
 $page = [
     'title' => 'Page not found | Piano Depot',
     'description' => 'That page is not on Piano Depot.',
     'extra_css' => [],
 ];
-if (defined('PD_ROOT') && is_file(PD_ROOT . '/partials/header.php')) {
-    require PD_ROOT . '/partials/header.php';
-} else {
-    echo '<!DOCTYPE html><html><head><title>' . htmlspecialchars($page['title']) . '</title></head><body>';
-}
+require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 ?>
 <main id="main" class="site-main clr" role="main">
     <div id="content-wrap" class="container clr">
@@ -23,9 +19,4 @@ if (defined('PD_ROOT') && is_file(PD_ROOT . '/partials/header.php')) {
         </ul>
     </div>
 </main>
-<?php
-if (defined('PD_ROOT') && is_file(PD_ROOT . '/partials/footer.php')) {
-    require PD_ROOT . '/partials/footer.php';
-} else {
-    echo '</body></html>';
-}
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/footer.php'; ?>
