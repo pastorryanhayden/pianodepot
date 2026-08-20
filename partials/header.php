@@ -1,5 +1,6 @@
 <?php
 /** @var array $page */
+require_once PD_ROOT . '/partials/form.php';
 $cfg = pd_config();
 $title = htmlspecialchars($page['title'] ?? $cfg['site_name'], ENT_QUOTES);
 $description = htmlspecialchars($page['description'] ?? '', ENT_QUOTES);
@@ -221,6 +222,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 <?php endforeach; ?>
 </head>
 <body class="home page-template-default page page-id-3068 wp-custom-logo wp-embed-responsive theme-oceanwp woocommerce-no-js oceanwp-theme sidebar-mobile no-header-border content-full-screen has-topbar page-with-background-title page-header-disabled has-breadcrumbs has-fixed-footer has-grid-list account-original-style wpb-js-composer js-comp-ver-6.6.0 vc_responsive elementor-default elementor-kit-10 elementor-page elementor-page-3068">
+<?php echo pd_form_banner_html(); ?>
 <div id="outer-wrap" class="site clr">
 <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
 <div id="wrap" class="clr">

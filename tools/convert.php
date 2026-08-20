@@ -1,6 +1,7 @@
 <?php
 
 require_once dirname(__DIR__) . '/partials/config.php';
+require_once dirname(__DIR__) . '/partials/form.php';
 require_once __DIR__ . '/lib.php';
 
 function pd_pages_from_markdown(string $file): array
@@ -46,6 +47,9 @@ function pd_convert_one(string $urlPath, bool $writeChrome): void
     $parts = pd_split_oceanwp($html);
     if (str_starts_with($urlPath, '/product/')) {
         $parts['main'] = pd_replace_add_to_cart($parts['main'], pd_config());
+    }
+    if (in_array($urlPath, ['/contact-us/', '/contact-us', '/piano-moving-form/', '/piano-moving-form', '/apply-for-credit-at-pianodepot-com/', '/apply-for-credit-at-pianodepot-com'], true)) {
+        $parts['main'] = pd_wire_form($parts['main'], $urlPath);
     }
     if ($writeChrome) {
         file_put_contents(PD_ROOT . '/partials/header.php', pd_build_header_php($parts));

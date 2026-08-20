@@ -480,6 +480,7 @@ function pd_build_header_php(array $parts): string
     return <<<PHP
 <?php
 /** @var array \$page */
+require_once PD_ROOT . '/partials/form.php';
 \$cfg = pd_config();
 \$title = htmlspecialchars(\$page['title'] ?? \$cfg['site_name'], ENT_QUOTES);
 \$description = htmlspecialchars(\$page['description'] ?? '', ENT_QUOTES);
@@ -498,6 +499,7 @@ function pd_build_header_php(array $parts): string
 <?php endforeach; ?>
 </head>
 <body class="{$bodyClass}">
+<?php echo pd_form_banner_html(); ?>
 {$chrome}
 
 PHP;
