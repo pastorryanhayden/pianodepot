@@ -36,7 +36,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 		.product-inner .woo-entry-inner > li { list-style: none !important; }
 		.product-inner .image-wrap { order: 0; margin: 0 0 20px !important; }
 		.product-inner .image-wrap .woo-entry-image { margin: 0 !important; overflow: hidden; background: #f3f3f3; }
-		.product-inner .image-wrap img { display: block; width: 100% !important; height: 260px !important; margin: 0 !important; object-fit: cover; }
+		.product-inner .image-wrap img { display: block; width: 100% !important; height: 330px !important; margin: 0 !important; padding: 12px; box-sizing: border-box; object-fit: contain; object-position: center; background: #f3f3f3; }
 		.product-inner .image-wrap img.woo-entry-image-secondary { display: none !important; }
 		.owp-quick-view { display: none !important; }
 		.product-inner .category, .product-inner .title, .product-inner .woo-desc, .product-inner .price-wrap { padding-right: 22px !important; padding-left: 22px !important; text-align: left !important; }
@@ -55,7 +55,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 		.pianos-catalog-cta a { display: inline-block; margin: 4px; padding: 12px 20px; color: #fff; background: #b11f24; font-weight: 800; text-decoration: none; }
 		.pianos-catalog-cta a:hover, .pianos-catalog-cta a:focus { background: #94191e; }
 		@media (max-width: 900px) { ul.products.oceanwp-row { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-		@media (max-width: 600px) { .page-header.background-image-page-header { padding: 116px 18px 30px; } .page-header .page-header-title { font-size: 42px !important; } .pianos-catalog-intro { margin: 0 18px 28px; padding: 26px 24px; } #content-wrap { padding: 0 18px 42px; } ul.products.oceanwp-row { grid-template-columns: 1fr; } .product-inner .image-wrap img { height: auto !important; max-height: 380px; object-fit: contain; } .pianos-catalog-cta { margin: 0 18px 42px; padding: 26px 22px; } }
+		@media (max-width: 600px) { .page-header.background-image-page-header { padding: 116px 18px 30px; } .page-header .page-header-title { font-size: 42px !important; } .pianos-catalog-intro { margin: 0 18px 28px; padding: 26px 24px; } #content-wrap { padding: 0 18px 42px; } ul.products.oceanwp-row { grid-template-columns: 1fr; } .product-inner .image-wrap img { height: 300px !important; } .pianos-catalog-cta { margin: 0 18px 42px; padding: 26px 22px; } }
 	</style>
 
 				
