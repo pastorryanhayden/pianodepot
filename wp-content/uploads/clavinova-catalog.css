@@ -16,6 +16,7 @@
 .clavinova-series__heading h2 { margin: 0 0 8px; color: #222; font-size: 36px; }
 .clavinova-series__heading p { margin: 0; color: #555; font-size: 17px; line-height: 1.65; }
 .clavinova-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.clavinova-sale .clavinova-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .clavinova-card { display: flex; flex-direction: column; min-width: 0; background: #fff; border: 1px solid #e1e1e1; box-shadow: 0 4px 16px rgba(0,0,0,.09); }
 .clavinova-card__image { display: flex; align-items: center; justify-content: center; height: 310px; padding: 14px; box-sizing: border-box; background: #f3f3f3; }
 .clavinova-card__image img { display: block; width: 100%; height: 100%; object-fit: contain; }
@@ -25,9 +26,12 @@
 .clavinova-card__body > p:not(.clavinova-card__series):not(.clavinova-card__price) { margin: 0 0 18px; color: #555; line-height: 1.6; }
 .clavinova-card__price { margin: auto 0 16px !important; color: #222 !important; font-size: 22px; font-weight: 800; }
 .clavinova-card__price span { display: block; margin-bottom: 2px; color: #777; font-size: 12px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
+.clavinova-sale__finish { margin: 0 0 14px !important; color: #555 !important; font-size: 17px; font-weight: 700; }
+.clavinova-sale__regular { margin: auto 0 5px !important; color: #777 !important; font-size: 15px; }
+.clavinova-sale__regular del { margin-left: 5px; }
 .clavinova-card__link { display: block; padding: 11px 14px; color: #fff !important; background: #b11f24; font-weight: 800; text-align: center; text-decoration: none; }
 .clavinova-price-note { margin-top: 44px; padding: 30px 34px; background: #f6f3ed; border-left: 5px solid #b11f24; }
 .clavinova-price-note h2 { margin: 0 0 8px; color: #222; }
 .clavinova-price-note p { margin: 0; color: #4b4b4b; line-height: 1.65; }
-@media (max-width: 900px) { .clavinova-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } .clavinova-hero, .clavinova-catalog__content, .clavinova-series-nav { margin-right: 22px; margin-left: 22px; } }
-@media (max-width: 600px) { .clavinova-hero { margin-top: 28px; padding: 36px 25px; } .clavinova-hero h1 { font-size: 42px; } .clavinova-hero > p:not(.clavinova-kicker) { font-size: 17px; } .clavinova-grid { grid-template-columns: 1fr; } .clavinova-card__image { height: 300px; } .clavinova-catalog__content, .clavinova-series-nav { margin-right: 18px; margin-left: 18px; } }
+@media (max-width: 900px) { .clavinova-grid, .clavinova-sale .clavinova-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } .clavinova-hero, .clavinova-catalog__content, .clavinova-series-nav { margin-right: 22px; margin-left: 22px; } }
+@media (max-width: 600px) { .clavinova-hero { margin-top: 28px; padding: 36px 25px; } .clavinova-hero h1 { font-size: 42px; } .clavinova-hero > p:not(.clavinova-kicker) { font-size: 17px; } .clavinova-grid, .clavinova-sale .clavinova-grid { grid-template-columns: 1fr; } .clavinova-card__image { height: 300px; } .clavinova-catalog__content, .clavinova-series-nav { margin-right: 18px; margin-left: 18px; } }
