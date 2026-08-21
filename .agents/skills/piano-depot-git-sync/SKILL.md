@@ -10,7 +10,7 @@ Use the Git repository containing this skill as the working repository. Resolve 
 ## Before changing files
 
 1. Confirm the repository root, current branch, remote URL, and working-tree status.
-2. Require `main` and `origin` set to `https://github.com/pastorryanhayden/pianodepot.git`. Stop and report any mismatch.
+2. Require `main` and `origin` set to the SSH URL `git@github.com:pastorryanhayden/pianodepot.git`. Use the user's terminal SSH authentication for fetches and pushes; do not open GitHub Desktop. Stop and report any mismatch.
 3. If unrelated local changes or an unresolved merge are present, preserve them and stop for the user's direction.
 4. Fetch `origin`, then update with `git pull --ff-only origin main`. Never use a destructive reset or force pull. If the pull cannot fast-forward, stop and explain the divergence.
 5. Recheck status before editing.
