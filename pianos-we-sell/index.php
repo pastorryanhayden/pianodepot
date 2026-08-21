@@ -12,6 +12,51 @@ $page = [
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 ?>
 <main id="main" class="site-main clr" role="main">
+	<style>
+		.page-header.background-image-page-header { height: auto !important; min-height: 0; padding: 136px 0 42px; background: #fff !important; background-image: none !important; }
+		.page-header.background-image-page-header .background-image-page-header-overlay { display: none; }
+		.page-header .page-header-inner { position: relative; z-index: 1; margin: 0 auto !important; }
+		.page-header .page-header-title { color: #111 !important; font-size: 54px !important; line-height: 1.12; }
+		.page-header .page-subheading { max-width: 680px; margin: 15px auto 0; color: #555 !important; font-size: 19px; line-height: 1.55; }
+		.page-header .site-breadcrumbs, .page-header .site-breadcrumbs a, .page-header .site-breadcrumbs span { color: #666 !important; }
+		.pianos-catalog-intro { max-width: 1160px; margin: 0 auto 36px; padding: 34px 38px; box-sizing: border-box; background: #f6f3ed; border-left: 5px solid #b11f24; }
+		.pianos-catalog-intro h2 { margin: 0 0 10px; color: #222; font-size: 31px; }
+		.pianos-catalog-intro p { max-width: 820px; margin: 0 0 22px; font-size: 18px; line-height: 1.65; }
+		.piano-category-links { display: flex; flex-wrap: wrap; gap: 10px; }
+		.piano-category-links a { display: inline-block; padding: 10px 15px; color: #222; background: #fff; border: 1px solid #ddd4c7; font-weight: 700; text-decoration: none; }
+		.piano-category-links a:hover, .piano-category-links a:focus { color: #fff; background: #b11f24; border-color: #b11f24; }
+		html body #wrap #main #content-wrap.container { width: calc(100% - 48px) !important; max-width: 1160px !important; margin-right: auto !important; margin-left: auto !important; padding: 0 28px 56px !important; box-sizing: border-box; background: #fff; }
+		#primary { width: 100% !important; }
+		#right-sidebar, .oceanwp-toolbar { display: none !important; }
+		ul.products.oceanwp-row { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin: 0 !important; padding: 0 !important; }
+		ul.products.oceanwp-row > li.product { float: none !important; width: auto !important; min-width: 0; margin: 0 !important; padding: 0 !important; list-style: none !important; background: #fff; border: 1px solid #e1e1e1; box-shadow: 0 4px 16px rgba(0,0,0,.09); transition: transform .2s ease, box-shadow .2s ease; }
+		ul.products.oceanwp-row > li.product:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(0,0,0,.14); }
+		.product-inner > .woo-entry-image { display: none !important; }
+		.product-inner .woo-entry-inner { display: flex !important; flex-direction: column; height: 100%; margin: 0 !important; padding: 0 0 22px !important; }
+		.product-inner .woo-entry-inner > li { list-style: none !important; }
+		.product-inner .image-wrap { order: 0; margin: 0 0 20px !important; }
+		.product-inner .image-wrap .woo-entry-image { margin: 0 !important; overflow: hidden; background: #f3f3f3; }
+		.product-inner .image-wrap img { display: block; width: 100% !important; height: 260px !important; margin: 0 !important; object-fit: cover; }
+		.product-inner .image-wrap img.woo-entry-image-secondary { display: none !important; }
+		.owp-quick-view { display: none !important; }
+		.product-inner .category, .product-inner .title, .product-inner .woo-desc, .product-inner .price-wrap { padding-right: 22px !important; padding-left: 22px !important; text-align: left !important; }
+		.product-inner .category { order: 1; margin: 0 0 8px !important; color: #b11f24; font-size: 12px; font-weight: 800; letter-spacing: .08em; line-height: 1.4; text-transform: uppercase; }
+		.product-inner .category a { color: #b11f24 !important; }
+		.product-inner .title { order: 2; margin: 0 0 12px !important; }
+		.product-inner .title h2 { margin: 0 !important; font-size: 23px !important; line-height: 1.25; }
+		.product-inner .title a { color: #222 !important; }
+		.product-inner .woo-desc { display: -webkit-box !important; order: 3; overflow: hidden; margin: 0 0 16px !important; color: #555; font-size: 15px; line-height: 1.6; -webkit-box-orient: vertical; -webkit-line-clamp: 4; }
+		.product-inner .price-wrap { order: 4; margin-top: auto !important; color: #222; font-size: 18px; font-weight: 800; }
+		.woocommerce-pagination { margin-top: 40px; }
+		.woocommerce-pagination .page-numbers a, .woocommerce-pagination .page-numbers span { border-radius: 0 !important; }
+		.pianos-catalog-cta { max-width: 1160px; margin: 0 auto 58px; padding: 30px 34px; box-sizing: border-box; color: #fff; background: #252525; text-align: center; }
+		.pianos-catalog-cta h2 { margin: 0 0 8px; color: #fff; font-size: 28px; }
+		.pianos-catalog-cta p { margin: 0 0 20px; font-size: 17px; }
+		.pianos-catalog-cta a { display: inline-block; margin: 4px; padding: 12px 20px; color: #fff; background: #b11f24; font-weight: 800; text-decoration: none; }
+		.pianos-catalog-cta a:hover, .pianos-catalog-cta a:focus { background: #94191e; }
+		@media (max-width: 900px) { ul.products.oceanwp-row { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+		@media (max-width: 600px) { .page-header.background-image-page-header { padding: 116px 18px 30px; } .page-header .page-header-title { font-size: 42px !important; } .pianos-catalog-intro { margin: 0 18px 28px; padding: 26px 24px; } #content-wrap { padding: 0 18px 42px; } ul.products.oceanwp-row { grid-template-columns: 1fr; } .product-inner .image-wrap img { height: auto !important; max-height: 380px; object-fit: contain; } .pianos-catalog-cta { margin: 0 18px 42px; padding: 26px 22px; } }
+	</style>
 
 				
 
@@ -35,6 +80,18 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 	<span class="background-image-page-header-overlay"></span>
 	
 </header><!-- .page-header -->
+
+<section class="pianos-catalog-intro" aria-labelledby="pianos-catalog-heading">
+	<h2 id="pianos-catalog-heading">Find the Piano That Fits Your Music</h2>
+	<p>Explore acoustic grands, uprights, digital pianos, and carefully selected used instruments. Our showroom is available by appointment so we can give you time to compare the instruments that best fit your home, church, school, or performance space.</p>
+	<nav class="piano-category-links" aria-label="Browse piano categories">
+		<a href="/acoustic-grand-pianos/">Grand Pianos</a>
+		<a href="/acoustic-upright-pianos/">Upright Pianos</a>
+		<a href="/clavinova-and-hybrid-pianos/">Clavinova &amp; Hybrid</a>
+		<a href="/portable-digital-pianos/">Portable Digital</a>
+		<a href="/used-and-refurbished/">Used &amp; Refurbished</a>
+	</nav>
+</section>
 
 
 
@@ -275,6 +332,13 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 1, '/wp-content/plugins/
 
 
 </div><!-- #content-wrap -->
+
+<section class="pianos-catalog-cta" aria-labelledby="pianos-appointment-heading">
+	<h2 id="pianos-appointment-heading">See and Hear the Right Piano</h2>
+	<p>Call or text ahead to arrange a showroom appointment with Piano Depot in Olyphant.</p>
+	<a href="tel:+15703525501">Call 570-352-5501</a>
+	<a href="/contact-us/">Request an Appointment</a>
+</section>
 
 
 	</main>
