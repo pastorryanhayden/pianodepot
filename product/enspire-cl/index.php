@@ -7,11 +7,14 @@ $page = [
         '/wp-content/uploads/elementor/css/post-349.css',
         '/wp-content/uploads/elementor/css/post-11.css',
         '/wp-content/uploads/elementor/css/post-14.css',
+        '/wp-content/uploads/elementor/css/enspire-products.css',
     ],
 ];
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 ?>
-<main id="main" class="site-main clr" role="main">
+<main id="main" class="site-main clr enspire-product-page" role="main">
+
+<?php $enspireProduct = 'cl'; require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/enspire-series-nav.php'; ?>
 
 				
 
@@ -108,7 +111,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 				
 	<h2>Description</h2>
 
-<p></p><center><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/T9Qv5B1Eb-k" width="625" height="525" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>Disklavier faithfully recreates exclusive performances from Yamaha artists including Sarah McLachlan, Bob James and Jamie Cullum as if they were sitting at your piano. Plus their band, ensemble or symphony will be right there with them in the fully-integrated speakers. Download thousands of performances in all genres of music, from solo piano to piano accompanied by world renowned philharmonic orchestras.
+<p></p><center><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/T9Qv5B1Eb-k" width="625" height="525" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center><p class="enspire-video-intro">Disklavier faithfully recreates exclusive performances from Yamaha artists including Sarah McLachlan, Bob James and Jamie Cullum as if they were sitting at your piano. Plus their band, ensemble or symphony will be right there with them in the fully-integrated speakers. Download thousands of performances in all genres of music, from solo piano to piano accompanied by world renowned philharmonic orchestras.</p>
 <p> </p>
 <p> </p>
 <div id="d800135" class="gc h3-image-left">

@@ -29,7 +29,79 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 <article class="single-page-article clr">
 
 	
-<div class="entry clr" itemprop="text">
+<div class="entry clr disklavier-video-page" itemprop="text">
+	<style>
+		.disklavier-video-page .wpb_video_widget .wpb_video_wrapper {
+			max-width: 230px;
+			margin: 18px auto 28px;
+			aspect-ratio: 16 / 9;
+		}
+		.disklavier-video-page .wpb_video_widget .wpb_video_wrapper iframe {
+			display: block;
+			width: 100% !important;
+			height: 100% !important;
+		}
+		.disklavier-video-page .vc_row-o-content-middle .wpb_video_wrapper {
+			max-width: 330px;
+		}
+		.disklavier-video-page .wpb_video_widget .wpb_video_heading {
+			max-width: 230px;
+			margin: 0 auto 10px;
+			padding: 0;
+			background: transparent;
+			color: #222;
+			font-size: 13px;
+			font-weight: 400;
+			line-height: 1.35;
+			text-align: left;
+		}
+		.disklavier-video-page .disklavier-video-row {
+			display: grid;
+			grid-template-columns: repeat(4, minmax(0, 1fr));
+			gap: 2px !important;
+			width: calc(100% + 100px) !important;
+			margin: 30px -50px 36px !important;
+		}
+		.disklavier-video-page .disklavier-video-card iframe {
+			display: block;
+			width: 100%;
+			aspect-ratio: 16 / 9;
+			border: 0;
+		}
+		.disklavier-video-page .disklavier-video-card {
+			width: 100%;
+			max-width: none;
+			margin: 0 auto;
+		}
+		.disklavier-video-page .disklavier-video-card p {
+			margin: 9px 0 0;
+			font-size: 13px;
+			line-height: 1.35;
+		}
+		.disklavier-video-page .woocommerce + .vc_row {
+			display: none !important;
+		}
+		.disklavier-video-page .disklavier-duplicate-videos {
+			display: none !important;
+		}
+		.disklavier-video-page .vc_btn3-container .vc_btn3 {
+			padding: 0 !important;
+			background: transparent !important;
+			border: 0 !important;
+			border-radius: 0 !important;
+			box-shadow: none !important;
+			color: #1a5fb4 !important;
+			font-size: inherit !important;
+			text-decoration: underline !important;
+		}
+		@media (max-width: 767px) {
+			.disklavier-video-page .disklavier-video-row {
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+				width: 100%;
+				margin: 30px 0 36px;
+			}
+		}
+	</style>
 
 	
 	<div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1623618930050"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -152,7 +224,14 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 
 		</div>
 	</div>
-<div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-color-danger" href="https://usa.yamaha.com/products/musical_instruments/pianos/disklavier/index.html" title="">CLICK HERE FOR DETAILS</a></div></div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-color-danger" href="https://usa.yamaha.com/products/musical_instruments/pianos/disklavier/index.html" title="">CLICK HERE FOR DETAILS</a></div>
+<div class="disklavier-video-row" aria-label="Disklavier videos">
+	<div class="disklavier-video-card"><iframe title="Yamaha Disklavier Enspire Piano A Song Writers Dream Piano using Dorico and Cubase" src="https://www.youtube.com/embed/U1cNpWSI9Nw?feature=oembed" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Yamaha Enspire Piano Is A Song Writers Dream Piano</p></div>
+	<div class="disklavier-video-card"><iframe title="How To Expand An Acoustic Piano With MIDI" src="https://www.youtube.com/embed/Xu36GOKXs5M?feature=oembed" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Expand Your Acoustic Piano With MIDI</p></div>
+	<div class="disklavier-video-card"><iframe title="Best Pianos In The World For Recording Music" src="https://www.youtube.com/embed/kvUFUKFUDC4?feature=oembed" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Enspire Pianos Worlds Best Piano For Recording Music</p></div>
+	<div class="disklavier-video-card"><iframe title="Example of Yamaha Disklavier Smart Key function" src="https://www.youtube.com/embed/hlvBms8IW7o?feature=oembed" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Smart Key Helps Anyone To Play the Piano</p></div>
+</div>
+</div></div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 	<div class="wpb_text_column wpb_content_element ">
 		<div class="wpb_wrapper">
 			<h3 style="text-align: center;">Products</h3>
@@ -206,7 +285,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 </li><li class="category"><a href="/product-category/disklavier-pianos/" rel="tag">Disklavier Pianos</a></li><li class="title"><h2><a href="/product/dkc-900-upgrade-kit/">DKC-900 Upgrade Kit</a></h2></li><li class="price-wrap">
 </li></ul></div><!-- .product-inner .clr --></li>
 </ul>
-</div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
+</div><div class="vc_row wpb_row vc_inner vc_row-fluid disklavier-duplicate-videos" style="display: none !important;"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
 	<div class="wpb_video_widget wpb_content_element vc_clearfix   vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left">
 		<div class="wpb_wrapper">
 			<h2 class="wpb_heading wpb_video_heading">Yamaha Enspire Piano Is A Song Writers Dream Piano</h2>

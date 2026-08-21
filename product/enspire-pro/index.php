@@ -7,11 +7,14 @@ $page = [
         '/wp-content/uploads/elementor/css/post-349.css',
         '/wp-content/uploads/elementor/css/post-11.css',
         '/wp-content/uploads/elementor/css/post-14.css',
+        '/wp-content/uploads/elementor/css/enspire-products.css',
     ],
 ];
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 ?>
-<main id="main" class="site-main clr" role="main">
+<main id="main" class="site-main clr enspire-product-page" role="main">
+
+<?php $enspireProduct = 'pro'; require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/enspire-series-nav.php'; ?>
 
 				
 

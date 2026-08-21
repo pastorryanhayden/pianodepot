@@ -1,8 +1,8 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/config.php';
 $page = [
-    'title' => 'Piano Moving Form - Piano Depot',
-    'description' => '',
+    'title' => 'Piano Moving - Piano Depot',
+    'description' => 'Request a quote for careful piano moving through Piano Depot and our affiliated piano-service team.',
     'extra_css' => [
         '/wp-content/uploads/elementor/css/post-349.css',
         '/wp-content/uploads/elementor/css/post-11.css',
@@ -12,6 +12,9 @@ $page = [
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 ?>
 <main id="main" class="site-main clr" role="main">
+	<style>
+		#field_6_14 { display: none !important; }
+	</style>
 
 				
 
@@ -21,11 +24,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 	<div class="container clr page-header-inner">
 
 		
-			<h1 class="page-header-title clr" itemprop="headline">Piano Moving Form</h1>
+			<h1 class="page-header-title clr" itemprop="headline">Piano Moving</h1>
 
 			
 		
-		<nav role="navigation" aria-label="Breadcrumbs" class="site-breadcrumbs clr position-"><ol class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="2"><meta name="itemListOrder" content="Ascending"><li class="trail-item trail-begin" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="" rel="home" aria-label="Home" itemprop="item"><span itemprop="name"><i class=" icon-home" aria-hidden="true" role="img"></i><span class="breadcrumb-home has-icon">Home</span></span></a><span class="breadcrumb-sep">&gt;</span><meta itemprop="position" content="1"></li><li class="trail-item trail-end" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><span itemprop="name"><a href="/piano-moving-form/">Piano Moving Form</a></span><meta itemprop="position" content="2"></li></ol></nav>
+		<nav role="navigation" aria-label="Breadcrumbs" class="site-breadcrumbs clr position-"><ol class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="2"><meta name="itemListOrder" content="Ascending"><li class="trail-item trail-begin" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/" rel="home" aria-label="Home" itemprop="item"><span itemprop="name"><i class=" icon-home" aria-hidden="true" role="img"></i><span class="breadcrumb-home has-icon">Home</span></span></a><span class="breadcrumb-sep">&gt;</span><meta itemprop="position" content="1"></li><li class="trail-item trail-end" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><span itemprop="name"><a href="/">Back to Home Page</a></span><meta itemprop="position" content="2"></li></ol></nav>
 	</div><!-- .page-header-inner -->
 
 	<span class="background-image-page-header-overlay"></span>
@@ -50,6 +53,101 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 <div class="entry clr" itemprop="text">
 
 	
+        <style>
+            .piano-moving-intro { margin: 0 0 34px; padding: 34px; background: #f6f3ed; border-left: 5px solid #b11f24; }
+            .piano-moving-intro h2 { margin: 0 0 12px; color: #222; font-size: 30px; }
+            .piano-moving-intro p { margin: 0 0 14px; font-size: 18px; line-height: 1.65; }
+            .piano-moving-intro p:last-child { margin-bottom: 0; }
+            .moving-services { margin: 0 0 40px; }
+            .moving-services-heading { margin: 0 0 8px; color: #222; font-size: 29px; }
+            .moving-services-lead { max-width: 800px; margin: 0 0 24px; font-size: 18px; line-height: 1.65; }
+            .moving-slideshow { position: relative; margin: 0 0 34px; overflow: hidden; background: #252525; box-shadow: 0 3px 12px rgba(0,0,0,.18); }
+            .moving-slide { display: none; margin: 0; }
+            .moving-slide.is-active { display: block; }
+            .moving-slide img { display: block; width: 100%; height: 410px; object-fit: contain; background: #252525; }
+            .moving-slide figcaption { padding: 14px 18px; color: #fff; font-size: 18px; font-weight: 700; line-height: 1.35; }
+            .moving-slideshow-controls { position: absolute; right: 14px; bottom: 60px; display: flex; gap: 8px; }
+            .moving-slideshow-controls button { padding: 9px 13px; border: 0; color: #fff; background: #b11f24; font-weight: 700; cursor: pointer; }
+            .moving-slideshow-controls button:hover, .moving-slideshow-controls button:focus { background: #8d181c; }
+            .moving-services-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+            .moving-service-card { padding: 25px; background: #fff; border-top: 4px solid #b11f24; box-shadow: 0 3px 12px rgba(0,0,0,.08); }
+            .moving-service-card h3 { margin: 0 0 10px; color: #222; font-size: 23px; }
+            .moving-service-card p { margin: 0; line-height: 1.65; }
+            .moving-service-note { margin: 26px 0 0; padding: 24px 28px; color: #fff; background: #252525; }
+            .moving-service-note h3 { margin: 0 0 8px; color: #fff; font-size: 23px; }
+            .moving-service-note p { margin: 0; line-height: 1.65; }
+            #gform_wrapper_6 { padding: 30px; background: #fff; border: 1px solid #ddd; box-shadow: 0 3px 12px rgba(0,0,0,.08); }
+            #gform_wrapper_6 .gform_title { color: #b11f24; font-size: 28px; }
+            @media (max-width: 700px) { .moving-services-grid { grid-template-columns: 1fr; } .moving-slide img { height: 280px; } }
+            @media (max-width: 600px) { .piano-moving-intro, .moving-service-card, .moving-service-note, #gform_wrapper_6 { padding: 22px; } }
+        </style>
+        <div class="moving-slideshow" aria-label="Piano Depot moving equipment">
+            <figure class="moving-slide is-active">
+                <img src="https://www.pianoorgandepot.com/JPG/Piano-Moving/Ford-All-Terrain.jpg" alt="Piano Depot all-terrain piano truck">
+                <figcaption>Custom all-terrain piano truck</figcaption>
+            </figure>
+            <figure class="moving-slide">
+                <img src="https://www.pianoorgandepot.com/JPG/Full-truck-Sign-On-Truck.jpg" alt="Piano Depot regular delivery truck">
+                <figcaption>Regular delivery truck</figcaption>
+            </figure>
+            <figure class="moving-slide">
+                <img src="https://www.pianoorgandepot.com/JPG/Piano-Moving/Van-Trailer-1.jpg" alt="Long-distance piano moving trailer">
+                <figcaption>Long-distance piano moving</figcaption>
+            </figure>
+            <div class="moving-slideshow-controls">
+                <button type="button" class="moving-slide-previous" aria-label="Show previous photo">Previous</button>
+                <button type="button" class="moving-slide-next" aria-label="Show next photo">Next</button>
+            </div>
+        </div>
+        <div class="piano-moving-intro">
+            <h2>Careful Piano Moving, Backed by Family Experience</h2>
+            <p>For three generations, our family has worked in the piano business. We understand that every piano deserves careful planning, proper handling, and respect from pickup through delivery.</p>
+            <p>Piano Depot works with an affiliated piano-service team for moving needs. Whether your piano is moving across the room, across town, or to a new home, tell us about it below and we will help you begin with a quote.</p>
+            <p><strong>Need tuning or refurbishment, too?</strong> We can help you coordinate those services as part of caring for your piano.</p>
+        </div>
+        <section class="moving-services" aria-labelledby="moving-services-heading">
+            <h2 id="moving-services-heading" class="moving-services-heading">A Piano Move Planned Around Your Piano</h2>
+            <p class="moving-services-lead">Every move is different. We begin with the piano, the two locations, and the details that make the move safe—from steps and doorways to a rural driveway or a long-distance destination.</p>
+            <div class="moving-services-grid">
+                <section class="moving-service-card">
+                    <h3>Specialized Moving Equipment</h3>
+                    <p>Our piano-moving service is equipped for the situations ordinary household moving does not cover. We plan for stairs, tight access, and difficult approaches so a piano can be moved with proper care.</p>
+                </section>
+                <section class="moving-service-card">
+                    <h3>Technician Advantage</h3>
+                    <p>A piano is a musical instrument as well as a piece of furniture. Our moving process is connected with experienced piano-service professionals who understand the special care a spinet, upright, console, or grand requires.</p>
+                </section>
+                <section class="moving-service-card">
+                    <h3>Storage and Refurbishing</h3>
+                    <p>If a home is being renovated or a piano needs attention before delivery, we can help coordinate climate-controlled storage, touch-up work, refurbishing, and tuning as part of a complete plan.</p>
+                </section>
+                <section class="moving-service-card">
+                    <h3>Local and Long-Distance Moves</h3>
+                    <p>Whether your piano is staying nearby or traveling to another state, we can help arrange a careful move. For longer distances, our service network helps us plan the route and delivery details.</p>
+                </section>
+            </div>
+            <div class="moving-service-note">
+                <h3>Tell Us the Details</h3>
+                <p>The quote form below asks about the piano, steps, access, timing, and both locations. The more we know at the start, the better we can prepare a move that protects your piano.</p>
+            </div>
+        </section>
+        <script>
+            (function () {
+                var slideshow = document.querySelector('.moving-slideshow');
+                if (!slideshow) return;
+                var slides = Array.prototype.slice.call(slideshow.querySelectorAll('.moving-slide'));
+                var current = 0;
+                var show = function (index) {
+                    current = (index + slides.length) % slides.length;
+                    slides.forEach(function (slide, slideIndex) {
+                        slide.classList.toggle('is-active', slideIndex === current);
+                    });
+                };
+                slideshow.querySelector('.moving-slide-previous').addEventListener('click', function () { show(current - 1); });
+                slideshow.querySelector('.moving-slide-next').addEventListener('click', function () { show(current + 1); });
+                window.setInterval(function () { show(current + 1); }, 6000);
+            }());
+        </script>
 	<div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
                 <div class="gf_browser_unknown gform_wrapper gravity-theme gform-theme--no-framework" data-form-theme="gravity-theme" data-form-index="0" id="gform_wrapper_6">
                         <div class="gform_heading">

@@ -1,0 +1,40 @@
+/* Clean local presentation for the three Yamaha Disklavier ENSPIRE pages. */
+.enspire-product-page > .page-header { display:none; }
+.enspire-product-page #content-wrap { display:grid; grid-template-columns:minmax(0,1fr) minmax(320px,360px); gap:36px; max-width:1180px; margin:0 auto; padding:42px 28px 56px; }
+.enspire-product-page #primary,.enspire-product-page #content,.enspire-product-page article { min-width:0; width:auto!important; float:none!important; }
+.enspire-product-page #product-1859,.enspire-product-page #product-1781,.enspire-product-page #product-1746 { display:grid; grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr); gap:30px 42px; }
+.enspire-product-page .owp-product-nav-wrap,.enspire-product-page .related.products { display:none; }
+.enspire-product-page .woocommerce-product-gallery { float:none!important; width:auto!important; margin:0!important; opacity:1!important; }
+.enspire-product-page .woocommerce-product-gallery__wrapper,.enspire-product-page .woocommerce-product-gallery__image,.enspire-product-page .woocommerce-product-gallery__image a { display:block; }
+.enspire-product-page .woocommerce-product-gallery img { display:block; width:100%; max-height:410px; object-fit:contain; background:#f5f4f1; }
+.enspire-product-page .summary { float:none!important; width:auto!important; margin:0!important; align-self:center; }
+.enspire-product-page .product_title { margin:0 0 14px; color:#171717; font-size:2rem; }
+.enspire-product-page .woocommerce-product-details__short-description p { margin:0 0 16px; color:#333; font-size:1rem; line-height:1.65; }
+.enspire-product-page .pd-call-to-buy,.enspire-product-page .woocommerce-info { margin:18px 0 0; padding:14px 16px; border-left:4px solid #e11; background:#f6f6f6; color:#222; line-height:1.5; }
+.enspire-product-page .woocommerce-tabs { grid-column:1 / -1; margin-top:6px; }
+.enspire-product-page .wc-tabs { display:flex; gap:8px; margin:0 0 24px; padding:0; list-style:none; border-bottom:2px solid #e11; }
+.enspire-product-page .wc-tabs a { display:block; padding:10px 14px; color:#111!important; font-weight:700; text-decoration:none; }
+.enspire-product-page .wc-tabs a:hover { color:#d00!important; }
+.enspire-product-page .woocommerce-Tabs-panel { margin:0 0 34px; color:#2d2d2d; line-height:1.65; }
+.enspire-product-page .woocommerce-Tabs-panel h2,.enspire-product-page .woocommerce-Tabs-panel h3 { color:#171717; margin:30px 0 10px; }
+.enspire-product-page .woocommerce-Tabs-panel .gc { max-width:630px; margin:42px auto; text-align:center; }
+.enspire-product-page .woocommerce-Tabs-panel .gc .heading { text-align:center!important; }
+.enspire-product-page .woocommerce-Tabs-panel .gc .clearfix { display:block; }
+.enspire-product-page .woocommerce-Tabs-panel .gc .media-image { float:none!important; margin:0 auto 16px!important; }
+.enspire-product-page .woocommerce-Tabs-panel .gc .media-image img { display:block; width:100%; max-width:560px; height:auto; margin:0 auto; }
+.enspire-product-page .woocommerce-Tabs-panel .gc .description { margin:0; text-align:center; }
+.enspire-product-page #tab-description > .heading { max-width:630px; margin:42px auto 10px; text-align:center!important; }
+.enspire-product-page #tab-description > .clearfix { max-width:630px; margin:0 auto 42px; text-align:center; }
+.enspire-product-page #tab-description > .clearfix .media-image { float:none!important; margin:0 auto 16px!important; }
+.enspire-product-page #tab-description > .clearfix .media-image img { display:block; width:100%; max-width:560px; height:auto; margin:0 auto; }
+.enspire-product-page #tab-description > .clearfix .description { margin:0; text-align:center; }
+.enspire-product-page .woocommerce-Tabs-panel iframe { display:block; width:100%; max-width:720px; height:auto; aspect-ratio:16 / 9; margin:0 auto 20px; }
+.enspire-product-page .enspire-video-intro { max-width:720px; margin:0 auto 34px; text-align:center; line-height:1.65; }
+.enspire-product-page .woocommerce-product-attributes { width:100%; border-collapse:collapse; }
+.enspire-product-page .woocommerce-product-attributes th,.enspire-product-page .woocommerce-product-attributes td { padding:12px; border:1px solid #ddd; text-align:left; }
+.enspire-product-page #right-sidebar { align-self:start; min-width:0; width:auto!important; float:none!important; padding:20px; background:#f7f7f7; border-top:4px solid #e11; }
+.enspire-product-page #right-sidebar-inner { width:auto!important; }
+.enspire-product-page #right-sidebar h3 { margin-top:0; color:#171717!important; background:none!important; padding:0!important; text-align:left; }
+.enspire-product-page #right-sidebar input,.enspire-product-page #right-sidebar select,.enspire-product-page #right-sidebar textarea { width:100%; box-sizing:border-box; }
+.enspire-product-page #right-sidebar .gform_validation_container { display:none!important; }
+@media (max-width:860px) { .enspire-product-page #content-wrap { display:block; padding:30px 20px 46px; } .enspire-product-page #product-1859,.enspire-product-page #product-1781,.enspire-product-page #product-1746 { display:block; } .enspire-product-page .woocommerce-product-gallery { margin-bottom:28px!important; } .enspire-product-page #right-sidebar { margin-top:34px; } }

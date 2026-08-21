@@ -7,11 +7,14 @@ $page = [
         '/wp-content/uploads/elementor/css/post-349.css',
         '/wp-content/uploads/elementor/css/post-11.css',
         '/wp-content/uploads/elementor/css/post-14.css',
+        '/wp-content/uploads/elementor/css/enspire-products.css',
     ],
 ];
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 ?>
-<main id="main" class="site-main clr" role="main">
+<main id="main" class="site-main clr enspire-product-page" role="main">
+
+<?php $enspireProduct = 'st'; require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/enspire-series-nav.php'; ?>
 
 				
 
@@ -108,7 +111,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 				
 	<h2>Description</h2>
 
-<p></p><center><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/T9Qv5B1Eb-k" width="625" height="525" frameborder="0" allowfullscreen="allowfullscreen"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start">﻿</span></iframe></center>No two artists are alike. Disklavier features two patented systems that work together to recreate the intangible, human variations that other reproducing pianos can’t. Our Optical Sensor System continuously measures the subtle movements of each key, hammer and pedal, while our AccuPlay Technology interprets every detail in real time and adjusts to faithfully reproduce each note.
+<p></p><center><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/T9Qv5B1Eb-k" width="625" height="525" frameborder="0" allowfullscreen="allowfullscreen"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start">﻿</span></iframe></center><p class="enspire-video-intro">No two artists are alike. Disklavier features two patented systems that work together to recreate the intangible, human variations that other reproducing pianos can’t. Our Optical Sensor System continuously measures the subtle movements of each key, hammer and pedal, while our AccuPlay Technology interprets every detail in real time and adjusts to faithfully reproduce each note.</p>
 <p> </p>
 <h3 class="heading" style="text-align: center;">Technologically Discreet, Acoustically Elegant</h3>
 <div class="clearfix">

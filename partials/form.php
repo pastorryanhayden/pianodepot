@@ -18,7 +18,7 @@ function pd_validate_form(array $post): array
     if (pd_post_get($post, 'website') !== '') {
         return ['status' => 'honeypot', 'errors' => [], 'subject' => '', 'body' => ''];
     }
-    if ($kind === 'contact' && pd_post_get($post, 'input_4') !== '') {
+    if ($kind === 'contact' && pd_post_get($post, 'input_6') !== '') {
         return ['status' => 'honeypot', 'errors' => [], 'subject' => '', 'body' => ''];
     }
 
@@ -135,6 +135,8 @@ function pd_wire_form(string $html, string $path): string
         $html,
         1
     ) ?? $html;
+
+    $html = '<style>.gform_validation_container{display:none!important}</style>' . $html;
 
     return $html;
 }
