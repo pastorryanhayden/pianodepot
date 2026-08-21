@@ -9,6 +9,7 @@
 			<a href="/acoustic-silent-trans-acoustic-pianos/">Silent &amp; TransAcoustic</a>
 			<a href="/acoustic-upright-pianos/">Upright Pianos</a>
 			<a href="/clavinova-and-hybrid-pianos/">Clavinova &amp; Hybrid</a>
+			<a href="/clavinova-sale/">Clavinova Sale</a>
 			<a href="/portable-digital-pianos/">Portable Digital</a>
 			<a href="/workstation-keyboards/">Workstations</a>
 			<a href="/used-and-refurbished/">Used &amp; Refurbished</a>

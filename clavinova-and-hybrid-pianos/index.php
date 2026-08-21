@@ -9,9 +9,13 @@ $page = [
         '/wp-content/uploads/elementor/css/post-14.css',
         '/wp-content/uploads/elementor/css/post-10.css',
         '/wp-content/uploads/piano-depot-category-pages.css',
+        '/wp-content/uploads/clavinova-catalog.css',
     ],
 ];
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/partials/clavinova-current-catalog.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/footer.php';
+return;
 ?>
 <main id="main" class="site-main clr" role="main">
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/partials/pianos-category-nav.php'; ?>
