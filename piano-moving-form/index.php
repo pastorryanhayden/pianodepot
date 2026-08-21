@@ -135,7 +135,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
                 <h3>Local and Regional Service Area</h3>
                 <div class="moving-service-area-layout">
                     <div>
-                        <p>We serve Northeastern Pennsylvania, including the Scranton–Wilkes-Barre and Pocono areas, and the Binghamton Tri-Cities area. Depending on the instrument and move, we can also provide or coordinate service in:</p>
+                        <p>We serve Northeastern Pennsylvania, including the Scranton–Wilkes-Barre and Pocono areas, the Binghamton Tri-Cities area, and the eastern corridor north from South Carolina. Depending on the instrument and move, we can also provide or coordinate service in:</p>
                         <ul aria-label="Regional piano moving service states">
                             <li>Pennsylvania</li>
                             <li>New York</li>
@@ -144,11 +144,15 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
                             <li>Maryland</li>
                             <li>Delaware</li>
                             <li>Connecticut</li>
+                            <li>North Carolina</li>
+                            <li>Virginia</li>
+                            <li>West Virginia</li>
+                            <li>South Carolina</li>
                         </ul>
                         <p>Need to move farther? Tell us the destination. Our long-distance network can help coordinate moves beyond this region.</p>
                     </div>
                     <figure class="moving-service-map">
-                        <img src="/wp-content/uploads/piano-moving/regional-service-area-map.svg" alt="United States map highlighting Pennsylvania, New York, New Jersey, Ohio, Maryland, Delaware, and Connecticut in red">
+                        <img src="/wp-content/uploads/piano-moving/regional-service-area-map.svg" alt="Eastern United States map highlighting South Carolina, North Carolina, Virginia, West Virginia, Pennsylvania, New York, New Jersey, Ohio, Maryland, Delaware, and Connecticut in red">
                         <figcaption><span class="moving-service-map-key" aria-hidden="true"></span>Regional service states</figcaption>
                     </figure>
                 </div>

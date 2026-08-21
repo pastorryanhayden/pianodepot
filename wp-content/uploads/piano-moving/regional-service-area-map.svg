@@ -26,7 +26,7 @@
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="us.svg">
   <title id="service-map-title">Piano Depot regional piano moving service area</title>
-  <desc id="service-map-description">Map of the United States with Pennsylvania, New York, New Jersey, Ohio, Maryland, Delaware, and Connecticut highlighted in red.</desc>
+  <desc id="service-map-description">Map of the eastern United States with South Carolina, North Carolina, Virginia, West Virginia, Pennsylvania, New York, New Jersey, Ohio, Maryland, Delaware, and Connecticut highlighted in red.</desc>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -51,7 +51,7 @@
      id="defs4">
     <style
        type="text/css"
-       id="style6">path { fill-rule: evenodd; } #PA, #NY, #NJ, #OH, #MD, #DE, #CT { fill: #b11f24 !important; }</style>
+       id="style6">path { fill-rule: evenodd; } #SC, #NC, #VA, #WV, #PA, #NY, #NJ, #OH, #MD, #DE, #CT { fill: #b11f24 !important; }</style>
   </defs>
   <metadata
      id="metadata8">
