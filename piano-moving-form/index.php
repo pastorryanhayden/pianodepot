@@ -54,6 +54,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 
 	
         <style>
+            .single-page-article .entry { max-width: 1160px; margin: 0 auto; padding: 0 28px 50px; box-sizing: border-box; }
             .piano-moving-intro { margin: 0 0 34px; padding: 34px; background: #f6f3ed; border-left: 5px solid #b11f24; }
             .piano-moving-intro h2 { margin: 0 0 12px; color: #222; font-size: 30px; }
             .piano-moving-intro p { margin: 0 0 14px; font-size: 18px; line-height: 1.65; }
@@ -61,14 +62,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
             .moving-services { margin: 0 0 40px; }
             .moving-services-heading { margin: 0 0 8px; color: #222; font-size: 29px; }
             .moving-services-lead { max-width: 800px; margin: 0 0 24px; font-size: 18px; line-height: 1.65; }
-            .moving-slideshow { position: relative; margin: 0 0 34px; overflow: hidden; background: #252525; box-shadow: 0 3px 12px rgba(0,0,0,.18); }
-            .moving-slide { display: none; margin: 0; }
-            .moving-slide.is-active { display: block; }
-            .moving-slide img { display: block; width: 100%; height: 410px; object-fit: contain; background: #252525; }
-            .moving-slide figcaption { padding: 14px 18px; color: #fff; font-size: 18px; font-weight: 700; line-height: 1.35; }
-            .moving-slideshow-controls { position: absolute; right: 14px; bottom: 60px; display: flex; gap: 8px; }
-            .moving-slideshow-controls button { padding: 9px 13px; border: 0; color: #fff; background: #b11f24; font-weight: 700; cursor: pointer; }
-            .moving-slideshow-controls button:hover, .moving-slideshow-controls button:focus { background: #8d181c; }
+            .moving-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin: 0 0 34px; }
+            .moving-gallery figure { display: flex; flex-direction: column; margin: 0; overflow: hidden; background: #252525; box-shadow: 0 3px 12px rgba(0,0,0,.18); }
+            .moving-gallery img { display: block; width: 100%; height: 260px; object-fit: cover; }
+            .moving-gallery figcaption { flex: 1; padding: 14px 16px; color: #fff; font-size: 17px; font-weight: 700; line-height: 1.35; }
             .moving-services-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
             .moving-service-card { padding: 25px; background: #fff; border-top: 4px solid #b11f24; box-shadow: 0 3px 12px rgba(0,0,0,.08); }
             .moving-service-card h3 { margin: 0 0 10px; color: #222; font-size: 23px; }
@@ -84,26 +81,23 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
             .moving-service-area p:last-child { margin-bottom: 0; }
             #gform_wrapper_6 { padding: 30px; background: #fff; border: 1px solid #ddd; box-shadow: 0 3px 12px rgba(0,0,0,.08); }
             #gform_wrapper_6 .gform_title { color: #b11f24; font-size: 28px; }
-            @media (max-width: 700px) { .moving-services-grid { grid-template-columns: 1fr; } .moving-slide img { height: 280px; } }
-            @media (max-width: 600px) { .piano-moving-intro, .moving-service-card, .moving-service-note, #gform_wrapper_6 { padding: 22px; } }
+            @media (max-width: 850px) { .moving-gallery { grid-template-columns: 1fr; } .moving-gallery img { height: auto; max-height: 420px; object-fit: contain; } }
+            @media (max-width: 700px) { .moving-services-grid { grid-template-columns: 1fr; } }
+            @media (max-width: 600px) { .single-page-article .entry { padding: 0 18px 36px; } .piano-moving-intro, .moving-service-card, .moving-service-note, #gform_wrapper_6 { padding: 22px; } }
         </style>
-        <div class="moving-slideshow" aria-label="Piano Depot moving equipment">
-            <figure class="moving-slide is-active">
+        <div class="moving-gallery" aria-label="Piano Depot moving equipment gallery">
+            <figure>
                 <img src="/wp-content/uploads/piano-moving/all-terrain-piano-truck.jpg" alt="Piano Depot all-terrain piano truck">
                 <figcaption>Custom all-terrain piano truck</figcaption>
             </figure>
-            <figure class="moving-slide">
+            <figure>
                 <img src="/wp-content/uploads/piano-moving/regular-delivery-truck.jpg" alt="Piano Depot regular delivery truck">
                 <figcaption>Regular delivery truck</figcaption>
             </figure>
-            <figure class="moving-slide">
+            <figure>
                 <img src="/wp-content/uploads/piano-moving/long-distance-piano-moving.jpg" alt="Long-distance piano moving trailer">
                 <figcaption>Long-distance piano moving</figcaption>
             </figure>
-            <div class="moving-slideshow-controls">
-                <button type="button" class="moving-slide-previous" aria-label="Show previous photo">Previous</button>
-                <button type="button" class="moving-slide-next" aria-label="Show next photo">Next</button>
-            </div>
         </div>
         <div class="piano-moving-intro">
             <h2>Careful Piano Moving, Backed by Family Experience</h2>
@@ -151,23 +145,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
                 <p>The quote form below asks about the piano, steps, access, timing, and both locations. The more we know at the start, the better we can prepare a move that protects your piano.</p>
             </div>
         </section>
-        <script>
-            (function () {
-                var slideshow = document.querySelector('.moving-slideshow');
-                if (!slideshow) return;
-                var slides = Array.prototype.slice.call(slideshow.querySelectorAll('.moving-slide'));
-                var current = 0;
-                var show = function (index) {
-                    current = (index + slides.length) % slides.length;
-                    slides.forEach(function (slide, slideIndex) {
-                        slide.classList.toggle('is-active', slideIndex === current);
-                    });
-                };
-                slideshow.querySelector('.moving-slide-previous').addEventListener('click', function () { show(current - 1); });
-                slideshow.querySelector('.moving-slide-next').addEventListener('click', function () { show(current + 1); });
-                window.setInterval(function () { show(current + 1); }, 6000);
-            }());
-        </script>
 	<div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
                 <div class="gf_browser_unknown gform_wrapper gravity-theme gform-theme--no-framework" data-form-theme="gravity-theme" data-form-index="0" id="gform_wrapper_6">
                         <div class="gform_heading">
