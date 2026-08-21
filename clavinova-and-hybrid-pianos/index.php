@@ -8,11 +8,13 @@ $page = [
         '/wp-content/uploads/elementor/css/post-11.css',
         '/wp-content/uploads/elementor/css/post-14.css',
         '/wp-content/uploads/elementor/css/post-10.css',
+        '/wp-content/uploads/piano-depot-category-pages.css',
     ],
 ];
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 ?>
 <main id="main" class="site-main clr" role="main">
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/partials/pianos-category-nav.php'; ?>
 
 				
 	
