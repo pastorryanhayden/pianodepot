@@ -54,6 +54,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 
 	
         <style>
+            .page-header.background-image-page-header { height: auto !important; min-height: 0; padding: 136px 0 38px; background: #fff !important; background-image: none !important; }
+            .page-header.background-image-page-header .background-image-page-header-overlay { display: none; }
+            .page-header .page-header-inner { position: relative; z-index: 1; margin: 0 auto !important; }
+            .page-header .page-header-title { color: #111 !important; font-size: 54px !important; line-height: 1.12; }
+            .page-header .site-breadcrumbs, .page-header .site-breadcrumbs a, .page-header .site-breadcrumbs span { color: #555 !important; }
+            #content-wrap { padding-top: 18px; background: #fff; }
             .single-page-article .entry { max-width: 1160px; margin: 0 auto; padding: 0 28px 50px; box-sizing: border-box; }
             .piano-moving-intro { margin: 0 0 34px; padding: 34px; background: #f6f3ed; border-left: 5px solid #b11f24; }
             .piano-moving-intro h2 { margin: 0 0 12px; color: #222; font-size: 30px; }
@@ -88,7 +94,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
             #gform_wrapper_6 .gform_title { color: #b11f24; font-size: 28px; }
             @media (max-width: 850px) { .moving-gallery, .moving-service-area-layout { grid-template-columns: 1fr; } .moving-gallery img { height: auto; max-height: 420px; object-fit: contain; } }
             @media (max-width: 700px) { .moving-services-grid { grid-template-columns: 1fr; } }
-            @media (max-width: 600px) { .single-page-article .entry { padding: 0 18px 36px; } .piano-moving-intro, .moving-service-card, .moving-service-note, #gform_wrapper_6 { padding: 22px; } }
+            @media (max-width: 600px) { .page-header.background-image-page-header { padding: 116px 0 28px; } .page-header .page-header-title { font-size: 42px !important; } .single-page-article .entry { padding: 0 18px 36px; } .piano-moving-intro, .moving-service-card, .moving-service-note, #gform_wrapper_6 { padding: 22px; } }
         </style>
         <div class="moving-gallery" aria-label="Piano Depot moving equipment gallery">
             <figure>
