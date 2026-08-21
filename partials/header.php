@@ -295,8 +295,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 #footer .oceanwp-custom-links li a:before {
 	content: "" !important;
 	display: inline-block;
-	width: 0.8em;
-	height: 0.8em;
+	width: 0.38em;
+	height: 0.38em;
 	margin-right: 8px;
 	margin-top: -1px;
 	font-size: 14px;
@@ -305,8 +305,9 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 	color: currentColor;
 	background-color: currentColor;
 	vertical-align: middle;
-	-webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 12h18'/%3E%3Cpath d='M12 21v-18'/%3E%3Cpath d='M7.5 7.5l9 9'/%3E%3Cpath d='M7.5 16.5l9 -9'/%3E%3C/svg%3E") center / contain no-repeat;
-	mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 12h18'/%3E%3Cpath d='M12 21v-18'/%3E%3Cpath d='M7.5 7.5l9 9'/%3E%3Cpath d='M7.5 16.5l9 -9'/%3E%3C/svg%3E") center / contain no-repeat;
+	transform: rotate(45deg);
+	-webkit-mask: none;
+	mask: none;
 }
 #footer .oceanwp-custom-links li {
 	line-height: 1.45;
