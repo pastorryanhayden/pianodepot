@@ -1,6 +1,6 @@
 ---
 name: piano-depot-git-sync
-description: Synchronize, preview, and publish changes whenever working in the Piano Depot repository. Pull the current origin/main and start the local PHP preview before editing, then validate, commit, and push task changes to origin after editing. Do not use for a protected backup copy or for live-site deployment.
+description: Synchronize, preview, and publish changes whenever working in the Piano Depot repository. Pull the current origin/main and start the local PHP preview before editing, then validate and commit completed changes. Pushing main triggers CI/CD deployment to the hosted Forge site and requires explicit user approval.
 ---
 
 # Piano Depot Git Sync
@@ -25,8 +25,9 @@ Use the Git repository containing this skill as the working repository. Resolve 
 
 1. Review the diff and include only files changed for the current user request. Never discard, overwrite, stage, or commit unrelated user work.
 2. Run the repository's relevant checks. For ordinary PHP/site changes, run `php tests/run.php` using the available PHP executable and run `git diff --check`. Add focused syntax or behavioral checks when appropriate.
-3. When checks pass, stage only the task files, create a concise descriptive commit, and push the current `main` commit to `origin main`.
-4. Never force-push. If the push is rejected because the remote advanced, fetch and integrate safely; rerun checks before pushing. Stop for direction if there is a conflict or unrelated divergence.
-5. Verify that local `main` matches `origin/main`, then report the commit hash, checks run, and pushed files.
+3. When checks pass, stage only the task files and create a concise descriptive commit.
+4. A push to `origin main` triggers the CI/CD pipeline and updates the hosted Forge site. Treat every push as a live deployment: show the user the completed local result and obtain explicit approval immediately before pushing, unless the user's current request explicitly says to push or publish.
+5. Never force-push. If the push is rejected because the remote advanced, fetch and integrate safely; rerun checks before pushing. Stop for direction if there is a conflict or unrelated divergence.
+6. After an approved push, verify that local `main` matches `origin/main`, verify the Forge site updated successfully, then report the commit hash, checks run, pushed files, and hosted-site status.
 
-The repository owner's standing instruction authorizes commits and pushes for changes Codex makes while completing a requested task in this repository. It does not authorize live deployment, hosting changes, deletion, repair of the legacy WordPress site, or inclusion of unrelated local changes. If a requested task is inspection-only and makes no file changes, do not create an empty commit or push.
+The repository owner's standing instruction authorizes local commits for changes Codex makes while completing a requested task in this repository. It does not authorize a push unless the current request explicitly says to push or publish, because the CI/CD pipeline deploys `main` to the hosted Forge site. It also does not authorize changes to the legacy WordPress site, deletion, repair, or inclusion of unrelated local changes. If a requested task is inspection-only and makes no file changes, do not create an empty commit or push.
