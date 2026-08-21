@@ -7,9 +7,30 @@ $page = [
         '/wp-content/uploads/elementor/css/post-349.css',
         '/wp-content/uploads/elementor/css/post-11.css',
         '/wp-content/uploads/elementor/css/post-14.css',
+        '/wp-content/uploads/section-landing-pages.css',
     ],
 ];
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
+$landing = [
+	'eyebrow' => 'Piano Depot Learning Center', 'title' => 'Articles of Interest',
+	'intro' => 'Practical guidance, honest opinions, and stories drawn from decades of working with pianos, organs, keyboards, students, and musicians.',
+	'lead_title' => 'Helpful Reading for Instrument Owners', 'lead' => 'Browse our articles on piano care, buying decisions, digital instruments, Hammond organs, lessons, and choosing a service-oriented dealer.',
+	'cards' => [
+		['label' => 'Piano Care', 'title' => 'Humidity Control and Your Piano', 'description' => 'Learn how changes in humidity affect tuning, wood, action regulation, and the long-term health of a piano.', 'href' => '/humidity-control-and-your-piano/', 'action' => 'Read article'],
+		['label' => 'Buying Advice', 'title' => 'There Is No Such Thing as a Free Piano', 'description' => 'Understand the hidden moving, repair, tuning, and restoration costs that can accompany a supposedly free piano.', 'href' => '/there-is-no-such-thing-as-a-free-piano/', 'action' => 'Read article'],
+		['label' => 'Digital Pianos', 'title' => 'Digital Pianos: Facts or Fiction', 'description' => 'A practical look at common claims, strengths, and limitations surrounding digital piano technology.', 'href' => '/digital-pianos-facts-or-fiction/', 'action' => 'Read article'],
+		['label' => 'Hammond Organs', 'title' => 'Questions About Vintage Hammonds & Leslies', 'description' => 'Answers to frequent questions about classic Hammond organs, Leslie speakers, maintenance, and ownership.', 'href' => '/common-questions-asked-about-vintage-hammond-organs-leslies/', 'action' => 'Read article'],
+		['label' => 'Music Education', 'title' => 'Our Philosophy of Piano Lessons', 'description' => 'Why understanding music, developing independence, and enjoying the process matter in learning to play.', 'href' => '/our-philosophy-of-piano-lessons/', 'action' => 'Read article'],
+		['label' => 'Choosing a Dealer', 'title' => 'Why Buy From a Service-Oriented Company?', 'description' => 'Why delivery, preparation, tuning, advice, and long-term support matter as much as the instrument itself.', 'href' => '/why-buy-a-piano-from-a-service-oriented-company/', 'action' => 'Read article'],
+		['label' => 'Personal Story', 'title' => 'My Love for Hammond Organs', 'description' => 'A personal reflection on the unmistakable sound, design, and musical appeal of Hammond organs.', 'href' => '/my-love-for-hammonds/', 'action' => 'Read article'],
+		['label' => 'Modern Alternatives', 'title' => 'Replacing a Massive Home Organ', 'description' => 'Explore smaller modern instruments that can provide better sound and features without dominating the room.', 'href' => '/replacing-older-home-organs/', 'action' => 'Read article'],
+		['label' => 'Our Affiliate', 'title' => 'Magdon Music', 'description' => 'Visit our regional affiliate for guitars, drums, recording equipment, live sound, lessons, and more.', 'href' => 'https://www.magdonmusic.net/', 'action' => 'Visit Magdon Music', 'external' => true],
+	],
+	'cta_title' => 'Have a piano question?', 'cta_text' => 'We are glad to help you make sense of an instrument, service need, or buying decision.', 'cta_href' => '/contact-us/', 'cta_action' => 'Ask Piano Depot',
+];
+require $_SERVER['DOCUMENT_ROOT'] . '/partials/section-landing.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/footer.php';
+return;
 ?>
 <main id="main" class="site-main clr" role="main">
 

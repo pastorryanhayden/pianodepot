@@ -8,9 +8,26 @@ $page = [
         '/wp-content/uploads/elementor/css/post-11.css',
         '/wp-content/uploads/elementor/css/post-14.css',
         '/wp-content/uploads/elementor/css/post-10.css',
+        '/wp-content/uploads/section-landing-pages.css',
     ],
 ];
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
+$landing = [
+	'eyebrow' => 'Serving Musicians & Families Since 1985',
+	'title' => 'About Piano Depot',
+	'intro' => 'Piano Depot is a family-run piano company in Olyphant, Pennsylvania, helping customers choose, maintain, move, and enjoy their instruments with experienced personal service.',
+	'lead_title' => 'Experience You Can Rely On',
+	'lead' => 'Our work extends far beyond the showroom. We tune, refurbish, move, evaluate, buy, and sell pianos—so the guidance you receive is grounded in years of hands-on service.',
+	'cards' => [
+		['label' => 'Our Story', 'title' => 'Our History', 'description' => 'Learn how Piano Depot grew from a love of music and service into a trusted regional piano company.', 'href' => '/our-history/', 'action' => 'Read our story'],
+		['label' => 'Visit or Call', 'title' => 'Contact Piano Depot', 'description' => 'Arrange a showroom appointment, ask about a piano, or talk with us about service for your instrument.', 'href' => '/contact-us/', 'action' => 'Contact us'],
+		['label' => 'Watch & Listen', 'title' => 'Our YouTube Channel', 'description' => 'See piano demonstrations, performances, restoration work, and helpful videos from Piano Depot.', 'href' => 'https://www.youtube.com/@frankbissol7225', 'action' => 'Visit YouTube', 'external' => true],
+	],
+	'cta_title' => 'How can we help?', 'cta_text' => 'Tell us what you are looking for and we will point you in the right direction.', 'cta_href' => '/contact-us/', 'cta_action' => 'Get in Touch',
+];
+require $_SERVER['DOCUMENT_ROOT'] . '/partials/section-landing.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/footer.php';
+return;
 ?>
 <main id="main" class="site-main clr" role="main">
 

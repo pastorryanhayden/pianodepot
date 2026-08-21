@@ -1,0 +1,24 @@
+.section-landing { padding-top: 126px; color: #333; background: #fff; }
+.section-landing__hero { padding: 58px 22px 54px; background: #fff; }
+.section-landing__hero-inner { max-width: 1160px; margin: 0 auto; }
+.section-landing__eyebrow { margin: 0 0 8px !important; color: #b11f24 !important; font-size: 13px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.section-landing__hero h1 { max-width: 900px; margin: 0 0 17px; color: #171717; font-size: clamp(48px, 7vw, 78px); line-height: 1.03; letter-spacing: -.025em; }
+.section-landing__hero p:not(.section-landing__eyebrow) { max-width: 820px; margin: 0; color: #555; font-size: 20px; line-height: 1.7; }
+.section-landing__content { max-width: 1160px; margin: 0 auto; padding: 0 22px 72px; }
+.section-landing__lead { margin: 0 0 34px; padding: 32px 36px; background: #f6f3ed; border-left: 5px solid #b11f24; }
+.section-landing__lead h2 { margin: 0 0 8px; color: #222; font-size: 30px; }
+.section-landing__lead p { max-width: 850px; margin: 0; color: #555; font-size: 17px; line-height: 1.7; }
+.section-landing__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.section-card { display: flex; flex-direction: column; min-height: 270px; padding: 30px 28px; box-sizing: border-box; background: #fff; border: 1px solid #dedede; border-top: 4px solid #b11f24; box-shadow: 0 4px 16px rgba(0,0,0,.08); transition: transform .2s ease, box-shadow .2s ease; }
+.section-card:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(0,0,0,.13); }
+.section-card__label { margin: 0 0 8px !important; color: #b11f24 !important; font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.section-card h2 { margin: 0 0 12px; color: #222; font-size: 25px; line-height: 1.25; }
+.section-card > p:not(.section-card__label) { margin: 0 0 22px; color: #555; font-size: 15px; line-height: 1.65; }
+.section-card > a { margin-top: auto; color: #9d1b20; font-weight: 800; text-decoration: none; }
+.section-card > a:hover, .section-card > a:focus { color: #681115; }
+.section-landing__cta { display: flex; align-items: center; justify-content: space-between; gap: 28px; margin-top: 44px; padding: 34px 38px; color: #fff; background: #252525; }
+.section-landing__cta h2 { margin: 0 0 5px; color: #fff; font-size: 29px; }
+.section-landing__cta p { margin: 0; color: #e2e2e2; font-size: 16px; }
+.section-landing__cta > a { flex: 0 0 auto; padding: 13px 20px; color: #fff; background: #b11f24; font-weight: 800; text-decoration: none; }
+@media (max-width: 900px) { .section-landing__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .section-landing { padding-top: 106px; } .section-landing__hero { padding: 38px 18px 36px; } .section-landing__hero h1 { font-size: 46px; } .section-landing__hero p:not(.section-landing__eyebrow) { font-size: 18px; } .section-landing__content { padding: 0 18px 48px; } .section-landing__lead { padding: 26px 23px; } .section-landing__grid { grid-template-columns: 1fr; } .section-card { min-height: 0; } .section-landing__cta { align-items: flex-start; flex-direction: column; padding: 28px 24px; } }

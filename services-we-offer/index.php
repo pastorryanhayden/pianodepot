@@ -2,14 +2,28 @@
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/config.php';
 $page = [
     'title' => 'Services We Offer - Piano Depot',
-    'description' => '',
+    'description' => 'Piano tuning, refurbishing, and professional piano moving services from Piano Depot in Olyphant, PA.',
     'extra_css' => [
         '/wp-content/uploads/elementor/css/post-349.css',
         '/wp-content/uploads/elementor/css/post-11.css',
         '/wp-content/uploads/elementor/css/post-14.css',
+        '/wp-content/uploads/section-landing-pages.css',
     ],
 ];
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
+$landing = [
+	'eyebrow' => 'Professional Piano Care', 'title' => 'Services We Offer',
+	'intro' => 'Protect your piano and keep it performing beautifully with experienced service from people who understand these instruments inside and out.',
+	'lead_title' => 'One Team for the Life of Your Piano', 'lead' => 'From careful transportation to regular tuning and detailed refurbishment, Piano Depot provides the practical expertise your piano needs at every stage.',
+	'cards' => [
+		['label' => 'Care & Restoration', 'title' => 'Piano Tuning & Refurbishing', 'description' => 'Maintain your piano’s tone, touch, stability, and appearance with knowledgeable tuning and refurbishment services.', 'href' => '/piano-tuning-and-refurbishing-in-olyphant-pa/', 'action' => 'Explore piano service'],
+		['label' => 'Regional Service', 'title' => 'Professional Piano Moving', 'description' => 'Request an estimate for careful piano moving throughout our regional service area and along the I-81 corridor.', 'href' => '/piano-moving-form/', 'action' => 'Plan your piano move'],
+	],
+	'cta_title' => 'Your piano deserves expert care.', 'cta_text' => 'Tell us what service you need and where your piano is located.', 'cta_href' => '/contact-us/', 'cta_action' => 'Request Service',
+];
+require $_SERVER['DOCUMENT_ROOT'] . '/partials/section-landing.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/footer.php';
+return;
 ?>
 <main id="main" class="site-main clr" role="main">
 
