@@ -18,7 +18,12 @@ function pd_validate_form(array $post): array
     if (pd_post_get($post, 'website') !== '') {
         return ['status' => 'honeypot', 'errors' => [], 'subject' => '', 'body' => ''];
     }
-    if ($kind === 'contact' && pd_post_get($post, 'input_6') !== '') {
+    $gravityHoneypot = match ($kind) {
+        'moving' => 'input_14',
+        'credit' => 'input_6',
+        default => 'input_4',
+    };
+    if (pd_post_get($post, $gravityHoneypot) !== '') {
         return ['status' => 'honeypot', 'errors' => [], 'subject' => '', 'body' => ''];
     }
 

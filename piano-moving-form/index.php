@@ -76,6 +76,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
             .moving-service-note { margin: 26px 0 0; padding: 24px 28px; color: #fff; background: #252525; }
             .moving-service-note h3 { margin: 0 0 8px; color: #fff; font-size: 23px; }
             .moving-service-note p { margin: 0; line-height: 1.65; }
+            .moving-service-area { margin: 26px 0 0; padding: 26px 28px; background: #f6f3ed; border-left: 5px solid #b11f24; }
+            .moving-service-area h3 { margin: 0 0 10px; color: #222; font-size: 23px; }
+            .moving-service-area p { margin: 0 0 14px; line-height: 1.65; }
+            .moving-service-area ul { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none; }
+            .moving-service-area li { padding: 7px 12px; background: #fff; border: 1px solid #ddd4c7; font-weight: 700; }
+            .moving-service-area p:last-child { margin-bottom: 0; }
             #gform_wrapper_6 { padding: 30px; background: #fff; border: 1px solid #ddd; box-shadow: 0 3px 12px rgba(0,0,0,.08); }
             #gform_wrapper_6 .gform_title { color: #b11f24; font-size: 28px; }
             @media (max-width: 700px) { .moving-services-grid { grid-template-columns: 1fr; } .moving-slide img { height: 280px; } }
@@ -83,15 +89,15 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
         </style>
         <div class="moving-slideshow" aria-label="Piano Depot moving equipment">
             <figure class="moving-slide is-active">
-                <img src="https://www.pianoorgandepot.com/JPG/Piano-Moving/Ford-All-Terrain.jpg" alt="Piano Depot all-terrain piano truck">
+                <img src="/wp-content/uploads/piano-moving/all-terrain-piano-truck.jpg" alt="Piano Depot all-terrain piano truck">
                 <figcaption>Custom all-terrain piano truck</figcaption>
             </figure>
             <figure class="moving-slide">
-                <img src="https://www.pianoorgandepot.com/JPG/Full-truck-Sign-On-Truck.jpg" alt="Piano Depot regular delivery truck">
+                <img src="/wp-content/uploads/piano-moving/regular-delivery-truck.jpg" alt="Piano Depot regular delivery truck">
                 <figcaption>Regular delivery truck</figcaption>
             </figure>
             <figure class="moving-slide">
-                <img src="https://www.pianoorgandepot.com/JPG/Piano-Moving/Van-Trailer-1.jpg" alt="Long-distance piano moving trailer">
+                <img src="/wp-content/uploads/piano-moving/long-distance-piano-moving.jpg" alt="Long-distance piano moving trailer">
                 <figcaption>Long-distance piano moving</figcaption>
             </figure>
             <div class="moving-slideshow-controls">
@@ -111,20 +117,34 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
             <div class="moving-services-grid">
                 <section class="moving-service-card">
                     <h3>Specialized Moving Equipment</h3>
-                    <p>Our piano-moving service is equipped for the situations ordinary household moving does not cover. We plan for stairs, tight access, and difficult approaches so a piano can be moved with proper care.</p>
+                    <p>Our piano-moving service is equipped for situations ordinary household moving does not cover. Regular delivery vehicles and custom all-terrain equipment help us plan for lawns, stairs, tight access, mountain homes, lake homes, and other difficult approaches.</p>
                 </section>
                 <section class="moving-service-card">
                     <h3>Technician Advantage</h3>
-                    <p>A piano is a musical instrument as well as a piece of furniture. Our moving process is connected with experienced piano-service professionals who understand the special care a spinet, upright, console, or grand requires.</p>
+                    <p>A piano is a musical instrument as well as a piece of furniture. Experienced piano-service professionals understand the special care a spinet, upright, console, or grand requires and can address pedal, action, key, and adjustment issues that may appear during a move.</p>
                 </section>
                 <section class="moving-service-card">
                     <h3>Storage and Refurbishing</h3>
-                    <p>If a home is being renovated or a piano needs attention before delivery, we can help coordinate climate-controlled storage, touch-up work, refurbishing, and tuning as part of a complete plan.</p>
+                    <p>If a home is being renovated or a piano needs attention before delivery, we can help coordinate climate-controlled storage, cabinet cleaning and touch-up work, refurbishing, repairs, and tuning as part of a complete plan.</p>
                 </section>
                 <section class="moving-service-card">
                     <h3>Local and Long-Distance Moves</h3>
                     <p>Whether your piano is staying nearby or traveling to another state, we can help arrange a careful move. For longer distances, our service network helps us plan the route and delivery details.</p>
                 </section>
+            </div>
+            <div class="moving-service-area">
+                <h3>Local and Regional Service Area</h3>
+                <p>We serve Northeastern Pennsylvania, including the Scranton–Wilkes-Barre and Pocono areas, and the Binghamton Tri-Cities area. Depending on the instrument and move, we can also provide or coordinate service in:</p>
+                <ul aria-label="Regional piano moving service states">
+                    <li>Pennsylvania</li>
+                    <li>New York</li>
+                    <li>New Jersey</li>
+                    <li>Ohio</li>
+                    <li>Maryland</li>
+                    <li>Delaware</li>
+                    <li>Connecticut</li>
+                </ul>
+                <p>Need to move farther? Tell us the destination. Our long-distance network can help coordinate moves beyond this region.</p>
             </div>
             <div class="moving-service-note">
                 <h3>Tell Us the Details</h3>
