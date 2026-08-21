@@ -76,12 +76,17 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
             .moving-service-area { margin: 26px 0 0; padding: 26px 28px; background: #f6f3ed; border-left: 5px solid #b11f24; }
             .moving-service-area h3 { margin: 0 0 10px; color: #222; font-size: 23px; }
             .moving-service-area p { margin: 0 0 14px; line-height: 1.65; }
+            .moving-service-area-layout { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(320px, .95fr); gap: 28px; align-items: center; }
             .moving-service-area ul { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none; }
             .moving-service-area li { padding: 7px 12px; background: #fff; border: 1px solid #ddd4c7; font-weight: 700; }
             .moving-service-area p:last-child { margin-bottom: 0; }
+            .moving-service-map { margin: 0; padding: 18px; background: #fff; border: 1px solid #ddd4c7; box-shadow: 0 3px 12px rgba(0,0,0,.08); }
+            .moving-service-map img { display: block; width: 100%; height: auto; }
+            .moving-service-map figcaption { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; color: #333; font-size: 14px; font-weight: 700; text-align: center; }
+            .moving-service-map-key { width: 16px; height: 16px; background: #b11f24; border: 1px solid #7d1115; }
             #gform_wrapper_6 { padding: 30px; background: #fff; border: 1px solid #ddd; box-shadow: 0 3px 12px rgba(0,0,0,.08); }
             #gform_wrapper_6 .gform_title { color: #b11f24; font-size: 28px; }
-            @media (max-width: 850px) { .moving-gallery { grid-template-columns: 1fr; } .moving-gallery img { height: auto; max-height: 420px; object-fit: contain; } }
+            @media (max-width: 850px) { .moving-gallery, .moving-service-area-layout { grid-template-columns: 1fr; } .moving-gallery img { height: auto; max-height: 420px; object-fit: contain; } }
             @media (max-width: 700px) { .moving-services-grid { grid-template-columns: 1fr; } }
             @media (max-width: 600px) { .single-page-article .entry { padding: 0 18px 36px; } .piano-moving-intro, .moving-service-card, .moving-service-note, #gform_wrapper_6 { padding: 22px; } }
         </style>
@@ -128,17 +133,25 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
             </div>
             <div class="moving-service-area">
                 <h3>Local and Regional Service Area</h3>
-                <p>We serve Northeastern Pennsylvania, including the Scranton–Wilkes-Barre and Pocono areas, and the Binghamton Tri-Cities area. Depending on the instrument and move, we can also provide or coordinate service in:</p>
-                <ul aria-label="Regional piano moving service states">
-                    <li>Pennsylvania</li>
-                    <li>New York</li>
-                    <li>New Jersey</li>
-                    <li>Ohio</li>
-                    <li>Maryland</li>
-                    <li>Delaware</li>
-                    <li>Connecticut</li>
-                </ul>
-                <p>Need to move farther? Tell us the destination. Our long-distance network can help coordinate moves beyond this region.</p>
+                <div class="moving-service-area-layout">
+                    <div>
+                        <p>We serve Northeastern Pennsylvania, including the Scranton–Wilkes-Barre and Pocono areas, and the Binghamton Tri-Cities area. Depending on the instrument and move, we can also provide or coordinate service in:</p>
+                        <ul aria-label="Regional piano moving service states">
+                            <li>Pennsylvania</li>
+                            <li>New York</li>
+                            <li>New Jersey</li>
+                            <li>Ohio</li>
+                            <li>Maryland</li>
+                            <li>Delaware</li>
+                            <li>Connecticut</li>
+                        </ul>
+                        <p>Need to move farther? Tell us the destination. Our long-distance network can help coordinate moves beyond this region.</p>
+                    </div>
+                    <figure class="moving-service-map">
+                        <img src="/wp-content/uploads/piano-moving/regional-service-area-map.svg" alt="United States map highlighting Pennsylvania, New York, New Jersey, Ohio, Maryland, Delaware, and Connecticut in red">
+                        <figcaption><span class="moving-service-map-key" aria-hidden="true"></span>Regional service states</figcaption>
+                    </figure>
+                </div>
             </div>
             <div class="moving-service-note">
                 <h3>Tell Us the Details</h3>
