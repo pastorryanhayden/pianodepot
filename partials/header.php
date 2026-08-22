@@ -219,6 +219,16 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 */.elementor-icon-list-item{padding-bottom:5px !important}}@media only screen and (max-width:500px){#site-header{margin-top:70px}#addy{display:block}.elementor-icon-list-item .fa-map-marker-alt{position:relative;bottom:14px}.elementor-icon-list-item{padding-bottom:5px !important;text-align:center !important}#site-logo{left:50%;transform:translateX(-50%)}.piano_internal-links li{width:49%}}		</style>
 <style id="pd-header-contact">
 /* Keep phone + address in the top bar, above the black menu strip. */
+#top-bar-wrap,
+#top-bar-wrap a,
+#top-bar-wrap span,
+#top-bar-wrap i {
+	color: #171717 !important;
+}
+#top-bar-wrap a:hover,
+#top-bar-wrap a:focus {
+	color: #9d1b20 !important;
+}
 @media (max-width: 1100px) {
 	#top-bar-wrap {
 		z-index: 30;
