@@ -114,16 +114,44 @@ function pd_post_json(string $url, array $payload, array $headers): array
         return ['ok' => false, 'status' => 0, 'error' => 'Could not encode request'];
     }
 
+    $allHeaders = array_merge(['Accept: application/json', 'Content-Type: application/json'], $headers);
+    if (!function_exists('curl_init')) {
+        $context = stream_context_create([
+            'http' => [
+                'method' => 'POST',
+                'header' => implode("\r\n", $allHeaders),
+                'content' => $json,
+                'ignore_errors' => true,
+                'timeout' => 15,
+            ],
+        ]);
+        $response = @file_get_contents($url, false, $context);
+        $responseHeaders = function_exists('http_get_last_response_headers')
+            ? http_get_last_response_headers()
+            : ($http_response_header ?? []);
+        $responseHeaders = is_array($responseHeaders) ? $responseHeaders : [];
+        $status = 0;
+        if (isset($responseHeaders[0]) && preg_match('/\s(\d{3})\s/', $responseHeaders[0], $match)) {
+            $status = (int) $match[1];
+        }
+        return [
+            'ok' => is_string($response) && $status >= 200 && $status < 300,
+            'status' => $status,
+            'error' => is_string($response) ? '' : 'Server could not make an HTTPS request',
+            'response' => is_string($response) ? $response : '',
+        ];
+    }
+
     $curl = curl_init($url);
     if ($curl === false) {
-        return ['ok' => false, 'status' => 0, 'error' => 'Could not initialize request'];
+        return ['ok' => false, 'status' => 0, 'error' => 'Could not initialize request', 'response' => ''];
     }
     curl_setopt_array($curl, [
         CURLOPT_POST => true,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_CONNECTTIMEOUT => 8,
         CURLOPT_TIMEOUT => 15,
-        CURLOPT_HTTPHEADER => array_merge(['Accept: application/json', 'Content-Type: application/json'], $headers),
+        CURLOPT_HTTPHEADER => $allHeaders,
         CURLOPT_POSTFIELDS => $json,
     ]);
     $response = curl_exec($curl);

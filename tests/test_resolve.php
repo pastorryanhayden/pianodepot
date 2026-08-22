@@ -37,3 +37,9 @@ expect($blocked3['kind'] === 'not_found', 'tools/ is not web-served');
 
 $blocked4 = pd_resolve('/.env', $root);
 expect($blocked4['kind'] === 'not_found', '.env is not web-served');
+
+$successPage = pd_resolve('/form-submitted/', $root);
+expect($successPage['kind'] === 'php', 'form success page resolves');
+
+$errorPage = pd_resolve('/form-delivery-error/', $root);
+expect($errorPage['kind'] === 'php', 'form delivery error page resolves');

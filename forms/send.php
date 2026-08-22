@@ -31,7 +31,7 @@ $query = static function (string $back, string $qs): string {
 };
 
 if ($result['status'] === 'honeypot') {
-    header('Location: ' . $query($back, 'sent=1'), true, 302);
+    header('Location: /form-submitted/', true, 303);
     exit;
 }
 
@@ -46,5 +46,10 @@ if (!$texted) {
     error_log('Piano Depot form was processed without a text alert.');
 }
 
-header('Location: ' . $query($back, $sent ? 'sent=1' : 'mail=0'), true, 302);
+if ($sent) {
+    header('Location: /form-submitted/?text=' . ($texted ? '1' : '0'), true, 303);
+    exit;
+}
+
+header('Location: /form-delivery-error/?text=' . ($texted ? '1' : '0'), true, 303);
 exit;
