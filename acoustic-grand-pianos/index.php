@@ -31,7 +31,34 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 <article class="single-page-article clr focused-product-chooser-page">
 
 	
-<div class="entry clr" itemprop="text">
+<div class="entry clr acoustic-grand-page" itemprop="text">
+	<style>
+		.acoustic-grand-page .acoustic-grand-feature-row {
+			max-width: 1120px;
+			margin-right: auto;
+			margin-left: auto;
+			padding-right: 22px;
+			padding-left: 22px;
+			box-sizing: border-box;
+		}
+		.acoustic-grand-page .acoustic-grand-feature-row .wpb_video_wrapper {
+			max-width: 330px;
+			margin-right: auto;
+			margin-left: auto;
+			aspect-ratio: 16 / 9;
+		}
+		.acoustic-grand-page .acoustic-grand-feature-row .wpb_video_wrapper iframe {
+			display: block;
+			width: 100% !important;
+			height: 100% !important;
+		}
+		@media (max-width: 767px) {
+			.acoustic-grand-page .acoustic-grand-feature-row {
+				padding-right: 18px;
+				padding-left: 18px;
+			}
+		}
+	</style>
 
 	
 	<div class="vc_row wpb_row vc_row-fluid vc_custom_1623257010505"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -139,20 +166,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 		</div>
 	</div>
 
-	<div class="wpb_single_image wpb_content_element vc_align_center">
-		
-		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="800" height="350" src="/wp-content/uploads/2024/11/PNO988000_HOL24_DlrBan_800x350_Hands.jpg" class="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" srcset="/wp-content/uploads/2024/11/PNO988000_HOL24_DlrBan_800x350_Hands.jpg 800w, /wp-content/uploads/2024/11/PNO988000_HOL24_DlrBan_800x350_Hands-300x131.jpg 300w, /wp-content/uploads/2024/11/PNO988000_HOL24_DlrBan_800x350_Hands-768x336.jpg 768w, /wp-content/uploads/2024/11/PNO988000_HOL24_DlrBan_800x350_Hands-600x263.jpg 600w" sizes="(max-width: 800px) 100vw, 800px"></div>
-		</figure>
-	</div>
-
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p><strong>*Subject to credit approval. Monthly payments of $55.56 per $1,000 borrowed for 18 months at 0% APR. On purchases of new and in-stock qualifying Yamaha pianos from October 31, 2024 to January 6, 2025.</strong></p>
-
-		</div>
-	</div>
-</div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container vc_btn3-right"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-juicy-pink" href="/contact-us/" title="Contact Us">Contact Us For More Details</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container vc_btn3-inline"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-juicy-pink" href="/apply-for-credit-at-pianodepot-com/" title="APPLY FOR CREDIT AT PianoDepot.com">Apply For Credit</a></div></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+</div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex acoustic-grand-feature-row"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
 	<div class="wpb_video_widget wpb_content_element vc_clearfix   vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left">
 		<div class="wpb_wrapper">
 			
