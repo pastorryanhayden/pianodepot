@@ -124,13 +124,13 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 <meta name="geo.placename" content="Olyphant">
 <meta name="geo.position" content="41.469599;-75.604967">
 <meta name="ICBM" content="41.469599, -75.604967">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H3F6EPM5F4"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RWX20NP9TD"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-H3F6EPM5F4');
+  gtag('config', 'G-RWX20NP9TD');
 </script>
 <script type="application/ld+json">
 {
