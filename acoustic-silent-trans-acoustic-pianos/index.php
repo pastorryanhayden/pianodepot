@@ -183,7 +183,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 	<div class="wpb_video_widget wpb_content_element vc_clearfix   vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left">
 		<div class="wpb_wrapper">
 			
-			<div class="wpb_video_wrapper"><p class="responsive-video-wrap clr"><iframe loading="lazy" title="Yamaha SILENT Piano™ SH2/SC2 Overview" width="1200" height="675" src="https://www.youtube.com/embed/D4Vlchuckk4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
 		</div>
 	</div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
