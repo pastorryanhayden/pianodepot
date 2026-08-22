@@ -203,7 +203,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 <div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-color-danger" href="https://usa.yamaha.com/products/musical_instruments/pianos/upright_pianos/b_series/b-series.html" title="">CLICK HERE FOR DETAILS</a></div></div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 	<div class="wpb_text_column wpb_content_element ">
 		<div class="wpb_wrapper">
-			<p><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/Xu36GOKXs5M?si=BfXazCinJEhavcxP" width="1080" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+			<p><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/Xu36GOKXs5M" width="1080" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <p style="text-align: center;">All our silent pianos are equipped with MIDI   Watch this video to learn how you can expand the capabilities<br>of your acoustic piano with Midi out and in. Yamaha’s silent MIDI pianos take your musical experience to a<br>whole new level… Watch our videos to learn how this can be done..</p>
 
 		</div>
