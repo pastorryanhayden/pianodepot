@@ -1,0 +1,46 @@
+/* Consistent presentation for pages linked from the primary information menus. */
+#main.site-main { padding-top: 126px; background: #fff; }
+#main rs-module-wrap { display: none !important; }
+.single-page-article .entry > .vc_row:has(rs-module-wrap),
+.single-page-article .entry .elementor-section:has(rs-module-wrap),
+.single-page-article .entry .elementor-widget:has(rs-module-wrap) { display: none !important; }
+.single-page-article .entry .piano_series-links,
+.single-page-article .entry .piano_internal-links { display: none !important; }
+.single-page-article .entry img[src^="https://www.pianoorgandepot.com/"] { display: none !important; }
+.page-header.background-image-page-header { min-height: 0; padding: 40px 22px 34px; background: #fff !important; }
+.page-header.background-image-page-header .background-image-page-header-overlay { display: none; }
+.page-header .page-header-inner { max-width: 1160px; margin: 0 auto; }
+.page-header .page-header-title { max-width: 980px; color: #171717 !important; font-size: clamp(43px, 6vw, 68px) !important; line-height: 1.08 !important; letter-spacing: -.02em; text-shadow: none !important; }
+.site-breadcrumbs { margin-top: 12px; color: #777 !important; }
+.site-breadcrumbs a { color: #9d1b20 !important; }
+#content-wrap.container { max-width: 1160px; padding: 38px 22px 68px; box-sizing: border-box; }
+#primary.content-area { float: none; width: 100%; padding: 0; }
+#right-sidebar { display: none !important; }
+.single-page-article .entry { max-width: 940px; margin: 0 auto; color: #444; font-size: 17px; line-height: 1.75; }
+.single-page-article .entry > .vc_row, .single-page-article .entry > .elementor { margin-right: 0 !important; margin-left: 0 !important; }
+.single-page-article .entry h1 { margin: 0 0 25px; color: #171717 !important; font-size: clamp(40px, 5vw, 58px) !important; line-height: 1.12 !important; text-align: left !important; }
+.single-page-article .entry h2 { margin: 34px 0 14px; color: #222 !important; font-size: 30px !important; line-height: 1.28 !important; }
+.single-page-article .entry h3 { margin: 28px 0 16px; padding: 0 0 9px !important; color: #222 !important; background: transparent !important; border-bottom: 2px solid #b11f24; font-size: 23px !important; line-height: 1.35 !important; text-align: left !important; }
+.single-page-article .entry h2[align="JUSTIFY"], .single-page-article .entry h2[align="justify"] { margin: 0 0 20px; color: #444 !important; font-size: 18px !important; font-weight: 400; line-height: 1.75 !important; }
+.single-page-article .entry p, .single-page-article .entry li { color: #4b4b4b; font-size: 17px; line-height: 1.75; }
+.single-page-article .entry a { color: #9d1b20; }
+.single-page-article .entry img { max-width: 100%; height: auto; }
+.single-page-article .entry table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; }
+.single-page-article .entry .wpb_single_image { margin-bottom: 28px; }
+.single-page-article .entry .wpb_single_image img { border-radius: 2px; box-shadow: 0 5px 18px rgba(0,0,0,.12); }
+.single-page-article .entry .vc_btn3, .single-page-article .entry .elementor-button { color: #fff !important; background: #b11f24 !important; border: 0 !important; border-radius: 0 !important; font-weight: 800 !important; }
+.single-page-article .entry .vc_row-has-fill, .single-page-article .entry .elementor-section:not(:first-child) { margin-top: 28px; margin-bottom: 28px; }
+.single-page-article .entry .gform_wrapper, .single-page-article .entry .piano-moving-form { margin: 36px 0 !important; padding: 32px !important; box-sizing: border-box; background: #f6f3ed; border-top: 4px solid #b11f24; }
+.single-page-article .entry .gform_wrapper ul,
+.single-page-article .entry .gform_wrapper li { margin-left: 0 !important; padding-left: 0 !important; list-style: none !important; }
+.gform_wrapper input[type="text"], .gform_wrapper input[type="email"], .gform_wrapper input[type="tel"], .gform_wrapper input[type="number"], .gform_wrapper select, .gform_wrapper textarea { width: 100%; padding: 12px 13px !important; box-sizing: border-box; background: #fff; border: 1px solid #cfcac1; border-radius: 0; }
+.gform_wrapper input[type="submit"] { padding: 13px 24px !important; color: #fff; background: #b11f24; border: 0; font-weight: 800; }
+.piano-moving-intro, .piano-moving-gallery, .piano-moving-service-area, .piano-moving-form-wrap { max-width: 940px !important; margin-right: auto !important; margin-left: auto !important; }
+@media (max-width: 600px) {
+	#main.site-main { padding-top: 106px; }
+	.page-header.background-image-page-header { padding: 30px 18px 22px; }
+	#content-wrap.container { padding: 28px 18px 48px; }
+	.single-page-article .entry h1 { font-size: 40px !important; }
+	.single-page-article .entry h2 { font-size: 27px !important; }
+	.single-page-article .entry .gform_wrapper, .single-page-article .entry .piano-moving-form { padding: 24px 18px !important; }
+}

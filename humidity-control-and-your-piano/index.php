@@ -7,6 +7,7 @@ $page = [
         '/wp-content/uploads/elementor/css/post-349.css',
         '/wp-content/uploads/elementor/css/post-11.css',
         '/wp-content/uploads/elementor/css/post-14.css',
+        '/wp-content/uploads/section-detail-pages.css',
     ],
 ];
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
