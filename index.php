@@ -33,81 +33,18 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 <div class="entry clr" itemprop="text">
 
 	
-			<div data-elementor-type="wp-page" data-elementor-id="3068" class="elementor elementor-3068">
-									<section class="elementor-section elementor-top-section elementor-element elementor-element-3a69e5d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3a69e5d" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-306edc3" data-id="306edc3" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-c9ad9b8 elementor-widget elementor-widget-slider_revolution" data-id="c9ad9b8" data-element_type="widget" data-widget_type="slider_revolution.default">
-				<div class="elementor-widget-container">
-			
-		<div class="wp-block-themepunch-revslider">
-			<!-- START Slider 2 REVOLUTION SLIDER 6.4.6 --><p class="rs-p-wp-fix"></p>
-			<rs-module-wrap id="rev_slider_2_1_wrapper" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
-				<rs-module id="rev_slider_2_1" style="" data-version="6.4.6">
-					<rs-slides>
-						<rs-slide data-key="rs-2" data-title="Slide" data-in="o:0;" data-out="a:false;">
-							<img decoding="async" src="/wp-content/uploads/revslider/video-media/Yamaha-Banner-Background-short-No-Text-2_2-300x169.jpeg" title="Yamaha-Banner-Background-short-No-Text-2_2.jpeg" width="300" height="169" class="rev-slidebg tp-rs-img" data-no-retina>
-							<rs-bgvideo data-video="w:100%;h:100%;nse:false;l:true;ptimer:false;vfc:true;do:1;doca:rgba(0, 0, 0, 0);" data-mp4="/wp-content/uploads/2021/06/Yamaha-Banner-Background-short-No-Text-2.mp4"></rs-bgvideo>
-<!--
-							--><rs-layer id="slider-2-slide-2-layer-0" data-type="text" data-xy="x:c;y:m;yo:-64px,-39px,-39px,-24px;" data-text="w:normal;s:45,27,27,16;l:25,15,15,9;fw:200;a:center;" data-dim="w:1240px,768px,778px,480px;" data-rsp_o="off" data-rsp_bd="off" data-frame_1="st:990;sR:990;" data-frame_999="o:0;st:w;sR:7710;" style="z-index:5;font-family:Raleway;">NEW SALE: 
-							</rs-layer><!--
-
-							--><rs-layer id="slider-2-slide-2-layer-1" data-type="text" data-xy="x:c;xo:1px,0,0,0;y:m;" data-text="w:normal;s:60,37,37,22;l:25,15,15,9;fw:700;a:center;" data-dim="w:1236px,765px,774px,477px;" data-rsp_o="off" data-rsp_bd="off" data-frame_1="st:990;sR:990;" data-frame_999="o:0;st:w;sR:7710;" style="z-index:6;font-family:Raleway;">YAMAHA PIANOS 
-							</rs-layer><!--
-
-							--><a id="slider-2-slide-2-layer-2" class="rs-layer rev-btn" href="/pianos-we-sell/" target="_self" data-type="button" data-xy="x:c;y:m;yo:76px,47px,47px,28px;" data-text="w:normal;s:20,12,12,7;l:55,34,34,20;fw:500;" data-dim="minh:0px,none,none,none;" data-rsp_o="off" data-rsp_bd="off" data-padding="r:50,31,31,19;l:50,31,31,19;" data-border="bor:3px,3px,3px,3px;" data-frame_1="st:1360;sR:1360;" data-frame_999="o:0;st:w;sR:7340;" data-frame_hover="bgc:#c80000;bor:3px,3px,3px,3px;sp:100;e:power1.inOut;bri:120%;" style="z-index:7;background-color:#ff3a2d;font-family:Raleway;">VIEW PIANO CATALOG 
-							</a><!--
--->						</rs-slide>
-					</rs-slides>
-				</rs-module>
-				<script type="text/javascript">
-					setREVStartSize({c: 'rev_slider_2_1',rl:[1240,1024,778,480],el:[600,768,960,720],gw:[1240,768,778,480],gh:[600,600,600,600],type:'standard',justify:'',layout:'fullwidth',mh:"0"});
-					var	revapi2,
-						tpj;
-					function revinit_revslider21() {
-					jQuery(function() {
-						tpj = jQuery;
-						revapi2 = tpj("#rev_slider_2_1");
-						if(revapi2==undefined || revapi2.revolution == undefined){
-							revslider_showDoubleJqueryError("rev_slider_2_1");
-						}else{
-							revapi2.revolution({
-								DPR:"dpr",
-								sliderLayout:"fullwidth",
-								visibilityLevels:"1240,1024,778,480",
-								gridwidth:"1240,768,778,480",
-								gridheight:"600,600,600,600",
-								perspective:600,
-								perspectiveType:"global",
-								keepBPHeight:true,
-								editorheight:"600,768,960,720",
-								responsiveLevels:"1240,1024,778,480",
-								progressBar:{disableProgressBar:true},
-								navigation: {
-									onHoverStop:false
-								},
-								fallbacks: {
-									allowHTML5AutoPlayOnAndroid:true
-								},
-							});
-						}
-						
-					});
-					} // End of RevInitScript
-				var once_revslider21 = false;
-				if (document.readyState === "loading") {document.addEventListener('readystatechange',function() { if((document.readyState === "interactive" || document.readyState === "complete") && !once_revslider21 ) { once_revslider21 = true; revinit_revslider21();}});} else {once_revslider21 = true; revinit_revslider21();}
-				</script>
-			</rs-module-wrap>
-			<!-- END REVOLUTION SLIDER -->
-</div>
-
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
+			<div data-elementor-type="wp-page" data-elementor-id="3068" class="elementor elementor-3068 pd-home-page">
+					<section class="pd-home-hero" aria-labelledby="pd-home-hero-title">
+						<video class="pd-home-hero__video" autoplay muted loop playsinline poster="/wp-content/uploads/revslider/video-media/Yamaha-Banner-Background-short-No-Text-2_2-300x169.jpeg">
+							<source src="/wp-content/uploads/2021/06/Yamaha-Banner-Background-short-No-Text-2.mp4" type="video/mp4">
+						</video>
+						<div class="pd-home-hero__shade" aria-hidden="true"></div>
+						<div class="pd-home-hero__content">
+							<p>Authorized Yamaha Piano Dealer</p>
+							<h2 id="pd-home-hero-title">Yamaha Pianos</h2>
+							<a href="/pianos-we-sell/">View Piano Catalog</a>
+						</div>
+					</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-75633dcc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="75633dcc" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-43630a70" data-id="43630a70" data-element_type="column">
