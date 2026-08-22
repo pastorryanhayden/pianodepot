@@ -13,3 +13,100 @@ Version: 1.0
 header#site-header .container {
 	width: 1300px;
 }
+
+/* Give the shared rebuilt-site footer room for its contact and menu groups. */
+.rebuilt-footer-shell > .elementor-container {
+	width: 100% !important;
+	max-width: 1400px !important;
+}
+
+.rebuilt-footer-menu {
+	padding: 0 !important;
+}
+
+.rebuilt-footer-menu > .elementor-container {
+	display: grid !important;
+	grid-template-columns: minmax(220px, 1.15fr) repeat(5, minmax(135px, 1fr));
+	gap: clamp(28px, 3vw, 56px);
+	width: 100% !important;
+	max-width: 1400px !important;
+	margin: 0 auto;
+	padding: 30px clamp(38px, 5vw, 76px) 32px;
+	box-sizing: border-box;
+	align-items: start;
+}
+
+.rebuilt-footer-menu > .elementor-container > .elementor-element-8cfcb29 {
+	width: auto !important;
+}
+
+.rebuilt-footer-menu > .elementor-container > .elementor-element-77b24a7,
+.rebuilt-footer-menu > .elementor-container > .elementor-element-cf61357,
+.rebuilt-footer-menu > .elementor-container > .elementor-element-77b24a7 > .elementor-widget-wrap,
+.rebuilt-footer-menu > .elementor-container > .elementor-element-cf61357 > .elementor-widget-wrap {
+	display: contents !important;
+}
+
+.rebuilt-footer-menu .elementor-widget-wp-widget-ocean_custom_links {
+	width: auto !important;
+	margin: 0 !important;
+}
+
+.rebuilt-footer-menu h5 {
+	margin-bottom: 12px;
+}
+
+.rebuilt-footer-menu .oceanwp-custom-links li {
+	line-height: 1.55;
+}
+
+.rebuilt-footer-menu .elementor-element-c701928 {
+	grid-column: span 2;
+}
+
+.rebuilt-footer-menu .elementor-element-c701928 .oceanwp-custom-links {
+	columns: 2;
+	column-gap: 34px;
+}
+
+.rebuilt-footer-menu .elementor-element-c701928 .oceanwp-custom-links > li {
+	break-inside: avoid;
+}
+
+@media (max-width: 1100px) {
+	.rebuilt-footer-menu > .elementor-container {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 28px 54px;
+		padding: 30px 40px 34px;
+	}
+
+	.rebuilt-footer-menu > .elementor-container > .elementor-element-8cfcb29 {
+		grid-column: 1 / -1;
+	}
+
+	.rebuilt-footer-menu .elementor-element-c701928 {
+		grid-column: auto;
+	}
+}
+
+@media (max-width: 640px) {
+	.rebuilt-footer-menu > .elementor-container {
+		grid-template-columns: minmax(0, 1fr);
+		gap: 24px;
+		padding: 28px 24px 32px;
+	}
+
+	.rebuilt-footer-menu > .elementor-container > .elementor-element-8cfcb29 {
+		grid-column: auto;
+	}
+
+	.rebuilt-footer-menu .elementor-element-c701928 .oceanwp-custom-links {
+		columns: 1;
+	}
+
+	.rebuilt-footer-menu .oceanwp-custom-links a {
+		display: inline-block;
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+}
