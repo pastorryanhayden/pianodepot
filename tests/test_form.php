@@ -7,12 +7,14 @@ $ok = pd_validate_form([
     'input_1.3' => 'Ada',
     'input_1.6' => 'Lovelace',
     'input_2' => 'ada@example.com',
+    'input_9' => '570-555-0100',
     'input_3' => 'Need a piano',
     'website' => '',
     'pd_form' => 'contact',
 ]);
 expect($ok['status'] === 'ok', 'valid contact');
 expect(str_contains($ok['body'], 'Ada'), 'body has name');
+expect(str_contains($ok['body'], '570-555-0100'), 'body has optional phone');
 expect(str_contains($ok['subject'], 'Contact'), 'subject');
 
 $bad = pd_validate_form([
