@@ -10,7 +10,7 @@ function pd_resolve(string $uri, string $root): array
         $path = '/' . $path;
     }
 
-    $blocked = ['/tests', '/partials', '/tools', '/docs', '/scrape', '/.git'];
+    $blocked = ['/tests', '/partials', '/tools', '/docs', '/scrape', '/.git', '/.env'];
     foreach ($blocked as $prefix) {
         if ($path === $prefix || str_starts_with($path, $prefix . '/')) {
             return ['kind' => 'not_found', 'path' => $root . '/404.php'];

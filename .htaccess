@@ -1,2 +1,5 @@
 ErrorDocument 404 /404.php
 Options -Indexes
+<FilesMatch "^\.env$">
+    Require all denied
+</FilesMatch>

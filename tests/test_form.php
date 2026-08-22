@@ -59,3 +59,13 @@ $interest = pd_validate_form([
 ]);
 expect($interest['status'] === 'ok', 'interest selection is not mistaken for spam');
 expect(str_contains($interest['subject'], 'website inquiry'), 'interest subject');
+
+$cfg = pd_config();
+$emailPayload = pd_postmark_payload($cfg, $ok);
+expect($emailPayload['To'] === 'frankbissol@gmail.com', 'Postmark recipient');
+expect(str_contains($emailPayload['From'], 'ryan@congregationhub.com'), 'Postmark sender');
+expect($emailPayload['ReplyTo'] === 'ada@example.com', 'Postmark reply-to visitor');
+
+$sms = pd_sms_text($ok);
+expect(str_contains($sms, 'Ada Lovelace'), 'text includes customer name');
+expect(str_contains($sms, 'ada@example.com'), 'text includes customer contact');

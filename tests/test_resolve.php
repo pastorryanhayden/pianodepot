@@ -34,3 +34,6 @@ expect($blocked2['kind'] === 'not_found', 'partials/ is not web-served');
 
 $blocked3 = pd_resolve('/tools/scrape.php', $root);
 expect($blocked3['kind'] === 'not_found', 'tools/ is not web-served');
+
+$blocked4 = pd_resolve('/.env', $root);
+expect($blocked4['kind'] === 'not_found', '.env is not web-served');

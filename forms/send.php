@@ -40,12 +40,11 @@ if ($result['status'] === 'error') {
     exit;
 }
 
-$sent = @mail(
-    $cfg['email_to'],
-    $result['subject'],
-    $result['body'],
-    'From: ' . $cfg['email_to'] . "\r\n" . 'Content-Type: text/plain; charset=UTF-8'
-);
+$sent = pd_send_postmark($cfg, $result);
+$texted = pd_send_telnyx($cfg, $result);
+if (!$texted) {
+    error_log('Piano Depot form was processed without a text alert.');
+}
 
 header('Location: ' . $query($back, $sent ? 'sent=1' : 'mail=0'), true, 302);
 exit;
