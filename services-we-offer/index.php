@@ -18,7 +18,7 @@ $landing = [
 	'cards' => [
 		['label' => 'Care & Restoration', 'title' => 'Piano Tuning & Refurbishing', 'description' => 'Maintain your piano’s tone, touch, stability, and appearance with knowledgeable tuning and refurbishment services.', 'href' => '/piano-tuning-and-refurbishing-in-olyphant-pa/', 'action' => 'Explore piano service'],
 		['label' => 'Regional Service', 'title' => 'Professional Piano Moving', 'description' => 'Request an estimate for careful piano moving throughout our regional service area and along the I-81 corridor.', 'href' => '/piano-moving-form/', 'action' => 'Plan your piano move'],
-		['label' => 'Learning Support', 'title' => 'Piano Rental Service', 'description' => 'Learn about rental programs that include lessons and an in-tune piano, with a tuning maintenance agreement also available.', 'href' => '/piano-rental-service/', 'action' => 'Explore piano rentals'],
+		['label' => 'Special Occasions', 'title' => 'Piano Rental Service', 'description' => 'Explore short-term rentals of used grand pianos, used upright pianos, and select available digital pianos for special occasions.', 'href' => '/piano-rental-service/', 'action' => 'Explore piano rentals'],
 	],
 	'cta_title' => 'Your piano deserves expert care.', 'cta_text' => 'Tell us what service you need and where your piano is located.', 'cta_href' => '/contact-us/', 'cta_action' => 'Request Service',
 ];
