@@ -80,6 +80,14 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 			font-size: 13px;
 			line-height: 1.35;
 		}
+		.disklavier-video-page .disklavier-intro-copy {
+			max-width: 1120px;
+			margin-right: auto;
+			margin-left: auto;
+			padding-right: 22px;
+			padding-left: 22px;
+			box-sizing: border-box;
+		}
 		.disklavier-video-page .woocommerce + .vc_row {
 			display: none !important;
 		}
@@ -97,6 +105,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 			text-decoration: underline !important;
 		}
 		@media (max-width: 767px) {
+			.disklavier-video-page .disklavier-intro-copy {
+				padding-right: 18px;
+				padding-left: 18px;
+			}
 			.disklavier-video-page .disklavier-video-row {
 				grid-template-columns: repeat(2, minmax(0, 1fr));
 				width: 100% !important;
@@ -210,7 +222,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 			<div class="wpb_video_wrapper"><p class="responsive-video-wrap clr"><iframe title="Overview of the Yamaha Disklavier Enspire Player Piano App" width="1200" height="900" src="https://www.youtube.com/embed/T9Qv5B1Eb-k?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></div>
 		</div>
 	</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="disklavier-intro-copy">
 	<div class="wpb_text_column wpb_content_element ">
 		<div class="wpb_wrapper">
 			<h1 style="text-align: left;"><strong>Yamaha Disklavier Pianos</strong></h1>
@@ -226,7 +238,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 
 		</div>
 	</div>
-<div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-flat" href="https://usa.yamaha.com/products/musical_instruments/pianos/disklavier/index.html" title="">CLICK HERE FOR DETAILS</a></div>
+<div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-flat" href="https://usa.yamaha.com/products/musical_instruments/pianos/disklavier/index.html" title="">CLICK HERE FOR DETAILS</a></div></div>
 <div class="disklavier-video-row" aria-label="Disklavier videos">
 	<div class="disklavier-video-card"><iframe title="Yamaha Disklavier Enspire Piano A Song Writers Dream Piano using Dorico and Cubase" src="https://www.youtube.com/embed/U1cNpWSI9Nw?feature=oembed" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Yamaha Enspire Piano Is A Song Writers Dream Piano</p></div>
 	<div class="disklavier-video-card"><iframe title="How To Expand An Acoustic Piano With MIDI" src="https://www.youtube.com/embed/Xu36GOKXs5M?feature=oembed" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Expand Your Acoustic Piano With MIDI</p></div>
