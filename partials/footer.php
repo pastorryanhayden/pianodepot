@@ -11,12 +11,12 @@
 	<div class="footer-widgets-inner">
 
 				<div data-elementor-type="wp-post" data-elementor-id="14" class="elementor elementor-14">
-									<section class="elementor-section elementor-top-section elementor-element elementor-element-d5d289e elementor-section-boxed elementor-section-height-default elementor-section-height-default rebuilt-footer-shell" data-id="d5d289e" data-element_type="section" data-settings='{"background_background":"classic"}'>
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-d5d289e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d5d289e" data-element_type="section" data-settings='{"background_background":"classic"}'>
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-05838fd" data-id="05838fd" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-					<section class="elementor-section elementor-inner-section elementor-element elementor-element-c715602 elementor-section-boxed elementor-section-height-default elementor-section-height-default rebuilt-footer-menu" data-id="c715602" data-element_type="section">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-c715602 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c715602" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-8cfcb29" data-id="8cfcb29" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
