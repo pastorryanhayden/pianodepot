@@ -292,6 +292,45 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 	}
 }
 </style>
+<style id="pd-form-labels">
+/* Put identifying labels above related inputs so similar fields are unmistakable. */
+.gform_wrapper .gform_validation_container,
+.gform_wrapper .pd-hp,
+.pd-hp {
+	display: none !important;
+}
+.gform_wrapper .ginput_complex {
+	display: grid !important;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 16px;
+}
+.gform_wrapper .ginput_complex > span {
+	display: flex !important;
+	flex-direction: column;
+	gap: 6px;
+	min-width: 0;
+}
+.gform_wrapper .ginput_complex > span > .gform-field-label--type-sub {
+	order: -1;
+	margin: 0 !important;
+	color: #252525 !important;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+}
+.gform_wrapper .gfield_label,
+.gform_wrapper legend.gfield_label {
+	color: #1b1b1b !important;
+	font-weight: 800 !important;
+}
+.gform_wrapper .gfield {
+	margin-bottom: 20px !important;
+}
+@media (max-width: 600px) {
+	.gform_wrapper .ginput_complex {
+		grid-template-columns: 1fr;
+	}
+}
+</style>
 <style id="pd-home-text">
 /* Homepage copy on the white background — keep off the screen edges.
    Skip the full-width hero and the intro block that already has 80px padding. */

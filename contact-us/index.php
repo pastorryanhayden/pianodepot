@@ -139,12 +139,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
                             
                             <span id="input_2_1_3_container" class="name_first gform-grid-col gform-grid-col--size-auto">
                                                     <input type="text" name="input_1.3" id="input_2_1_3" value="" aria-required="false">
-                                                    <label for="input_2_1_3" class="gform-field-label gform-field-label--type-sub ">First</label>
+                                                    <label for="input_2_1_3" class="gform-field-label gform-field-label--type-sub ">First name</label>
                                                 </span>
                             
                             <span id="input_2_1_6_container" class="name_last gform-grid-col gform-grid-col--size-auto">
                                                     <input type="text" name="input_1.6" id="input_2_1_6" value="" aria-required="false">
-                                                    <label for="input_2_1_6" class="gform-field-label gform-field-label--type-sub ">Last</label>
+                                                    <label for="input_2_1_6" class="gform-field-label gform-field-label--type-sub ">Last name</label>
                                                 </span>
                             
                         </div></li><li id="field_2_2" class="gfield gfield--type-email field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_2_2"><label class="gfield_label gform-field-label" for="input_2_2">Email</label><div class="ginput_container ginput_container_email">

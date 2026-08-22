@@ -14,7 +14,7 @@ function pd_config(): array
         'phone' => '570-352-5501',
         'phone_tel' => '+15703525501',
         'address' => '225 W. Lackawanna Ave., Olyphant, PA 18447',
-        'email_to' => 'info@pianodepot.com',
+        'email_to' => 'frankbissol@gmail.com',
         'display_errors' => false,
     ];
 }

@@ -138,17 +138,17 @@ var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","s
 </script>
 <script defer src="/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.7.10" id="gform_gravityforms-js"></script>
 <script type="text/javascript"></script>
-                <div class="gf_browser_unknown gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework" data-form-theme="legacy" data-form-index="0" id="gform_wrapper_1"><form method="post" enctype="multipart/form-data" id="gform_1" action="/article-of-interest-at-pianodepot-com/" data-formid="1">
+                <div class="gf_browser_unknown gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework" data-form-theme="legacy" data-form-index="0" id="gform_wrapper_1"><form method="post" enctype="multipart/form-data" id="gform_1" action="/forms/send.php" data-formid="1"><input type="hidden" name="pd_form" value="interest"><input type="hidden" name="pd_redirect" value="/article-of-interest-at-pianodepot-com/"><input type="text" name="website" value="" class="pd-hp" autocomplete="off" tabindex="-1" aria-hidden="true" style="position:absolute;left:-9999px">
                         <div class="gform-body gform_body"><ul id="gform_fields_1" class="gform_fields top_label form_sublabel_below description_below"><li id="field_1_1" class="gfield gfield--type-name field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_1_1"><label class="gfield_label gform-field-label gfield_label_before_complex">Name</label><div class="ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name gform-grid-row" id="input_1_1">
                             
                             <span id="input_1_1_3_container" class="name_first gform-grid-col gform-grid-col--size-auto">
                                                     <input type="text" name="input_1.3" id="input_1_1_3" value="" aria-required="false">
-                                                    <label for="input_1_1_3" class="gform-field-label gform-field-label--type-sub ">First</label>
+                                                    <label for="input_1_1_3" class="gform-field-label gform-field-label--type-sub ">First name</label>
                                                 </span>
                             
                             <span id="input_1_1_6_container" class="name_last gform-grid-col gform-grid-col--size-auto">
                                                     <input type="text" name="input_1.6" id="input_1_1_6" value="" aria-required="false">
-                                                    <label for="input_1_1_6" class="gform-field-label gform-field-label--type-sub ">Last</label>
+                                                    <label for="input_1_1_6" class="gform-field-label gform-field-label--type-sub ">Last name</label>
                                                 </span>
                             
                         </div></li><li id="field_1_2" class="gfield gfield--type-email field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_1_2"><label class="gfield_label gform-field-label" for="input_1_2">Email</label><div class="ginput_container ginput_container_email">

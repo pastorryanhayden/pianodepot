@@ -21,6 +21,7 @@ function pd_validate_form(array $post): array
     $gravityHoneypot = match ($kind) {
         'moving' => 'input_14',
         'credit' => 'input_6',
+        'interest' => 'input_6',
         default => 'input_4',
     };
     if (pd_post_get($post, $gravityHoneypot) !== '') {
@@ -40,7 +41,11 @@ function pd_validate_form(array $post): array
         $email = pd_post_get($post, 'input_2');
         $phone = pd_post_get($post, 'input_9');
         $message = pd_post_get($post, 'input_3');
-        $subject = $kind === 'credit' ? 'Piano Depot Credit inquiry' : 'Piano Depot Contact';
+        $subject = match ($kind) {
+            'credit' => 'Piano Depot Credit inquiry',
+            'interest' => 'Piano Depot website inquiry',
+            default => 'Piano Depot Contact',
+        };
     }
 
     $name = trim($first . ' ' . $last);

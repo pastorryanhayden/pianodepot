@@ -46,3 +46,16 @@ $hp2 = pd_validate_form([
     'pd_form' => 'contact',
 ]);
 expect($hp2['status'] === 'honeypot', 'input_4 honeypot');
+
+$interest = pd_validate_form([
+    'input_1.3' => 'Grace',
+    'input_1.6' => 'Hopper',
+    'input_2' => 'grace@example.com',
+    'input_3' => 'Please tell me more',
+    'input_4' => 'Learn More About This Product',
+    'input_6' => '',
+    'website' => '',
+    'pd_form' => 'interest',
+]);
+expect($interest['status'] === 'ok', 'interest selection is not mistaken for spam');
+expect(str_contains($interest['subject'], 'website inquiry'), 'interest subject');

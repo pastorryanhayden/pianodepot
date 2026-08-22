@@ -178,12 +178,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
                             
                             <span id="input_6_4_3_container" class="name_first gform-grid-col gform-grid-col--size-auto">
                                                     <input type="text" name="input_4.3" id="input_6_4_3" value="" aria-required="true">
-                                                    <label for="input_6_4_3" class="gform-field-label gform-field-label--type-sub ">First</label>
+                                                    <label for="input_6_4_3" class="gform-field-label gform-field-label--type-sub ">First name</label>
                                                 </span>
                             
                             <span id="input_6_4_6_container" class="name_last gform-grid-col gform-grid-col--size-auto">
                                                     <input type="text" name="input_4.6" id="input_6_4_6" value="" aria-required="true">
-                                                    <label for="input_6_4_6" class="gform-field-label gform-field-label--type-sub ">Last</label>
+                                                    <label for="input_6_4_6" class="gform-field-label gform-field-label--type-sub ">Last name</label>
                                                 </span>
                             
                         </div></fieldset><div id="field_6_9" class="gfield gfield--type-phone gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_6_9"><label class="gfield_label gform-field-label" for="input_6_9">Phone<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class="ginput_container ginput_container_phone"><input name="input_9" id="input_6_9" type="text" value="" class="large" aria-required="true" aria-invalid="false"></div></div><div id="field_6_10" class="gfield gfield--type-email gfield--width-full field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_6_10"><label class="gfield_label gform-field-label" for="input_6_10">Email</label><div class="ginput_container ginput_container_email">
