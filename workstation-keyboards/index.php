@@ -153,7 +153,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 
 		</div>
 	</div>
-<div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-color-danger" href="https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/index.html" title="">CLICK HERE FOR DETAILS</a></div></div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="woocommerce columns-4 ">
+<div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-flat" href="https://usa.yamaha.com/products/musical_instruments/keyboards/arranger_workstations/psr-sx900/index.html" title="">CLICK HERE FOR DETAILS</a></div></div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="woocommerce columns-4 ">
 <ul class="products oceanwp-row clr grid tablet-col tablet-2-col mobile-col mobile-1-col">
 <li class="entry has-media has-product-nav col span_1_of_4 owp-content-center owp-thumbs-layout-horizontal owp-btn-normal owp-tabs-layout-horizontal product type-product post-1248 status-publish first instock product_cat-workstation-keyboards has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
 	<div class="product-inner clr">

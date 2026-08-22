@@ -226,7 +226,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 
 		</div>
 	</div>
-<div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-color-danger" href="https://usa.yamaha.com/products/musical_instruments/pianos/disklavier/index.html" title="">CLICK HERE FOR DETAILS</a></div>
+<div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-flat" href="https://usa.yamaha.com/products/musical_instruments/pianos/disklavier/index.html" title="">CLICK HERE FOR DETAILS</a></div>
 <div class="disklavier-video-row" aria-label="Disklavier videos">
 	<div class="disklavier-video-card"><iframe title="Yamaha Disklavier Enspire Piano A Song Writers Dream Piano using Dorico and Cubase" src="https://www.youtube.com/embed/U1cNpWSI9Nw?feature=oembed" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Yamaha Enspire Piano Is A Song Writers Dream Piano</p></div>
 	<div class="disklavier-video-card"><iframe title="How To Expand An Acoustic Piano With MIDI" src="https://www.youtube.com/embed/Xu36GOKXs5M?feature=oembed" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Expand Your Acoustic Piano With MIDI</p></div>

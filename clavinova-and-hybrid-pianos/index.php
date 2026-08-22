@@ -191,7 +191,7 @@ return;
 
 		</div>
 	</div>
-<div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-color-danger" href="https://usa.yamaha.com/products/musical_instruments/pianos/clavinova/cvp-series.html#CVP-809GP-tab" title="">CLICK HERE FOR DETAILS</a></div></div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_btn3-container vc_btn3-center"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-flat" href="https://usa.yamaha.com/products/musical_instruments/pianos/clavinova/cvp-series.html#CVP-809GP-tab" title="">CLICK HERE FOR DETAILS</a></div></div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 	<div class="wpb_text_column wpb_content_element ">
 		<div class="wpb_wrapper">
 			<h3 style="text-align: center;">Products</h3>
