@@ -169,9 +169,13 @@ function pd_post_json(string $url, array $payload, array $headers): array
 
 function pd_postmark_payload(array $cfg, array $result): array
 {
+    $recipients = [$cfg['email_to']];
+    if (($result['kind'] ?? '') === 'moving') {
+        $recipients[] = $cfg['moving_email_to'];
+    }
     $payload = [
         'From' => $cfg['email_from_name'] . ' <' . $cfg['email_from'] . '>',
-        'To' => $cfg['email_to'],
+        'To' => implode(',', array_values(array_unique(array_filter($recipients)))),
         'Subject' => $result['subject'],
         'TextBody' => $result['body'],
         'MessageStream' => 'outbound',
@@ -209,26 +213,39 @@ function pd_sms_text(array $result): string
     return trim('New Piano Depot ' . ($result['kind'] ?? 'contact') . ' form from ' . ($result['name'] ?? 'visitor') . '. ' . $contact . '. ' . $message);
 }
 
+function pd_telnyx_recipients(array $cfg, array $result): array
+{
+    $recipients = [$cfg['telnyx_to']];
+    if (($result['kind'] ?? '') === 'moving') {
+        $recipients[] = $cfg['moving_telnyx_to'];
+    }
+    return array_values(array_unique(array_filter($recipients)));
+}
+
 function pd_send_telnyx(array $cfg, array $result): bool
 {
     if ($cfg['telnyx_api_key'] === '' || $cfg['telnyx_from'] === '' || $cfg['telnyx_messaging_profile_id'] === '') {
         error_log('Piano Depot text alert not sent: Telnyx environment is incomplete.');
         return false;
     }
-    $response = pd_post_json(
-        'https://api.telnyx.com/v2/messages',
-        [
-            'from' => $cfg['telnyx_from'],
-            'to' => $cfg['telnyx_to'],
-            'text' => pd_sms_text($result),
-            'messaging_profile_id' => $cfg['telnyx_messaging_profile_id'],
-        ],
-        ['Authorization: Bearer ' . $cfg['telnyx_api_key']]
-    );
-    if (!$response['ok']) {
-        error_log('Piano Depot Telnyx error HTTP ' . $response['status'] . ': ' . $response['error'] . ' ' . $response['response']);
+    $allSent = true;
+    foreach (pd_telnyx_recipients($cfg, $result) as $recipient) {
+        $response = pd_post_json(
+            'https://api.telnyx.com/v2/messages',
+            [
+                'from' => $cfg['telnyx_from'],
+                'to' => $recipient,
+                'text' => pd_sms_text($result),
+                'messaging_profile_id' => $cfg['telnyx_messaging_profile_id'],
+            ],
+            ['Authorization: Bearer ' . $cfg['telnyx_api_key']]
+        );
+        if (!$response['ok']) {
+            $allSent = false;
+            error_log('Piano Depot Telnyx error for ' . $recipient . ' HTTP ' . $response['status'] . ': ' . $response['error'] . ' ' . $response['response']);
+        }
     }
-    return $response['ok'];
+    return $allSent;
 }
 
 function pd_form_banner_html(): string

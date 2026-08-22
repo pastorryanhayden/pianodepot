@@ -39,6 +39,7 @@ function pd_config(): array
         'phone_tel' => '+15703525501',
         'address' => '225 W. Lackawanna Ave., Olyphant, PA 18447',
         'email_to' => pd_env('MAIL_TO', 'frankbissol@gmail.com'),
+        'moving_email_to' => 'joenshar02@icloud.com',
         'email_from' => pd_env('MAIL_FROM', 'ryan@congregationhub.com'),
         'email_from_name' => pd_env('MAIL_FROM_NAME', 'Piano Depot Website'),
         'postmark_token' => pd_env('POSTMARK_SERVER_TOKEN'),
@@ -46,6 +47,7 @@ function pd_config(): array
         'telnyx_from' => pd_env('TELNYX_FROM'),
         'telnyx_messaging_profile_id' => pd_env('TELNYX_MESSAGING_PROFILE_ID'),
         'telnyx_to' => '+15703525501',
+        'moving_telnyx_to' => '+15707662790',
         'display_errors' => false,
     ];
 }

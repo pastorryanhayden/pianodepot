@@ -68,6 +68,16 @@ expect($emailPayload['To'] === 'frankbissol@gmail.com', 'Postmark recipient');
 expect(str_contains($emailPayload['From'], 'ryan@congregationhub.com'), 'Postmark sender');
 expect($emailPayload['ReplyTo'] === 'ada@example.com', 'Postmark reply-to visitor');
 
+$movingPayload = pd_postmark_payload($cfg, array_merge($ok, ['kind' => 'moving']));
+expect(str_contains($movingPayload['To'], 'frankbissol@gmail.com'), 'moving email includes Frank');
+expect(str_contains($movingPayload['To'], 'joenshar02@icloud.com'), 'moving email includes Joe');
+
+$movingPhones = pd_telnyx_recipients($cfg, array_merge($ok, ['kind' => 'moving']));
+expect(in_array('+15703525501', $movingPhones, true), 'moving text includes Frank');
+expect(in_array('+15707662790', $movingPhones, true), 'moving text includes Joe');
+$contactPhones = pd_telnyx_recipients($cfg, $ok);
+expect($contactPhones === ['+15703525501'], 'other forms text only Frank');
+
 $sms = pd_sms_text($ok);
 expect(str_contains($sms, 'Ada Lovelace'), 'text includes customer name');
 expect(str_contains($sms, 'ada@example.com'), 'text includes customer contact');

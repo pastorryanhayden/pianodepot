@@ -13,4 +13,6 @@ expect($cfg['address'] === '225 W. Lackawanna Ave., Olyphant, PA 18447', 'addres
 expect($cfg['email_to'] === 'frankbissol@gmail.com', 'form recipient');
 expect($cfg['email_from'] === 'ryan@congregationhub.com', 'form sender');
 expect($cfg['telnyx_to'] === '+15703525501', 'text recipient');
+expect($cfg['moving_email_to'] === 'joenshar02@icloud.com', 'second moving email recipient');
+expect($cfg['moving_telnyx_to'] === '+15707662790', 'second moving text recipient');
 expect($cfg['display_errors'] === false, 'display_errors is false');
