@@ -420,7 +420,7 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 1, '/wp-content/plugins/
 	
 	
 	
-		
+			<?php if (false): // Suppress the copied legacy page chrome; the shared footer below is canonical. ?>
 <footer id="footer" class="site-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
 
 	
@@ -693,5 +693,6 @@ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', 
 <script>
 gform.initializeOnLoaded( function() {jQuery(document).trigger('gform_post_render', [1, 1]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 1, currentPage: 1 } });} );
 </script>
+<?php endif; ?>
 </div></div></div></article></div></div></div></main>
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/footer.php'; ?>

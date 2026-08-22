@@ -11,12 +11,12 @@
 	<div class="footer-widgets-inner">
 
 				<div data-elementor-type="wp-post" data-elementor-id="14" class="elementor elementor-14">
-									<section class="elementor-section elementor-top-section elementor-element elementor-element-d5d289e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d5d289e" data-element_type="section" data-settings='{"background_background":"classic"}'>
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-d5d289e elementor-section-boxed elementor-section-height-default elementor-section-height-default rebuilt-footer-shell" data-id="d5d289e" data-element_type="section" data-settings='{"background_background":"classic"}'>
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-05838fd" data-id="05838fd" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<section class="elementor-section elementor-inner-section elementor-element elementor-element-c715602 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c715602" data-element_type="section">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-c715602 elementor-section-boxed elementor-section-height-default elementor-section-height-default rebuilt-footer-menu" data-id="c715602" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-8cfcb29" data-id="8cfcb29" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -41,11 +41,11 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-82aa4a4 elementor-widget elementor-widget-wp-widget-ocean_custom_links" data-id="82aa4a4" data-element_type="widget" data-widget_type="wp-widget-ocean_custom_links.default">
 				<div class="elementor-widget-container">
-			<h5>Get In Touch</h5><ul class="oceanwp-custom-links"><li><a href="https://www.pianoorgandepot.com/PianoService.html" target="_blank" rel="noopener noreferrer">About Us</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="/contact-us/" target="_blank" rel="noopener noreferrer">Contact Us</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="https://www.pianoorgandepot.com/Directions.html" target="_blank" rel="noopener noreferrer">Directions to our Store Display Olyphant</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="/contact-us/" target="_blank" rel="noopener noreferrer">Request a Piano You’re Looking to Buy</a><span class="screen-reader-text">Opens in a new tab</span></li></ul>		</div>
+			<h5>Get In Touch</h5><ul class="oceanwp-custom-links"><li><a href="/about-us/">About Us</a></li><li><a href="/contact-us/" target="_blank" rel="noopener noreferrer">Contact Us</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="https://maps.app.goo.gl/wCwevR264g8WTPHt9" target="_blank" rel="noopener noreferrer">Directions to our Store Display Olyphant</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="/contact-us/" target="_blank" rel="noopener noreferrer">Request a Piano You’re Looking to Buy</a><span class="screen-reader-text">Opens in a new tab</span></li></ul>		</div>
 				</div>
 				<div class="elementor-element elementor-element-86cda81 elementor-widget elementor-widget-wp-widget-ocean_custom_links" data-id="86cda81" data-element_type="widget" data-widget_type="wp-widget-ocean_custom_links.default">
 				<div class="elementor-widget-container">
-			<h5>Our Services</h5><ul class="oceanwp-custom-links"><li><a href="/piano-moving-form/">Piano Moving &amp; Storage</a></li><li><a href="" target="_blank" rel="noopener noreferrer">Our Piano Rental Service</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="" target="_blank" rel="noopener noreferrer">Piano Tuning Information</a><span class="screen-reader-text">Opens in a new tab</span></li></ul>		</div>
+			<h5>Our Services</h5><ul class="oceanwp-custom-links"><li><a href="/piano-moving-form/">Piano Moving &amp; Storage</a></li><li><a href="/piano-rental-service/">Our Piano Rental Service</a></li><li><a href="" target="_blank" rel="noopener noreferrer">Piano Tuning Information</a><span class="screen-reader-text">Opens in a new tab</span></li></ul>		</div>
 				</div>
 					</div>
 		</div>
@@ -53,7 +53,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-c701928 elementor-widget elementor-widget-wp-widget-ocean_custom_links" data-id="c701928" data-element_type="widget" data-widget_type="wp-widget-ocean_custom_links.default">
 				<div class="elementor-widget-container">
-			<h5>Buy</h5><ul class="oceanwp-custom-links"><li><a href="https://www.ebay.com/str/pianoorgandepot" target="_blank" rel="noopener noreferrer">Online Ebay Store</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="https://www.pianofarm.com/store/c1/Featured_Products.html" target="_blank" rel="noopener noreferrer">Online Accessories Ecommerce Site</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="https://www.pianoorgandepot.com/" target="_blank" rel="noopener noreferrer">Piano Organ Depot</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="/contact-us/" target="_blank" rel="noopener noreferrer">Request a Piano You’re Looking to Buy</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="/" target="_blank" rel="noopener noreferrer">New Pianos We Sell</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="/used-and-refurbished/" target="_blank" rel="noopener noreferrer">Used Pianos We Sell</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="https://www.pianoorgandepot.com/HammondPro-Line.html" target="_blank" rel="noopener noreferrer">Vintage Hammond Organs For Sale</a><span class="screen-reader-text">Opens in a new tab</span></li></ul>		</div>
+			<h5>Buy</h5><ul class="oceanwp-custom-links"><li><a href="https://www.ebay.com/str/pianoorgandepot" target="_blank" rel="noopener noreferrer">Online Ebay Store</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="https://www.pianofarm.com/store/c1/Featured_Products.html" target="_blank" rel="noopener noreferrer">Online Accessories Ecommerce Site</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="https://www.pianoorgandepot.com/" target="_blank" rel="noopener noreferrer">Piano Organ Depot</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="/contact-us/" target="_blank" rel="noopener noreferrer">Request a Piano You’re Looking to Buy</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="/#new-pianos-we-sell">New Pianos We Sell</a></li><li><a href="/used-and-refurbished/" target="_blank" rel="noopener noreferrer">Used Pianos We Sell</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="https://www.pianoorgandepot.com/Hammond-Organ-Sales.html" target="_blank" rel="noopener noreferrer">Vintage Hammond Organs For Sale</a><span class="screen-reader-text">Opens in a new tab</span></li></ul>		</div>
 				</div>
 				<div class="elementor-element elementor-element-90d9ddd elementor-widget elementor-widget-wp-widget-ocean_custom_links" data-id="90d9ddd" data-element_type="widget" data-widget_type="wp-widget-ocean_custom_links.default">
 				<div class="elementor-widget-container">
@@ -145,6 +145,7 @@
 <ul class="sub-menu">
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3249"><a href="/piano-tuning-and-refurbishing-in-olyphant-pa/">Piano Tuning &amp; Refurbishing</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-407"><a href="/piano-moving-form/">Piano Moving</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/piano-rental-service/">Piano Rental Service</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-409"><a href="#">Articles of Interest</a>
