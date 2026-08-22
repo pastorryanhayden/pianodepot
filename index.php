@@ -231,7 +231,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-4820d44a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4820d44a" data-element_type="section">
+				<section id="new-pianos-we-sell" class="elementor-section elementor-top-section elementor-element elementor-element-4820d44a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4820d44a" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5ee66210" data-id="5ee66210" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">

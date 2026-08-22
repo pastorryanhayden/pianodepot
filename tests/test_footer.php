@@ -23,3 +23,7 @@ $fallbackHtml = ob_get_clean();
 
 expect(substr_count($fallbackHtml, '/wp-content/uploads/elementor/css/post-14.css') === 1, 'header supplies canonical footer css');
 expect(substr_count($fallbackHtml, '<footer id="footer"') === 1, 'shared footer renders once');
+expect(str_contains($fallbackHtml, '<a href="/#new-pianos-we-sell">New Pianos We Sell</a>'), 'new pianos footer link uses homepage inventory anchor');
+
+$home = file_get_contents(dirname(__DIR__) . '/index.php');
+expect(str_contains($home, 'id="new-pianos-we-sell"'), 'homepage Yamaha inventory section has stable anchor');
