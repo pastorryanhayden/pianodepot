@@ -3,6 +3,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/config.php';
 $page = [
     'title' => 'New & Used Pianos For Sale in Olyphant, PA | Piano Depot',
     'description' => 'Piano Depot offers new and used pianos, sales, and service in Olyphant, PA. We specialize in Yamaha acoustic and digital pianos. Visit our showroom today!',
+	'footer_class' => 'home-footer-trial',
     'extra_css' => [
         '/wp-content/uploads/elementor/css/post-349.css',
         '/wp-content/uploads/elementor/css/post-11.css',
