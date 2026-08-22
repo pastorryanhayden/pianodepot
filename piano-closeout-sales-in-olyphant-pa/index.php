@@ -10,8 +10,10 @@ $page = [
         '/wp-content/uploads/elementor/css/post-10.css',
         '/wp-content/uploads/elementor/css/post-3195.css',
         '/wp-content/uploads/piano-depot-category-pages.css',
+        '/wp-content/uploads/piano-depot-closeout-products.css',
     ],
 ];
+$closeoutProducts = require __DIR__ . '/products.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 ?>
 <main id="main" class="site-main clr" role="main">
@@ -167,7 +169,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-61526d0 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="61526d0" data-element_type="section">
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-61526d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="61526d0" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f821567" data-id="f821567" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -202,6 +204,16 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 		</div>
 							</div>
 		</section>
+				<section class="elementor-section elementor-top-section closeout-products elementor-section-boxed elementor-section-height-default" data-closeout-products>
+					<div class="elementor-container elementor-column-gap-default">
+						<div class="closeout-products__inner">
+							<?php foreach ($closeoutProducts as $closeoutProduct) {
+								require __DIR__ . '/product-entry.php';
+							} ?>
+						</div>
+					</div>
+				</section>
+<?php if (false): // Legacy inventory markup retained temporarily for source comparison. ?>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-c1d4e8f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c1d4e8f" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-86e6cc4" data-id="86e6cc4" data-element_type="column">
@@ -236,7 +248,7 @@ Limited Availability—Call Now <a style="color: blue;" href="tel:+15703525501" 
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-0586d54 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="0586d54" data-element_type="section">
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-0586d54 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0586d54" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-71bce99" data-id="71bce99" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -274,6 +286,7 @@ Limited Availability—Call Now <a style="color: blue;" href="tel:+15703525501" 
 		</div>
 							</div>
 		</section>
+<?php endif; ?>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-ed1f871 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ed1f871" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0f71bce" data-id="0f71bce" data-element_type="column">
@@ -296,6 +309,7 @@ Limited Availability—Call Now <a style="color: blue;" href="tel:+15703525501" 
 		</div>
 							</div>
 		</section>
+<?php if (false): // Legacy workstation and Clavinova inventory now comes from products.php. ?>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-664e220 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="664e220" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d750d4" data-id="3d750d4" data-element_type="column">
@@ -359,6 +373,7 @@ Limited Availability—Call Now <a style="color: blue;" href="tel:+15703525501" 
 		</div>
 							</div>
 		</section>
+<?php endif; ?>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-3c689cf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3c689cf" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3478b2d" data-id="3478b2d" data-element_type="column">
