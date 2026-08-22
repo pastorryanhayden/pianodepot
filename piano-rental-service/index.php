@@ -42,5 +42,13 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 			<a class="rental-service__button" href="/contact-us/">Contact Us</a>
 		</div>
 	</section>
+
+	<section class="rental-service__future" aria-labelledby="future-rentals-heading">
+		<div>
+			<h2 id="future-rentals-heading">Considering a longer-term piano rental?</h2>
+			<p>We are exploring future rental options for homes and students. Contact us to let us know what you would need.</p>
+		</div>
+		<a href="/contact-us/">Share Your Interest <span aria-hidden="true">→</span></a>
+	</section>
 </main>
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/footer.php'; ?>
