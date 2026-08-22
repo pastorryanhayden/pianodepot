@@ -21,7 +21,7 @@ $landing = [
 	'cards' => [
 		['label' => 'Our Story', 'title' => 'Our History', 'description' => 'Learn how Piano Depot grew from a love of music and service into a trusted regional piano company.', 'href' => '/our-history/', 'action' => 'Read our story'],
 		['label' => 'Visit or Call', 'title' => 'Contact Piano Depot', 'description' => 'Arrange a showroom appointment, ask about a piano, or talk with us about service for your instrument.', 'href' => '/contact-us/', 'action' => 'Contact us'],
-		['label' => 'Watch & Listen', 'title' => 'Our YouTube Channel', 'description' => 'See piano demonstrations, performances, restoration work, and helpful videos from Piano Depot.', 'href' => 'https://www.youtube.com/@frankbissol7225', 'action' => 'Visit YouTube', 'external' => true],
+		['label' => 'Watch & Listen', 'title' => 'Our YouTube Channel', 'description' => 'See piano demonstrations, performances, restoration work, and helpful videos from Piano Depot.', 'href' => 'https://www.youtube.com/@PianoOrganDepot/videos', 'action' => 'Visit YouTube', 'external' => true],
 	],
 	'cta_title' => 'How can we help?', 'cta_text' => 'Tell us what you are looking for and we will point you in the right direction.', 'cta_href' => '/contact-us/', 'cta_action' => 'Get in Touch',
 ];

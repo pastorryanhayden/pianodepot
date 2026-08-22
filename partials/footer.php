@@ -119,7 +119,7 @@
 <ul class="sub-menu">
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2325"><a href="/contact-us/">Contact Us</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2264"><a href="/our-history/">Our History</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2871"><a href="https://www.youtube.com/@PianoOrganDepot" target="_blank" rel="noopener noreferrer">Piano-Depot-Youtube-Channel</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2871"><a href="https://www.youtube.com/@PianoOrganDepot/videos" target="_blank" rel="noopener noreferrer">Piano-Depot-Youtube-Channel</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-556"><a href="/pianos-we-sell/">Pianos We Sell</a>
