@@ -8,7 +8,7 @@ $page = [
         '/wp-content/uploads/elementor/css/post-11.css',
         '/wp-content/uploads/elementor/css/post-14.css',
         '/wp-content/uploads/elementor/css/post-10.css',
-        '/wp-content/uploads/piano-depot-category-pages.css',
+        '/wp-content/uploads/piano-depot-category-pages.css?v=20260822-product-chooser',
     ],
 ];
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
@@ -28,7 +28,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 
 				
 				
-<article class="single-page-article clr">
+<article class="single-page-article clr focused-product-chooser-page">
 
 	
 <div class="entry clr disklavier-video-page" itemprop="text">
@@ -99,8 +99,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 		@media (max-width: 767px) {
 			.disklavier-video-page .disklavier-video-row {
 				grid-template-columns: repeat(2, minmax(0, 1fr));
-				width: 100%;
-				margin: 30px 0 36px;
+				width: 100% !important;
+				margin: 30px 0 36px !important;
 			}
 		}
 	</style>
@@ -240,7 +240,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 
 		</div>
 	</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="woocommerce columns-4 ">
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="woocommerce columns-4 focused-product-chooser">
 <ul class="products oceanwp-row clr grid tablet-col tablet-2-col mobile-col mobile-1-col">
 <li class="entry has-media has-product-nav col span_1_of_4 owp-content-center owp-thumbs-layout-horizontal owp-btn-normal owp-tabs-layout-horizontal has-no-thumbnails product type-product post-1859 status-publish first instock product_cat-disklavier-pianos has-post-thumbnail taxable shipping-taxable product-type-variable">
 	<div class="product-inner clr">
