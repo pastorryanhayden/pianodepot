@@ -45,7 +45,7 @@
 				</div>
 				<div class="elementor-element elementor-element-86cda81 elementor-widget elementor-widget-wp-widget-ocean_custom_links" data-id="86cda81" data-element_type="widget" data-widget_type="wp-widget-ocean_custom_links.default">
 				<div class="elementor-widget-container">
-			<h5>Our Services</h5><ul class="oceanwp-custom-links"><li><a href="/piano-moving-form/">Piano Moving &amp; Storage</a></li><li><a href="" target="_blank" rel="noopener noreferrer">Our Piano Rental Service</a><span class="screen-reader-text">Opens in a new tab</span></li><li><a href="" target="_blank" rel="noopener noreferrer">Piano Tuning Information</a><span class="screen-reader-text">Opens in a new tab</span></li></ul>		</div>
+			<h5>Our Services</h5><ul class="oceanwp-custom-links"><li><a href="/piano-moving-form/">Piano Moving &amp; Storage</a></li><li><a href="/piano-rental-service/">Our Piano Rental Service</a></li><li><a href="" target="_blank" rel="noopener noreferrer">Piano Tuning Information</a><span class="screen-reader-text">Opens in a new tab</span></li></ul>		</div>
 				</div>
 					</div>
 		</div>
@@ -145,6 +145,7 @@
 <ul class="sub-menu">
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3249"><a href="/piano-tuning-and-refurbishing-in-olyphant-pa/">Piano Tuning &amp; Refurbishing</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-407"><a href="/piano-moving-form/">Piano Moving</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/piano-rental-service/">Piano Rental Service</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-409"><a href="#">Articles of Interest</a>
