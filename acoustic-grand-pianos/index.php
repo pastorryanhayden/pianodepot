@@ -52,6 +52,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 			width: 100% !important;
 			height: 100% !important;
 		}
+		.acoustic-grand-page .acoustic-grand-appointment {
+			max-width: 940px;
+			margin: 28px auto 0;
+		}
 		@media (max-width: 767px) {
 			.acoustic-grand-page .acoustic-grand-feature-row {
 				padding-right: 18px;
@@ -266,7 +270,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 			</button>
 				<input type="hidden" name="post_type" value="product">
 			</div>
-		</form></div></div><div id="block-6" class="sidebar-box widget_block clr"><div class="wp-widget-group__inner-blocks"><div class="wp-widget-group__inner-blocks">
+		</form></div></div><div id="block-6" class="sidebar-box widget_block clr acoustic-grand-appointment"><div class="wp-widget-group__inner-blocks"><div class="wp-widget-group__inner-blocks">
 <h3>
 	Let Us Know If You're Interested in a Piano<br>
 </h3>
