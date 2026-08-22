@@ -11,6 +11,55 @@ $page = [
 ];
 require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 ?>
+<style>
+.pd-sold-gallery {
+    opacity: 1 !important;
+}
+
+.pd-sold-gallery .woocommerce-product-gallery__wrapper > .woocommerce-product-gallery__image:not(.pd-sold-gallery__featured) {
+    display: none;
+}
+
+.pd-sold-gallery__featured {
+    position: relative;
+}
+
+.pd-sold-gallery__banner {
+    background: rgba(145, 20, 20, 0.94);
+    border: 2px solid #fff;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.28);
+    color: #fff;
+    font-size: clamp(1.4rem, 4vw, 2.35rem);
+    font-weight: 800;
+    left: 50%;
+    letter-spacing: 0.18em;
+    padding: 0.35em 1.2em;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 38%;
+    transform: translate(-50%, -50%) rotate(-8deg);
+    z-index: 20;
+}
+
+.pd-sold-status {
+    border-left: 4px solid #911414;
+    margin: 1.25rem 0;
+    padding: 0.35rem 0 0.35rem 1rem;
+}
+
+.pd-sold-status__date {
+    color: #911414;
+    font-size: 1.08rem;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+}
+
+.pd-sold-status p:last-child {
+    margin-bottom: 0;
+}
+</style>
 <main id="main" class="site-main clr" role="main">
 
 				
@@ -48,10 +97,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 
 					
 			<div class="woocommerce-notices-wrapper"></div>
-<div id="product-1000" class="entry has-media owp-thumbs-layout-horizontal owp-btn-normal owp-tabs-layout-horizontal has-product-nav product type-product post-1000 status-publish first instock product_cat-clavinova-and-hybrid-pianos product_cat-clavinova-pianos has-post-thumbnail sale taxable shipping-taxable purchasable product-type-variable has-default-attributes">
-
-	
-	<span class="onsale">Sale!</span>
+<div id="product-1000" class="entry has-media owp-thumbs-layout-horizontal owp-btn-normal owp-tabs-layout-horizontal has-product-nav product type-product post-1000 status-publish first product_cat-clavinova-and-hybrid-pianos product_cat-clavinova-pianos has-post-thumbnail product-type-variable has-default-attributes">
 	
 			<div class="owp-product-nav-wrap clr">
 				<ul class="owp-product-nav">
@@ -76,20 +122,21 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 								</ul>
 			</div>
 
-			<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
+			<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images pd-sold-gallery" data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
 		<figure class="woocommerce-product-gallery__wrapper">
-		<div data-thumb="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" data-thumb-alt="CLP-725B" class="woocommerce-product-gallery__image"><a href="/wp-content/uploads/2021/07/clp-725-Black-1.jpg"><img width="600" height="600" src="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" class="wp-post-image" alt="CLP-725B" decoding="async" loading="lazy" title="clp-725-Black" data-caption="CLP-725-Black" data-src="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" data-large_image="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" data-large_image_width="1200" data-large_image_height="1200"></a></div><div data-thumb="/wp-content/uploads/2021/07/clp-725-Black.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="/wp-content/uploads/2021/07/clp-725-Black.jpg"><img width="600" height="600" src="/wp-content/uploads/2021/07/clp-725-Black.jpg" class="" alt="" decoding="async" loading="lazy" title="clp-725-Black" data-caption="" data-src="/wp-content/uploads/2021/07/clp-725-Black.jpg" data-large_image="/wp-content/uploads/2021/07/clp-725-Black.jpg" data-large_image_width="1200" data-large_image_height="1200"></a></div><div data-thumb="/wp-content/uploads/2021/07/clp-725-side-black.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="/wp-content/uploads/2021/07/clp-725-side-black.jpg"><img width="600" height="600" src="/wp-content/uploads/2021/07/clp-725-side-black.jpg" class="" alt="" decoding="async" loading="lazy" title="clp-725-side-black" data-caption="" data-src="/wp-content/uploads/2021/07/clp-725-side-black.jpg" data-large_image="/wp-content/uploads/2021/07/clp-725-side-black.jpg" data-large_image_width="1200" data-large_image_height="1200"></a></div><div data-thumb="/wp-content/uploads/2021/07/CLP-725-PE_.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="/wp-content/uploads/2021/07/CLP-725-PE_.jpg"><img width="600" height="600" src="/wp-content/uploads/2021/07/CLP-725-PE_.jpg" class="" alt="" decoding="async" loading="lazy" title="CLP-725-PE_" data-caption="" data-src="/wp-content/uploads/2021/07/CLP-725-PE_.jpg" data-large_image="/wp-content/uploads/2021/07/CLP-725-PE_.jpg" data-large_image_width="1200" data-large_image_height="1200"></a></div><div data-thumb="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" data-thumb-alt="CLP-725B" class="woocommerce-product-gallery__image"><a href="/wp-content/uploads/2021/07/clp-725-Black-1.jpg"><img width="600" height="600" src="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" class="" alt="CLP-725B" decoding="async" loading="lazy" title="clp-725-Black" data-caption="CLP-725-Black" data-src="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" data-large_image="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" data-large_image_width="1200" data-large_image_height="1200"></a></div><div data-thumb="/wp-content/uploads/2021/07/clp-725-Rosewood.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="/wp-content/uploads/2021/07/clp-725-Rosewood.jpg"><img width="600" height="600" src="/wp-content/uploads/2021/07/clp-725-Rosewood.jpg" class="" alt="" decoding="async" loading="lazy" title="clp-725-Rosewood" data-caption="" data-src="/wp-content/uploads/2021/07/clp-725-Rosewood.jpg" data-large_image="/wp-content/uploads/2021/07/clp-725-Rosewood.jpg" data-large_image_width="1200" data-large_image_height="1200"></a></div>	</figure>
+		<div data-thumb="/wp-content/uploads/2021/07/CLP-725-PE_.jpg" data-thumb-alt="CLP-725 PE polished ebony" class="woocommerce-product-gallery__image pd-sold-gallery__featured"><span class="pd-sold-gallery__banner" aria-label="Sold">SOLD</span><a href="/wp-content/uploads/2021/07/CLP-725-PE_.jpg"><img width="600" height="600" src="/wp-content/uploads/2021/07/CLP-725-PE_.jpg" class="wp-post-image" alt="Yamaha Clavinova CLP-725 PE polished ebony" decoding="async" loading="lazy" title="CLP-725 PE" data-caption="CLP-725 PE polished ebony" data-src="/wp-content/uploads/2021/07/CLP-725-PE_.jpg" data-large_image="/wp-content/uploads/2021/07/CLP-725-PE_.jpg" data-large_image_width="1200" data-large_image_height="1200"></a></div><div data-thumb="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" data-thumb-alt="CLP-725B" class="woocommerce-product-gallery__image"><a href="/wp-content/uploads/2021/07/clp-725-Black-1.jpg"><img width="600" height="600" src="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" class="" alt="CLP-725B" decoding="async" loading="lazy" title="clp-725-Black" data-caption="CLP-725-Black" data-src="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" data-large_image="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" data-large_image_width="1200" data-large_image_height="1200"></a></div><div data-thumb="/wp-content/uploads/2021/07/clp-725-Black.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="/wp-content/uploads/2021/07/clp-725-Black.jpg"><img width="600" height="600" src="/wp-content/uploads/2021/07/clp-725-Black.jpg" class="" alt="" decoding="async" loading="lazy" title="clp-725-Black" data-caption="" data-src="/wp-content/uploads/2021/07/clp-725-Black.jpg" data-large_image="/wp-content/uploads/2021/07/clp-725-Black.jpg" data-large_image_width="1200" data-large_image_height="1200"></a></div><div data-thumb="/wp-content/uploads/2021/07/clp-725-side-black.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="/wp-content/uploads/2021/07/clp-725-side-black.jpg"><img width="600" height="600" src="/wp-content/uploads/2021/07/clp-725-side-black.jpg" class="" alt="" decoding="async" loading="lazy" title="clp-725-side-black" data-caption="" data-src="/wp-content/uploads/2021/07/clp-725-side-black.jpg" data-large_image="/wp-content/uploads/2021/07/clp-725-side-black.jpg" data-large_image_width="1200" data-large_image_height="1200"></a></div><div data-thumb="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" data-thumb-alt="CLP-725B" class="woocommerce-product-gallery__image"><a href="/wp-content/uploads/2021/07/clp-725-Black-1.jpg"><img width="600" height="600" src="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" class="" alt="CLP-725B" decoding="async" loading="lazy" title="clp-725-Black" data-caption="CLP-725-Black" data-src="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" data-large_image="/wp-content/uploads/2021/07/clp-725-Black-1.jpg" data-large_image_width="1200" data-large_image_height="1200"></a></div><div data-thumb="/wp-content/uploads/2021/07/clp-725-Rosewood.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="/wp-content/uploads/2021/07/clp-725-Rosewood.jpg"><img width="600" height="600" src="/wp-content/uploads/2021/07/clp-725-Rosewood.jpg" class="" alt="" decoding="async" loading="lazy" title="clp-725-Rosewood" data-caption="" data-src="/wp-content/uploads/2021/07/clp-725-Rosewood.jpg" data-large_image="/wp-content/uploads/2021/07/clp-725-Rosewood.jpg" data-large_image_width="1200" data-large_image_height="1200"></a></div>	</figure>
 </div>
 
 		<div class="summary entry-summary">
 			
 <h2 class="single-post-title product_title entry-title" itemprop="name">Clavinova CLP 725</h2>
 <div class="woocommerce-product-details__short-description">
-	<p>Experience newly sampled Voices of the world-renowned CFX and Bösendorfer Imperial grand pianos, featuring binaural sound, and two new centuries-old Forte piano Voices that allow you to hear classical music the way their original composers did. The CLP 725 comes in a variety of cabinet styles, record playback your performances, acoustic resonance, and authentic grand piano touch and much more. Call us for details.</p>
+	<p>Experience newly sampled Voices of the world-renowned CFX and Bösendorfer Imperial grand pianos, featuring binaural sound, and two new centuries-old Forte piano Voices that allow you to hear classical music the way their original composers did. The CLP 725 comes in a variety of cabinet styles, with performance recording and playback, acoustic resonance, and authentic grand piano touch.</p>
 </div>
-<p class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>1,999.99</bdi></span> – <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>2,399.99</bdi></span></p>
-
-<p class="pd-call-to-buy">Call or text <a href="tel:+15703525501">570-352-5501</a> or <a href="/contact-us/">contact us</a> about this piano.</p>
+<div class="pd-sold-status" role="status">
+	<p class="pd-sold-status__date">Sold August 22, 2026</p>
+	<p>This instrument has sold. Please contact us about similar Clavinovas.</p>
+</div>
 
 		</div>
 
