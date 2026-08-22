@@ -205,12 +205,20 @@ function pd_send_postmark(array $cfg, array $result): bool
 
 function pd_sms_text(array $result): string
 {
-    $contact = trim(($result['phone'] ?? '') . ' ' . ($result['email'] ?? ''));
     $message = preg_replace('/\s+/', ' ', trim((string) ($result['message'] ?? ''))) ?? '';
-    if (strlen($message) > 180) {
-        $message = substr($message, 0, 177) . '...';
+    if (strlen($message) > 240) {
+        $message = substr($message, 0, 237) . '...';
     }
-    return trim('New Piano Depot ' . ($result['kind'] ?? 'contact') . ' form from ' . ($result['name'] ?? 'visitor') . '. ' . $contact . '. ' . $message);
+    $lines = [
+        'New Piano Depot ' . ($result['kind'] ?? 'contact') . ' form',
+        'Name: ' . (($result['name'] ?? '') !== '' ? $result['name'] : 'Not provided'),
+        'Phone: ' . (($result['phone'] ?? '') !== '' ? $result['phone'] : 'Not provided'),
+        'Message: ' . ($message !== '' ? $message : 'Not provided'),
+    ];
+    if (($result['email'] ?? '') !== '') {
+        $lines[] = 'Email: ' . $result['email'];
+    }
+    return implode("\n", $lines);
 }
 
 function pd_telnyx_recipients(array $cfg, array $result): array

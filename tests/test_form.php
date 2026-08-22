@@ -79,5 +79,7 @@ $contactPhones = pd_telnyx_recipients($cfg, $ok);
 expect($contactPhones === ['+15703525501'], 'other forms text only Frank');
 
 $sms = pd_sms_text($ok);
-expect(str_contains($sms, 'Ada Lovelace'), 'text includes customer name');
-expect(str_contains($sms, 'ada@example.com'), 'text includes customer contact');
+expect(str_contains($sms, 'Name: Ada Lovelace'), 'text labels customer name');
+expect(str_contains($sms, 'Phone: 570-555-0100'), 'text labels customer phone');
+expect(str_contains($sms, 'Message: Need a piano'), 'text labels customer message');
+expect(str_contains($sms, 'Email: ada@example.com'), 'text labels customer email');
