@@ -88,6 +88,21 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 			padding-left: 22px;
 			box-sizing: border-box;
 		}
+		.focused-product-chooser-page .disklavier-appointment-section {
+			max-width: 1120px;
+			margin-right: auto;
+			margin-left: auto;
+			padding-right: 22px;
+			padding-left: 22px;
+			box-sizing: border-box;
+			text-align: center;
+		}
+		.focused-product-chooser-page .disklavier-appointment-section h3,
+		.focused-product-chooser-page .disklavier-appointment-section p,
+		.focused-product-chooser-page .disklavier-appointment-section .gfield_label,
+		.focused-product-chooser-page .disklavier-appointment-section .gform-field-label {
+			text-align: center !important;
+		}
 		.disklavier-video-page .woocommerce + .vc_row {
 			display: none !important;
 		}
@@ -105,7 +120,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 			text-decoration: underline !important;
 		}
 		@media (max-width: 767px) {
-			.disklavier-video-page .disklavier-intro-copy {
+			.disklavier-video-page .disklavier-intro-copy,
+			.focused-product-chooser-page .disklavier-appointment-section {
 				padding-right: 18px;
 				padding-left: 18px;
 			}
@@ -339,7 +355,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 			</button>
 				<input type="hidden" name="post_type" value="product">
 			</div>
-		</form></div></div><div id="block-6" class="sidebar-box widget_block clr"><div class="wp-widget-group__inner-blocks"><div class="wp-widget-group__inner-blocks">
+		</form></div></div><div id="block-6" class="sidebar-box widget_block clr disklavier-appointment-section"><div class="wp-widget-group__inner-blocks"><div class="wp-widget-group__inner-blocks">
 <h3>
 	Let Us Know If You're Interested in a Piano<br>
 </h3>
