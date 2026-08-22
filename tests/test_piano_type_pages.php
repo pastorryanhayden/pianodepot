@@ -30,7 +30,6 @@ foreach ($types as $slug => $title) {
     expect(str_contains($html, "partials/piano-type-catalog.php"), $slug . ' uses catalog partial');
     expect(str_contains($html, '/wp-content/uploads/piano-type-pages.css'), $slug . ' loads type-page CSS');
     expect(str_contains($html, $title), $slug . ' has hero title');
-    expect(str_contains($html, '/contact-us/'), $slug . ' has appointment CTA');
 
     foreach ($forbidden as $needle) {
         expect(!str_contains($html, $needle), $slug . ' does not contain ' . $needle);
@@ -45,6 +44,7 @@ expect(is_file($partialPath), 'catalog partial exists');
 $partial = is_file($partialPath) ? file_get_contents($partialPath) : '';
 expect(str_contains($partial, 'piano-type-hero'), 'partial renders photo hero');
 expect(str_contains($partial, 'youtube.com/embed/'), 'partial can render videos');
+expect(str_contains($partial, '/contact-us/'), 'catalog partial has appointment CTA');
 
 $disk = file_get_contents($root . '/disklavier-pianos/index.php');
 foreach ($disklavierVideos as $id) {
