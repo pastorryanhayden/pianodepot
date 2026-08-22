@@ -12,11 +12,14 @@ $hasImage = !empty($closeoutProduct['image']);
     </figure>
     <?php endif; ?>
     <div class="closeout-product__copy">
-        <h3><?= htmlspecialchars($closeoutProduct['title']) ?><?php if (!empty($closeoutProduct['price_condition'])): ?> – <?= htmlspecialchars($closeoutProduct['price_condition']) ?><?php endif; ?></h3>
+        <h3><?= htmlspecialchars($closeoutProduct['title']) ?></h3>
+        <?php if (!empty($closeoutProduct['price_condition'])): ?>
+        <p class="closeout-product__price"><?= htmlspecialchars($closeoutProduct['price_condition']) ?></p>
+        <?php endif; ?>
         <p><?php if ($body !== null): ?><strong><?= htmlspecialchars($lead) ?></strong><br><?= htmlspecialchars($body) ?><?php else: ?><?= htmlspecialchars($lead) ?><?php endif; ?></p>
         <?php if (!empty($closeoutProduct['details_url'])): ?>
         <p><a class="closeout-product__details" href="<?= htmlspecialchars($closeoutProduct['details_url']) ?>"<?= str_starts_with($closeoutProduct['details_url'], 'http') ? ' target="_blank" rel="noopener noreferrer"' : '' ?>><?= htmlspecialchars($closeoutProduct['details_label'] ?? 'Learn More') ?></a></p>
         <?php endif; ?>
-        <p class="closeout-product__availability"><?= htmlspecialchars($closeoutProduct['availability']) ?> <a href="tel:<?= htmlspecialchars($closeoutProduct['phone']) ?>"><?= htmlspecialchars($closeoutProduct['phone_display']) ?></a></p>
+        <p class="closeout-product__availability"><?= htmlspecialchars($closeoutProduct['availability']) ?> <a class="closeout-product__phone" href="tel:<?= htmlspecialchars($closeoutProduct['phone']) ?>"><?= htmlspecialchars($closeoutProduct['phone_display']) ?></a></p>
     </div>
 </article>

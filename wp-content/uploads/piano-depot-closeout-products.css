@@ -1,75 +1,36 @@
-.closeout-products .elementor-container {
-    display: block;
-}
-
-.closeout-products__inner {
-    width: 100%;
-    padding: 10px;
-}
-
-.closeout-products__heading {
-    margin: 42px 0 18px;
-    color: #222;
-    font-family: Raleway, sans-serif;
-}
-
-.closeout-products__heading:first-child {
-    margin-top: 0;
-}
-
-.closeout-product {
-    display: grid;
-    gap: 28px;
-    align-items: center;
-    padding: 28px 0;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.closeout-product--with-image {
-    grid-template-columns: minmax(0, 3fr) minmax(280px, 2fr);
-}
-
-.closeout-product--without-image {
-    grid-template-columns: minmax(0, 1fr);
-}
-
-.closeout-product__copy h3 {
-    margin-bottom: 12px;
-    color: #222;
-    font-family: Raleway, sans-serif;
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.closeout-product__copy p:last-child {
-    margin-bottom: 0;
-}
-
-.closeout-product__media {
-    order: 2;
-    margin: 0;
-}
-
-.closeout-product__media img {
-    display: block;
-    width: 100%;
-    max-height: 390px;
-    object-fit: contain;
-}
-
-.closeout-product__details,
-.closeout-product__availability a {
-    color: blue;
-}
-
+.closeout-lead { margin: 0 0 40px; padding: 32px 36px; background: #f6f3ed; border-left: 5px solid #b11f24; }
+.closeout-lead h2 { margin: 0 0 10px; color: #222; font-size: 30px; }
+.closeout-lead p { margin: 0 0 16px; color: #555; font-size: 17px; line-height: 1.7; }
+.closeout-lead a { color: #9d1b20; font-weight: 800; }
+.closeout-lead ul { margin: 0; padding: 0; list-style: none; }
+.closeout-lead li { position: relative; margin: 0 0 8px; padding-left: 1.1em; color: #444; font-weight: 700; }
+.closeout-lead li:before { content: ""; position: absolute; top: .45em; left: 0; width: .38em; height: .38em; background: #b11f24; transform: rotate(45deg); }
+.closeout-products { margin: 0 0 28px; }
+.closeout-products__inner { width: 100%; }
+.closeout-products__heading { margin: 48px 0 18px; color: #222; font-size: 32px; line-height: 1.25; }
+.closeout-products__heading:first-child { margin-top: 0; }
+.closeout-product { display: grid; gap: 28px; align-items: center; margin: 0 0 24px; padding: 0 0 28px; background: #fff; border: 1px solid #e1e1e1; box-shadow: 0 4px 16px rgba(0,0,0,.09); }
+.closeout-product--with-image { grid-template-columns: minmax(240px, 1fr) minmax(0, 1.4fr); padding: 0; }
+.closeout-product--without-image { grid-template-columns: minmax(0, 1fr); padding: 28px 32px; }
+.closeout-product__media { order: 0; margin: 0; background: #f3f3f3; }
+.closeout-product__media img { display: block; width: 100%; height: 280px; object-fit: contain; padding: 16px; box-sizing: border-box; }
+.closeout-product__copy { padding: 28px 32px 28px 0; }
+.closeout-product--without-image .closeout-product__copy { padding: 0; }
+.closeout-product__copy h3 { margin: 0 0 8px; color: #222; font-size: 25px; line-height: 1.25; }
+.closeout-product__price { margin: 0 0 14px; color: #b11f24; font-size: 22px; font-weight: 800; }
+.closeout-product__copy p { margin: 0 0 14px; color: #555; line-height: 1.65; }
+.closeout-product__copy p:last-child { margin-bottom: 0; }
+.closeout-product__details { color: #9d1b20; font-weight: 800; text-decoration: none; }
+.closeout-product__details:hover, .closeout-product__details:focus { color: #681115; }
+.closeout-product__availability { color: #444; font-weight: 700; }
+.closeout-product__phone { display: inline !important; padding: 0 !important; color: #9d1b20 !important; background: none !important; border: 0 !important; font-weight: 800; text-decoration: underline; white-space: nowrap; }
 @media (max-width: 767px) {
-    .closeout-product,
-    .closeout-product--with-image,
-    .closeout-product--without-image {
-        grid-template-columns: minmax(0, 1fr);
-    }
-
-    .closeout-product__media {
-        order: 0;
-    }
+	.closeout-lead { padding: 26px 22px; }
+	.closeout-product,
+	.closeout-product--with-image,
+	.closeout-product--without-image { grid-template-columns: minmax(0, 1fr); padding: 0 0 22px; }
+	.closeout-product--without-image { padding: 22px; }
+	.closeout-product__copy { padding: 0 22px 22px; }
+	.closeout-product--without-image .closeout-product__copy { padding: 0; }
+	.closeout-product__media img { height: 240px; }
 }
