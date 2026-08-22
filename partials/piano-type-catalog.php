@@ -105,11 +105,11 @@ function pd_type_card(array $model): void
 		<?php endif; ?>
 
 		<section class="piano-type-cta">
-			<div>
+			<div class="piano-type-cta__copy">
 				<h2><?= htmlspecialchars($ctaTitle) ?></h2>
-				<p><?= htmlspecialchars($ctaText) ?> Call or text <a href="tel:<?= htmlspecialchars($cfg['phone_tel']) ?>"><?= htmlspecialchars($cfg['phone']) ?></a>.</p>
+				<p><?= htmlspecialchars($ctaText) ?> Call or text <a class="piano-type-cta__phone" href="tel:<?= htmlspecialchars($cfg['phone_tel']) ?>"><?= htmlspecialchars($cfg['phone']) ?></a>.</p>
 			</div>
-			<a href="/contact-us/"><?= htmlspecialchars($ctaAction) ?></a>
+			<a class="piano-type-button" href="/contact-us/"><?= htmlspecialchars($ctaAction) ?></a>
 		</section>
 	</div>
 </main>
