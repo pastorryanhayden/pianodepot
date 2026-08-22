@@ -5,6 +5,10 @@ $cfg = pd_config();
 $title = htmlspecialchars($page['title'] ?? $cfg['site_name'], ENT_QUOTES);
 $description = htmlspecialchars($page['description'] ?? '', ENT_QUOTES);
 $extraCss = $page['extra_css'] ?? [];
+$footerCss = '/wp-content/uploads/elementor/css/post-14.css';
+if (!in_array($footerCss, $extraCss, true)) {
+    $extraCss[] = $footerCss;
+}
 ?>
 <!DOCTYPE html>
 <html class="html" lang="en-US">
