@@ -100,10 +100,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
             @media (max-width: 700px) { .moving-services-grid { grid-template-columns: 1fr; } }
             @media (max-width: 600px) { .page-header.background-image-page-header { padding: 116px 0 28px; } .page-header .page-header-title { font-size: 42px !important; } .single-page-article .entry { padding: 0 18px 36px; } .moving-family-feature img { height: 390px !important; } .moving-family-feature figcaption { padding: 46px 20px 18px; } .piano-moving-intro, .moving-service-card, .moving-service-note, #gform_wrapper_6 { padding: 22px; } }
         </style>
-        <figure class="moving-family-feature">
-            <img src="/wp-content/uploads/piano-moving/piano-depot-family-showroom.png" alt="Joe and Sharff Souder with their family in the Piano Depot showroom">
-            <figcaption>Meet our piano movers: Joe and Sharff Souder and family.</figcaption>
-        </figure>
         <div class="moving-gallery" aria-label="Piano Depot moving equipment gallery">
             <figure>
                 <img src="/wp-content/uploads/piano-moving/all-terrain-piano-truck.jpg" alt="Piano Depot all-terrain piano truck">
@@ -118,6 +114,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
                 <figcaption>Long-distance piano moving</figcaption>
             </figure>
         </div>
+        <figure class="moving-family-feature">
+            <img src="/wp-content/uploads/piano-moving/piano-depot-family-showroom.png" alt="Joe and Shar Souder with their family in the Piano Depot showroom">
+            <figcaption>Meet our piano movers: Joe and Shar Souder and family.</figcaption>
+        </figure>
         <div class="piano-moving-intro">
             <h2>Careful Piano Moving, Backed by Family Experience</h2>
             <p>For three generations, our family has worked in the piano business. We understand that every piano deserves careful planning, proper handling, and respect from pickup through delivery.</p>
