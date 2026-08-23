@@ -1,4 +1,4 @@
-<footer id="footer" class="site-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
+<footer id="footer" class="site-footer<?php echo !empty($page['footer_class']) ? ' ' . htmlspecialchars($page['footer_class'], ENT_QUOTES, 'UTF-8') : ''; ?>" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
 
 	
 	<div id="footer-inner" class="clr">
