@@ -66,6 +66,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
             .piano-moving-intro h2 { margin: 0 0 12px; color: #222; font-size: 30px; }
             .piano-moving-intro p { margin: 0 0 14px; font-size: 18px; line-height: 1.65; }
             .piano-moving-intro p:last-child { margin-bottom: 0; }
+            .moving-family-feature { position: relative; margin: 0 0 26px; overflow: hidden; background: #252525; box-shadow: 0 5px 18px rgba(0,0,0,.2); }
+            .moving-family-feature img { display: block; width: 100%; height: clamp(380px, 52vw, 610px) !important; object-fit: cover; object-position: center 48%; }
+            .moving-family-feature figcaption { position: absolute; right: 0; bottom: 0; left: 0; padding: 38px 30px 24px; color: #fff; background: linear-gradient(transparent, rgba(0,0,0,.88)); font-size: clamp(20px, 2.5vw, 30px); font-weight: 700; line-height: 1.3; text-shadow: 0 2px 5px rgba(0,0,0,.55); }
             .moving-services { margin: 0 0 40px; }
             .moving-services-heading { margin: 0 0 8px; color: #222; font-size: 29px; }
             .moving-services-lead { max-width: 800px; margin: 0 0 24px; font-size: 18px; line-height: 1.65; }
@@ -95,8 +98,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
             #gform_wrapper_6 .gform_title { color: #b11f24; font-size: 28px; }
             @media (max-width: 850px) { .moving-gallery, .moving-service-area-layout { grid-template-columns: 1fr; } .moving-gallery img { height: auto; max-height: 420px; object-fit: contain; } }
             @media (max-width: 700px) { .moving-services-grid { grid-template-columns: 1fr; } }
-            @media (max-width: 600px) { .page-header.background-image-page-header { padding: 116px 0 28px; } .page-header .page-header-title { font-size: 42px !important; } .single-page-article .entry { padding: 0 18px 36px; } .piano-moving-intro, .moving-service-card, .moving-service-note, #gform_wrapper_6 { padding: 22px; } }
+            @media (max-width: 600px) { .page-header.background-image-page-header { padding: 116px 0 28px; } .page-header .page-header-title { font-size: 42px !important; } .single-page-article .entry { padding: 0 18px 36px; } .moving-family-feature img { height: 390px !important; } .moving-family-feature figcaption { padding: 46px 20px 18px; } .piano-moving-intro, .moving-service-card, .moving-service-note, #gform_wrapper_6 { padding: 22px; } }
         </style>
+        <figure class="moving-family-feature">
+            <img src="/wp-content/uploads/piano-moving/piano-depot-family-showroom.png" alt="Joe and Sharff Souder with their family in the Piano Depot showroom">
+            <figcaption>Meet our piano movers: Joe and Sharff Souder and family.</figcaption>
+        </figure>
         <div class="moving-gallery" aria-label="Piano Depot moving equipment gallery">
             <figure>
                 <img src="/wp-content/uploads/piano-moving/all-terrain-piano-truck.jpg" alt="Piano Depot all-terrain piano truck">
