@@ -66,12 +66,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
             .piano-moving-intro h2 { margin: 0 0 12px; color: #222; font-size: 30px; }
             .piano-moving-intro p { margin: 0 0 14px; font-size: 18px; line-height: 1.65; }
             .piano-moving-intro p:last-child { margin-bottom: 0; }
-            .moving-team-showcase { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; align-items: start; margin: 0 0 26px; }
-            .moving-family-feature { margin: 0; overflow: hidden; background: #252525; box-shadow: 0 5px 18px rgba(0,0,0,.2); }
-            .moving-family-feature img { display: block; width: 100%; height: auto !important; }
-            .moving-family-feature figcaption { padding: 16px 20px; color: #fff; font-size: clamp(20px, 2.5vw, 28px); font-weight: 700; line-height: 1.35; text-align: center; }
-            .moving-team-video { margin: 0; overflow: hidden; background: #252525; box-shadow: 0 5px 18px rgba(0,0,0,.2); }
-            .moving-team-video figcaption { padding: 16px 20px; color: #fff; font-size: clamp(20px, 2.5vw, 28px); font-weight: 700; line-height: 1.35; text-align: center; }
+            .moving-team-showcase { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; align-items: stretch; margin: 0 0 26px; }
+            .moving-family-feature, .moving-team-video { display: flex; flex-direction: column; margin: 0; overflow: hidden; background: #252525; box-shadow: 0 5px 18px rgba(0,0,0,.2); }
+            .moving-family-feature img { display: block; width: 100%; aspect-ratio: 16 / 9; height: auto !important; object-fit: cover; object-position: center 48%; }
+            .moving-family-feature figcaption, .moving-team-video figcaption { flex: 1; display: flex; align-items: center; justify-content: center; min-height: 76px; padding: 18px 20px; color: #fff; font-size: clamp(22px, 2.7vw, 30px); font-weight: 700; line-height: 1.3; text-align: center; }
             .moving-team-video-frame { aspect-ratio: 16 / 9; background: #000; }
             .moving-team-video iframe { display: block; width: 100%; height: 100%; border: 0; }
             .moving-services { margin: 0 0 40px; }
@@ -125,10 +123,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
                 <figcaption>Meet our piano movers: Joe and Shar Souder and family.</figcaption>
             </figure>
             <figure class="moving-team-video">
-                <figcaption>Meet the newest member of our team.</figcaption>
                 <div class="moving-team-video-frame">
                     <iframe src="https://www.youtube-nocookie.com/embed/K4AJD1NbSKY" title="Meet the newest member of our piano moving team" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
+                <figcaption>Meet the newest member of our team.</figcaption>
             </figure>
         </div>
         <div class="piano-moving-intro">
