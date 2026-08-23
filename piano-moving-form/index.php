@@ -66,9 +66,14 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
             .piano-moving-intro h2 { margin: 0 0 12px; color: #222; font-size: 30px; }
             .piano-moving-intro p { margin: 0 0 14px; font-size: 18px; line-height: 1.65; }
             .piano-moving-intro p:last-child { margin-bottom: 0; }
-            .moving-family-feature { position: relative; margin: 0 0 26px; overflow: hidden; background: #252525; box-shadow: 0 5px 18px rgba(0,0,0,.2); }
-            .moving-family-feature img { display: block; width: 100%; height: clamp(380px, 52vw, 610px) !important; object-fit: cover; object-position: center 48%; }
+            .moving-team-showcase { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; align-items: start; margin: 0 0 26px; }
+            .moving-family-feature { margin: 0; overflow: hidden; background: #252525; box-shadow: 0 5px 18px rgba(0,0,0,.2); }
+            .moving-family-feature img { display: block; width: 100%; height: auto !important; }
             .moving-family-feature figcaption { padding: 16px 20px; color: #fff; font-size: clamp(20px, 2.5vw, 28px); font-weight: 700; line-height: 1.35; text-align: center; }
+            .moving-team-video { margin: 0; overflow: hidden; background: #252525; box-shadow: 0 5px 18px rgba(0,0,0,.2); }
+            .moving-team-video figcaption { padding: 16px 20px; color: #fff; font-size: clamp(20px, 2.5vw, 28px); font-weight: 700; line-height: 1.35; text-align: center; }
+            .moving-team-video-frame { aspect-ratio: 16 / 9; background: #000; }
+            .moving-team-video iframe { display: block; width: 100%; height: 100%; border: 0; }
             .moving-services { margin: 0 0 40px; }
             .moving-services-heading { margin: 0 0 8px; color: #222; font-size: 29px; }
             .moving-services-lead { max-width: 800px; margin: 0 0 24px; font-size: 18px; line-height: 1.65; }
@@ -96,9 +101,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
             .moving-service-map-key { width: 16px; height: 16px; background: #b11f24; border: 1px solid #7d1115; }
             #gform_wrapper_6 { padding: 30px; background: #fff; border: 1px solid #ddd; box-shadow: 0 3px 12px rgba(0,0,0,.08); }
             #gform_wrapper_6 .gform_title { color: #b11f24; font-size: 28px; }
-            @media (max-width: 850px) { .moving-gallery, .moving-service-area-layout { grid-template-columns: 1fr; } .moving-gallery img { height: auto; max-height: 420px; object-fit: contain; } }
+            @media (max-width: 850px) { .moving-gallery, .moving-team-showcase, .moving-service-area-layout { grid-template-columns: 1fr; } .moving-gallery img { height: auto; max-height: 420px; object-fit: contain; } }
             @media (max-width: 700px) { .moving-services-grid { grid-template-columns: 1fr; } }
-            @media (max-width: 600px) { .page-header.background-image-page-header { padding: 116px 0 28px; } .page-header .page-header-title { font-size: 42px !important; } .single-page-article .entry { padding: 0 18px 36px; } .moving-family-feature img { height: 390px !important; } .piano-moving-intro, .moving-service-card, .moving-service-note, #gform_wrapper_6 { padding: 22px; } }
+            @media (max-width: 600px) { .page-header.background-image-page-header { padding: 116px 0 28px; } .page-header .page-header-title { font-size: 42px !important; } .single-page-article .entry { padding: 0 18px 36px; } .piano-moving-intro, .moving-service-card, .moving-service-note, #gform_wrapper_6 { padding: 22px; } }
         </style>
         <div class="moving-gallery" aria-label="Piano Depot moving equipment gallery">
             <figure>
@@ -114,10 +119,18 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
                 <figcaption>Long-distance piano moving</figcaption>
             </figure>
         </div>
-        <figure class="moving-family-feature">
-            <img src="/wp-content/uploads/piano-moving/piano-depot-family-showroom.png" alt="Joe and Shar Souder with their family in the Piano Depot showroom">
-            <figcaption>Meet our piano movers: Joe and Shar Souder and family.</figcaption>
-        </figure>
+        <div class="moving-team-showcase">
+            <figure class="moving-family-feature">
+                <img src="/wp-content/uploads/piano-moving/piano-depot-family-showroom.png" alt="Joe and Shar Souder with their family in the Piano Depot showroom">
+                <figcaption>Meet our piano movers: Joe and Shar Souder and family.</figcaption>
+            </figure>
+            <figure class="moving-team-video">
+                <figcaption>Meet the newest member of our team.</figcaption>
+                <div class="moving-team-video-frame">
+                    <iframe src="https://www.youtube-nocookie.com/embed/K4AJD1NbSKY" title="Meet the newest member of our piano moving team" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </figure>
+        </div>
         <div class="piano-moving-intro">
             <h2>Careful Piano Moving, Backed by Family Experience</h2>
             <p>For three generations, our family has worked in the piano business. We understand that every piano deserves careful planning, proper handling, and respect from pickup through delivery.</p>
