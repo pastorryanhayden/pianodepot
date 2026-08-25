@@ -37,24 +37,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/partials/header.php';
 			<p>The purpose of this privacy notice is to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.</p>
 			<p><strong>Please read this privacy notice carefully, as it will help you understand what we do with the information that we collect.</strong></p>
 
-			<nav class="section-policy__toc" aria-label="Privacy notice contents">
-				<p><strong>Table of contents</strong></p>
-				<ol>
-					<li><a href="#infocollect">What information do we collect?</a></li>
-					<li><a href="#infoshare">Will your information be shared with anyone?</a></li>
-					<li><a href="#cookies">Do we use cookies and other tracking technologies?</a></li>
-					<li><a href="#inforetain">How long do we keep your information?</a></li>
-					<li><a href="#infosafe">How do we keep your information safe?</a></li>
-					<li><a href="#infominors">Do we collect information from minors?</a></li>
-					<li><a href="#privacyrights">What are your privacy rights?</a></li>
-					<li><a href="#DNT">Controls for Do-Not-Track features</a></li>
-					<li><a href="#caresidents">Do California residents have specific privacy rights?</a></li>
-					<li><a href="#policyupdates">Do we make updates to this notice?</a></li>
-					<li><a href="#contact">How can you contact us about this notice?</a></li>
-					<li><a href="#request">How can you review, update or delete the data we collect from you?</a></li>
-				</ol>
-			</nav>
-
 			<h2 id="infocollect">1. What information do we collect?</h2>
 			<h3>Personal information you disclose to us</h3>
 			<p class="section-policy__short"><strong>In Short:</strong> We collect personal information that you provide to us.</p>

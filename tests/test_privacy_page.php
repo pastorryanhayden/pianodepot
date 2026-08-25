@@ -22,5 +22,7 @@ expect(str_contains($page, 'Do-Not-Track'), 'DNT section retained');
 expect(!str_contains($page, 'rs-module-wrap'), 'privacy page has no revolution slider');
 expect(!str_contains($page, 'wc-block-product-search'), 'privacy page has no product search');
 expect(!str_contains($page, 'gform_wrapper'), 'privacy page has no leftover Gravity Form');
+expect(!str_contains($page, 'section-policy__toc'), 'privacy page has no table of contents');
+expect(!str_contains($page, 'Table of contents'), 'privacy page has no TOC heading');
 expect(!str_contains($page, 'data-custom-class'), 'privacy page has no Termly generator markup');
 expect(!str_contains($page, '<bdt'), 'privacy page has no Termly bdt tags');
