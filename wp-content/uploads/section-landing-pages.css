@@ -16,6 +16,9 @@
 .section-policy p { margin: 0 0 16px; color: #4b4b4b; font-size: 17px; line-height: 1.75; }
 .section-policy a { color: #9d1b20; font-weight: 800; }
 .section-policy__note { margin-top: 22px; padding: 16px 18px; background: #f6f3ed; border-left: 5px solid #b11f24; color: #222; }
+.section-landing__lead a { color: #9d1b20; font-weight: 800; }
+.section-embed { margin: 0 0 12px; }
+.section-embed iframe { display: block; width: 100%; max-width: 720px; height: 820px; border: 1px solid #dedede; background: #fff; }
 .section-card { display: flex; flex-direction: column; min-height: 270px; padding: 30px 28px; box-sizing: border-box; background: #fff; border: 1px solid #dedede; border-top: 4px solid #b11f24; box-shadow: 0 4px 16px rgba(0,0,0,.08); transition: transform .2s ease, box-shadow .2s ease; }
 .section-card:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(0,0,0,.13); }
 .section-card__label { margin: 0 0 8px !important; color: #b11f24 !important; font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
