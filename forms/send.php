@@ -40,6 +40,12 @@ if ($result['status'] === 'error') {
     exit;
 }
 
+$client = $_SERVER['REMOTE_ADDR'] ?? '';
+if (!is_string($client) || $client === '' || !pd_rate_limit_allowed($client . '|' . ($result['kind'] ?? 'contact'))) {
+    header('Location: /form-submitted/', true, 303);
+    exit;
+}
+
 $sent = pd_send_postmark($cfg, $result);
 $texted = pd_send_telnyx($cfg, $result);
 if (!$texted) {

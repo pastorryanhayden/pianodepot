@@ -12,8 +12,9 @@ function pd_post_get(array $post, string $name): string
     return '';
 }
 
-function pd_validate_form(array $post): array
+function pd_validate_form(array $post, ?int $now = null): array
 {
+    $now ??= time();
     $kind = pd_post_get($post, 'pd_form') ?: 'contact';
     if (pd_post_get($post, 'website') !== '') {
         return ['status' => 'honeypot', 'errors' => [], 'subject' => '', 'body' => ''];
@@ -25,6 +26,15 @@ function pd_validate_form(array $post): array
         default => 'input_4',
     };
     if (pd_post_get($post, $gravityHoneypot) !== '') {
+        return ['status' => 'honeypot', 'errors' => [], 'subject' => '', 'body' => ''];
+    }
+
+    $startedAt = pd_post_get($post, 'pd_started_at');
+    if (!ctype_digit($startedAt)) {
+        return ['status' => 'honeypot', 'errors' => [], 'subject' => '', 'body' => ''];
+    }
+    $elapsed = $now - (int) $startedAt;
+    if ($elapsed < 3 || $elapsed > 7200) {
         return ['status' => 'honeypot', 'errors' => [], 'subject' => '', 'body' => ''];
     }
 
@@ -53,6 +63,15 @@ function pd_validate_form(array $post): array
     if ($name === '') {
         $errors[] = 'name';
     }
+    if (strlen($name) > 160) {
+        $errors[] = 'name';
+    }
+    if ($email !== '' && (strlen($email) > 254 || !filter_var($email, FILTER_VALIDATE_EMAIL))) {
+        $errors[] = 'email';
+    }
+    if (strlen($phone) > 50) {
+        $errors[] = 'phone';
+    }
     if ($kind === 'moving') {
         if ($phone === '' && $email === '') {
             $errors[] = 'phone or email';
@@ -68,6 +87,9 @@ function pd_validate_form(array $post): array
             $errors[] = 'message';
         }
     }
+    if (strlen($message) > 5000) {
+        $errors[] = 'message';
+    }
 
     if ($errors !== []) {
         return ['status' => 'error', 'errors' => $errors, 'subject' => $subject, 'body' => ''];
@@ -82,7 +104,7 @@ function pd_validate_form(array $post): array
         $message,
     ];
     foreach ($post as $key => $value) {
-        if (in_array($key, ['website', 'pd_form', 'pd_redirect', 'gform_submit', 'is_submit_2', 'is_submit_1', 'is_submit_6', 'state_2', 'state_1', 'state_6', 'gform_unique_id', 'gform_target_page_number_2', 'gform_source_page_number_2', 'gform_field_values'], true)) {
+        if (in_array($key, ['website', 'pd_started_at', 'pd_form', 'pd_redirect', 'gform_submit', 'is_submit_2', 'is_submit_1', 'is_submit_6', 'state_2', 'state_1', 'state_6', 'gform_unique_id', 'gform_target_page_number_2', 'gform_source_page_number_2', 'gform_field_values'], true)) {
             continue;
         }
         if (!is_string($value) || $value === '') {
@@ -105,6 +127,46 @@ function pd_validate_form(array $post): array
         'phone' => $phone,
         'message' => $message,
     ];
+}
+
+function pd_rate_limit_allowed(string $client, ?string $directory = null, ?int $now = null, int $limit = 5, int $window = 3600): bool
+{
+    $now ??= time();
+    $directory ??= sys_get_temp_dir() . '/pianodepot-form-rate-limit';
+    if (!is_dir($directory) && !@mkdir($directory, 0700, true) && !is_dir($directory)) {
+        error_log('Piano Depot form rate limit unavailable: could not create storage directory.');
+        return true;
+    }
+
+    $path = $directory . '/' . hash('sha256', $client) . '.json';
+    $handle = @fopen($path, 'c+');
+    if ($handle === false || !flock($handle, LOCK_EX)) {
+        if (is_resource($handle)) {
+            fclose($handle);
+        }
+        error_log('Piano Depot form rate limit unavailable: could not lock storage file.');
+        return true;
+    }
+
+    $contents = stream_get_contents($handle);
+    $attempts = is_string($contents) ? json_decode($contents, true) : [];
+    $attempts = is_array($attempts) ? $attempts : [];
+    $cutoff = $now - $window;
+    $attempts = array_values(array_filter($attempts, static fn ($attempt): bool => is_int($attempt) && $attempt > $cutoff));
+    $allowed = count($attempts) < $limit;
+    if ($allowed) {
+        $attempts[] = $now;
+    }
+
+    rewind($handle);
+    ftruncate($handle, 0);
+    fwrite($handle, json_encode($attempts));
+    fflush($handle);
+    flock($handle, LOCK_UN);
+    fclose($handle);
+    @chmod($path, 0600);
+
+    return $allowed;
 }
 
 function pd_post_json(string $url, array $payload, array $headers): array
@@ -291,6 +353,7 @@ function pd_wire_form(string $html, string $path): string
 
     $hidden = '<input type="hidden" name="pd_form" value="' . htmlspecialchars($kind, ENT_QUOTES) . '">'
         . '<input type="hidden" name="pd_redirect" value="' . htmlspecialchars($redirect, ENT_QUOTES) . '">'
+        . '<input type="hidden" name="pd_started_at" value="<?php echo time(); ?>">'
         . '<input type="text" name="website" value="" class="pd-hp" autocomplete="off" tabindex="-1" aria-hidden="true" style="position:absolute;left:-9999px">';
 
     $html = preg_replace(
